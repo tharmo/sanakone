@@ -1,0 +1,1606 @@
+Xread 6462wordsgotmem1654272 R:6461 C:64
+mylly with mat createdXread 6462wordsgotmem410112 R:800 C:128
+read:clusters.smat409600
+FAILREADclusters.smat
+OKread:clusters.smat409600
+
+
+1 ohra/100 siemen/100 kylvää/97 ruis/94 kylvö/58 tynnyri/58 jyvä/52 kylpeä/47 peruna/47 kappa/44 kaura/44 vehnä/44 sato/35 kasvu/23 kyntää/23 niittää/23 viljellä/23 oras/20 itää/17 maissi/17 leikkuu/14 kaski/11 laari/11 apila/8 kylväjä/8 kyntö/5 ohdake/5 itu/2 kitkeä/2 kyntäjä/2
+
+2 liekki/100 sammua/76 tuli/76 lamppu/61 liesi/61 sytyttää/61 sammuttaa/53 kynttilä/46 palaa/46 päre/46 soihtu/38 syttyä/38 valaista/38 leimu/30 roihuta/30 liekehtiä/23 palo/23 piippu/23 sikari/23 hehku/15 hiipua/15 kohentaa/15 lietsoa/15 räiskyvä/15 savuta/15 sytyke/15 kärventää/7 lepattaa/7 palava/7 pätsi/7 roihu/7 sähkö/7 tulukset/7
+
+3 miekka/100 tuppi/54 tikari/47 terä/39 kilpi/32 puukko/32 sapeli/32 vyö/30 huotra/26 kahva/26 keihäs/26 kärki/26 peitsi/26 kalpa/21 käyrä/15 paljastaa/13 tappara/13 ase/10 tapailla/10 pistin/6 ponsi/4 survaista/4 kalskahtaa/2 lovi/2
+
+4 kuulua/100 melu/68 kaikua/62 pauhu/58 kumea/55 kuulla/51 ääni/51 korva/44 kaukaa/31 meteli/31 rähinä/31 hiljetä/27 kaukainen/27 ulkoa/27 tauota/24 vihloa/24 huikea/20 huumata/20 huuto/17 päästää/17 hurraa/13 kuunnella/13 etäinen/10 kuiskaus/10 hiljainen/6 tohina/6 hirmuinen/3 jymy/3 kauhea/3 laantua/3 takaa/3 vaieta/3
+
+5 paita/100 lieve/83 ommella/70 kääriä/63 liivi/63 mekko/63 nappi/63 kaulus/56 pukea/56 riisua/53 hame/50 hiha/50 paikata/46 helma/40 puku/40 poimu/36 leninki/33 pyyhkiä/30 lakki/23 liina/23 palttina/23 sametti/23 karkea/20 kenkä/20 likainen/20 nykäistä/20 kirjava/16 myssy/16 nykiä/16 repaleinen/16 riepu/16 väljä/16 märkä/13 saapas/13 ratkoa/10 rikkinäinen/10 pohje/6
+
+6 laiva/100 purjehtia/94 purje/85 satama/77 laivasto/62 salmi/57 myötätuuli/54 alus/51 lahti/51 priki/45 rannikko/42 saaristo/37 sataa/34 aava/31 ankkuri/28 luovia/28 miehistö/28 ranta/28 väylä/28 jahti/25 kari/25 kutteri/25 laituri/22 kaleeri/20 kansi/20 laskea/20 gondoli/17 nostaa/17 edusta/14 lastata/14 majakka/14 poukama/14 purjehtija/11 santa/11 lokki/8 alunen/5 aallokko/2 manner/2 riutta/2
+
+7 pyssy/100 tykki/97 laukaus/82 ladata/76 luoti/74 laukaista/69 ampua/61 kanuuna/56 tähdätä/51 kivääri/48 ruuti/48 ammua/46 kuula/46 pauke/46 pamahtaa/38 patteri/35 jousi/30 vire/20 hana/17 räjähtää/17 ampuja/15 paukahtaa/15 paukaus/15 karbiini/12 laueta/12 olka/10 vingahtaa/7 kantama/5 patruuna/5 paukahdella/5 ammus/2 vahtia/2 varustaa/2
+
+8 keittää/100 pata/100 puuro/91 kiehua/75 velli/75 liemi/70 lusikka/70 pannu/66 liha/37 paisti/33 hämmentää/29 höyrytä/29 jäähtyä/29 keitto/29 rasva/25 soppa/25 keitos/20 rokka/20 kulho/8 laittaa/4 valmistaa/4
+
+9 kimallella/100 säde/87 välkkyä/54 kimmeltää/50 kirkkaasti/50 säteillä/45 hohtaa/41 kullata/41 kuutamo/41 aurinko/37 helmi/33 kiiltää/29 heijastua/25 helottaa/25 jalokivi/25 punertava/25 hanki/20 heijastaa/20 kristalli/16 sädehtiä/16 kalvo/12 valju/12 kehrä/8 kirkastaa/8 peili/8 purppuroida/8 viisto/8 välke/8 huurteinen/4 kajastaa/4 kuvastaa/4 säihkyä/4 säkenöidä/4 taittua/4 välkehtiä/4
+
+10 verkko/100 lanka/86 sukka/86 kangas/65 kehrätä/60 kutoa/60 rihma/53 neuloa/48 sukkula/48 villa/46 hämähäkki/41 parsia/37 loimi/30 värttinä/27 kerä/20 kuteet/20 kutoja/13 säie/13 keriä/9 hienoinen/6 kehruu/2 kuitu/2 lukki/2
+
+11 latina/100 kreikka/90 ruotsi/88 saksa/88 ranska/70 suomi/65 unkari/50 kieli/47 oppia/43 osata/43 lukea/38 murre/31 opetella/31 läksy/29 opettaa/25 ymmärtää/22 lipoa/20 ääntää/20 lukema/18 sammaltaa/18 konsti/13 tulkita/11 almanakka/4 arvostaa/4 ilmestyä/4 kirjata/2 oppimaton/2
+
+12 tuoksu/100 lemu/60 ruusu/48 lemuta/36 sierain/36 pihka/30 tuoksahtaa/27 tuore/27 kirpeä/24 orvokki/24 ilma/21 löyhkätä/21 haju/18 mädätä/15 haistaa/12 haistella/12 kukka/12 kukkainen/12 neilikka/12 vuokko/12 haiskahtaa/9 kimppu/9 levittää/9 mätä/9 äitelä/9 tuntu/3
+
+13 rykmentti/100 upseeri/58 päällikkö/52 komentaa/50 komppania/47 marssia/47 kaarti/44 luutnantti/41 vänrikki/41 rakuuna/35 komento/32 korpraali/29 kenraali/26 rintama/26 sotilas/26 venäläinen/26 eversti/23 majuri/23 adjutantti/17 johto/17 majailla/17 palvella/17 rivi/17 krenatööri/11 paraati/8 järjestyä/5 lääni/5 kasakka/2 voittoisa/2
+
+14 uni/100 nukkua/44 kuorsata/32 nukahtaa/30 sikeä/28 horros/26 väsynyt/19 tuudittaa/17 lepo/16 uuvuttaa/14 havahtua/12 herätä/10 uinahtaa/10 kehto/8 nukkuja/8 uinua/8 nukuttaa/7 torkahtaa/1
+
+15 yhdeksän/100 viisi/84 seitsemän/80 kymmenen/76 neljännes/76 lähes/68 kahdeksan/64 kaikkiaan/52 kello/48 neljä/48 kuusi/44 sata/44 tienoo/40 ajoissa/32 kilo/32 noin/32 vaille/32 kolme/28 peräkkäin/20 vuosi/20 kalahtaa/16 raksuttaa/16 arvio/12 kerta/12 vailla/12 kulua/8 pari/8 taival/8 tusina/8 monta/4 veljes/4 yhdeksäs/4
+
+16 sumu/100 usva/75 sakea/56 saeta/43 peittyä/37 savu/37 sake/31 öinen/31 auer/25 pilvi/25 pimeys/25 huuru/18 paksu/18 sinertävä/18 hälvetä/12 kevyt/12 leijua/12 peittää/12 häivä/6 hämy/6 härmä/6 sauhu/6
+
+17 viettää/100 pääsiäinen/86 sunnuntai/77 häkä/63 joulu/59 juhannus/50 juhla/50 tammikuu/45 viikko/45 helluntai/40 lauantai/40 kuuluttaa/36 maanantai/36 viime/36 pidot/31 paasto/27 huhtikuu/22 juhlia/22 perjantai/22 pidetä/22 vietto/22 pappila/18 tänään/18 ennen/13 juomingit/13 kirkko/13 seuraava/13 matkustaa/9 oleskella/4 vappu/4 viipyä/4
+
+18 rangaista/100 rikos/83 syyllinen/83 syytön/83 tuomio/83 rangaistus/66 syyttää/66 tuomita/66 murha/33 sovittaa/33 synti/33 tabu/33 törkeä/33 ilkityö/16 ilmeinen/16 julistaa/16 kavaltaja/16 kirous/16 kuolema/16 leimata/16 mestata/16 pahe/16 pahuus/16 rikollinen/16 solvata/16 sovitus/16 syntinen/16 teko/16
+
+19 nälkä/100 nääntyä/92 jano/90 näännyttää/66 väsymys/64 polttava/45 kuumuus/38 menehtyä/38 helle/35 uupumus/35 suoli/21 kitua/11 kuivuus/11 väsyttää/2
+
+20 muste/100 paperi/96 kirjoittaa/73 kirjoa/50 kirjain/46 piirtää/46 selailla/46 kirja/43 kirje/40 kirjo/33 kynä/33 arkki/30 pergamentti/26 koukero/23 merkitä/13 muisti/13 kuore/10 pensseli/3
+
+21 sitoa/100 riippua/52 nuora/47 solmu/43 silmukka/39 hihna/34 kiinnittää/34 pujottaa/34 köyttää/30 lujasti/30 nauha/30 punoa/30 side/30 solmia/30 katketa/26 hellittää/13 roikkua/13 nahkainen/8 pollari/8 tiukka/4 yhteen/4
+
+22 haapa/100 parantaa/95 voide/71 kirvellä/66 tauti/66 haava/57 vamma/57 lääke/52 kipu/47 palsami/47 parantua/47 kipeä/42 lievittää/42 kuolettaa/38 kuume/38 sairas/33 parannella/28 sairaus/23 balsami/19 lääkäri/19 potea/14 rohto/14 yrtti/14 houre/9 polte/4
+
+23 säätää/100 määräys/75 sääntö/75 asetus/55 laki/55 noudattaa/50 rikkoa/40 järjestys/35 kielto/30 totella/30 pykälä/25 valvoja/25 käsky/20 laatia/20 mukainen/20 ohje/20 kohtuus/15 velvollisuus/15 laatija/10 mukaan/10 kutsu/5 kutsumus/5 neuvo/5 neuvoja/5 poikkeus/5 viittaus/5
+
+24 kohteliaasti/100 kumartaa/84 nöyrästi/84 kumarrella/60 niiata/60 hymyillä/44 kätellä/44 tervehdys/44 kylmästi/40 nyökätä/40 tervehtiä/40 hyvästi/36 herttaisesti/28 poistua/24 vastaanottaa/20 tulija/16 puhutella/8 viitata/8
+
+25 poimia/100 mansikka/60 marja/58 hedelmä/53 kypsä/53 omena/53 kypsyä/46 mustikka/34 puolukka/34 kirsikka/29 karpalo/19 pähkinä/19 vattu/12 kori/9 sieni/9 vasu/4
+
+26 kavala/100 vehje/83 viekas/83 paula/62 ilkeä/50 petos/50 häijy/45 konna/45 kavaluus/41 saatana/41 petollinen/33 petturi/33 hanke/29 perkele/29 pettää/25 veijari/25 vilppi/20 juoni/16 katala/16 paholainen/16 riivata/16 vietellä/16 sadin/12 ilkiö/4
+
+27 ukkonen/100 jyristä/97 jyrinä/95 jylinä/83 jyrähtää/74 jylistä/60
+
+28 arvoitus/100 ongelma/91 pulma/83 ratkaista/79 selvittää/70 riita/58 kysymys/54 selvitä/54 selitys/37 vaikea/37 asia/33 pohtia/33 selittää/33 arpoa/25 sfinksi/25 arpa/20 selvitys/20 tehtävä/8 purkaja/4
+
+29 surista/100 mehiläinen/72 mesi/72 hunaja/65 surina/44 ampiainen/41 perhonen/37 kimalainen/31 paarma/31 hyristä/24 solu/24 parveilla/10
+
+30 lapio/100 kuokka/72 kaivaa/62 multa/56 kuoppa/40 oja/40 hauta/35 hiekka/27 turve/24 lapioida/21 mullata/21 viemäri/10 myyrä/8 kaivaja/2
+
+31 sulous/100 sulo/66 naisellinen/61 loisto/52 hienous/47 puhtaus/47 hurmaava/42 hurmata/42 ihailla/42 viehkeys/42 lumota/38 viehättää/38 hyve/33 kauneus/33 ylevyys/28 kukoistus/23 olento/23 suuruus/23 viattomuus/23 neitseellinen/19 siveys/19 kaunotar/14 ihastuttaa/9 kadehtia/4
+
+32 sorto/100 orjuus/94 vapauttaa/88 ies/82 alle/70 taakka/70 alainen/58 orja/58 vapaus/52 sortaja/47 orjuuttaa/41 sortaa/41 tyranni/35 vapautua/35 herruus/29 vastuu/23 kansa/17 kahlehtia/11 mammona/11 muukalainen/11 panta/5
+
+33 myydä/100 ostaa/80 tavara/69 huokea/61 hinta/42 kallis/38 tinkiä/38 kalu/23 omaisuus/23 kauppa/19 irtain/15 rihkama/11 tulli/11 kapine/7 kiinteä/7 koru/7 talteen/7 himoita/3 kaupata/3 pakata/3
+
+34 suuresti/100 kovasti/29 kovin/23 huvittaa/17 hämmästyttää/17 ilahduttaa/17 miellyttää/17 enemmän/11 kunnioittaa/5 lainkaan/5 mitä/5 syvästi/5
+
+35 tuhka/100 hiili/89 kekäle/89 hehkua/82 hiillos/82 uuni/71 kyteä/67 nuotio/64 hiiltyä/39 laava/14 hautua/3 tummua/3
+
+36 tuottaa/100 vahinko/69 haitta/46 häiriö/30 arvaamaton/23 hyöty/23 kiusa/23 vaurio/23 hauskuus/15 huvi/15 pettymys/15 tyydytys/15 viivytys/15 ikävyys/7 korvata/7 kärsimys/7 tuho/7 yllätys/7
+
+37 rasti/100 ristiin/91 risti/85 naulita/29 ryntäät/24
+
+38 syytös/100 huhu/54 valhe/50 juttu/45 väärä/41 perätön/37 väittää/37 juoru/29 kumota/29 peruuttaa/29 tosi/29 todistus/25 kanne/20 todistaa/20 todistaja/20 oikeassa/12 vedota/12 haaste/8 parjaus/8 rohjeta/8
+
+39 orpo/100 naida/66 köyhä/52 rikas/52 naimaton/47 isätön/42 kouru/42 turvaton/42 tytär/42 varakas/42 leski/33 naittaa/33 perillinen/33 kosia/28 perijätär/28 koditon/23 teini/23 nainen/19 sisar/19 vaimo/19 varaton/19 isä/9 serkku/9 täti/9 veli/9 yksin/9 pohatta/4
+
+40 katsoa/100 katsahtaa/93 katsella/93 kysyä/75 vastata/75 silmäillä/68 vilkaista/68 taka/62 karsaasti/56 terävästi/56 sanoa/50 hieman/37 puhuja/18
+
+41 tarkoin/100 punnita/89 vaaka/89 harkita/78 tarkasti/68 tarkkaan/63 tutkia/63 puntari/52 miettiä/47 mitata/36 tyystin/36 aprikoida/31 arvostella/31 mitta/31 vertailla/21 varoa/15 kallistua/10
+
+42 näytös/100 neljäs/80 viides/66 näytelmä/60 näyttämö/46 seitsemäs/40 ensimmäinen/33 luokka/33 näytellä/33 näyttelijä/33 yleisö/33 esitys/26 kolmas/26 kuudes/26 esittää/20 kohtaus/20 laulajatar/13 katsoja/6 kritiikki/6 näyttö/6 sommitella/6
+
+43 torni/100 valli/93 rakentaa/80 seinä/73 rakennus/66 katto/46 linna/46 tiili/40 kaivanto/33 muuri/33 palatsi/33 muurata/20 puinen/20 revittää/20 rakentaja/13
+
+44 toimeentulo/100 ansaita/75 hankkia/65 elatus/60 elanto/55 ravinto/50 niukka/45 vara/45 huoli/30 jokapäiväinen/30 muona/30 riittää/30 huolehtia/20 perhe/20 riittävä/20 mukavuus/15 turvata/5
+
+45 lihas/100 jännittyä/95 hermo/91 jänne/83 jännittää/83 odotus/62 jännitys/58 ärtyä/37 kuulo/29 aivot/20 herkkä/20 kuumeinen/16 kiihottaa/12 jokainen/4
+
+46 vaalea/100 valkoinen/90 musta/80 punainen/80 sininen/80 tumma/65 harmaa/60 väri/55 hieno/40 iho/40 tausta/25 ohut/5
+
+47 hohottaa/100 nauraa/73 sukkeluus/39 ilkeästi/28 ivata/28 tirskua/28 ilkkua/26 pilkata/26 ilvehtiä/13 ilveillä/10
+
+48 torvi/100 toitotus/96 rumpu/87 toitottaa/71 päristä/57 raikua/33
+
+49 ani/100 harvoin/92 harva/69 varhain/56 aamu/25 myöhään/17 sarastaa/17 koite/15 vertainen/15 aikaisin/7 tavata/7 muualla/5 joskus/2
+
+50 pyöriä/100 pyörä/83 ratas/77 ympäri/66 pyörittää/38 mylly/33 akseli/27 napa/27 rattaat/27 kieppua/22 mylläri/22 hyrrätä/16 kitistä/16 pyörähtää/11 kiekko/5 kieriä/5 väkkärä/5
+
+51 laukka/100 ratsastaja/83 ratsastaa/77 vauhti/61 neli/55 kiitää/50 satula/50 ajaa/44 hypätä/44 laukata/38 ravata/38 eteenpäin/33 kiidättää/33 orhi/33 täysi/33 kannustaa/27 täky/27 kirmata/16 kulkea/16 pulkka/5
+
+52 myöntyä/100 tarjous/90 pyyntö/85 suostua/85 ehto/65 hyväksyä/65 anomus/60 suostumus/50 vaatimus/50 uudistaa/40 hylätä/30 luopua/25 taipua/25 mielellään/20 puoltaa/10 siihen/10 merkki/5
+
+53 vihkiä/100 messut/88 pyhä/77 messu/72 munkki/66 pappi/66 sakramentti/66 kappeli/61 maallikko/55 nunna/50 saarna/44 piispa/38 rippi/27 toimittaa/22 toimitus/22 virka/16 pastori/11 patriarkka/5
+
+54 taistelu/100 tuoksina/100 tappelu/92 kahakka/64 sota/64 melske/57 ottelu/57 kamppailu/42 verinen/42 riehua/35 tappio/28 tuima/28 elementti/14 voittaja/7
+
+55 sävy/100 kohtelias/90 käytös/90 luonteva/90 ylpeä/90 röyhkeä/72 kopea/54 imarrella/36
+
+56 maistua/100 makea/96 ruoka/78 juoma/71 karvas/57 maku/53 hapan/50 imelä/35 suolainen/3
+
+57 oikealle/100 vasen/95 sivusta/90 oikealla/75 oikea/50 takimmainen/40 keskusta/35 reisi/20 sääri/20 tau/20
+
+58 peto/100 tiikeri/94 raadella/44 karjua/33 kiljua/33 pantteri/33 karjunta/27 kynsi/27 saalis/27 hyökätä/22 villi/22 kiljuva/16 leijona/16 apina/11 julma/11
+
+59 välillä/100 sopu/57 eripuraisuus/38 yksimielisyys/38 keskinäinen/33 suhde/33 kiista/23 sovinto/23 kilpailu/19 juopa/14 kina/14 rakentua/14 tora/14 väli/14 ero/9 erotus/9 kiivas/9 päättyä/9 vertailu/4
+
+60 pujahtaa/100 ryömiä/81 hiiri/63 piilo/63 väijyä/63 kärppä/54 piiloutua/54 kolo/36 kontata/36 kurkistaa/36 salaa/36 varkain/36 hiipiä/27 hipsutella/18 kätkeytyä/18 mirri/18 työntyä/18 luikahtaa/9
+
+61 lakeus/100 tasanko/86 aro/80 seutu/73 aavikko/66 kenttä/66 laaja/53 viljava/33 tundra/13
+
+62 otsa/100 hiki/87 rypistää/78 kulma/75 ryppy/75 kurttu/66 helmeillä/63 uurtaa/48 kuhmu/21 vako/21 arpi/18 silitä/9
+
+63 kalvaa/100 jäytää/94 suru/94 mato/77 kaiho/72 kaipaus/72 tuska/72 kaipuu/61 katumus/61 haikea/55 haihduttaa/44 ikävä/44 murhe/44 huojentaa/27 tunto/27 lieventyä/22 toivottomuus/22 häpy/11 kuihduttaa/11
+
+64 solista/100 uoma/91 joki/65 puro/65 lähde/60 kahlata/43 kovera/13 pato/13 allas/4 tulvehtia/4
+
+65 lippu/100 viiri/95 tango/85 masto/80 pystyttää/60 tanko/50 harja/30 heilua/25 teltta/20 patsas/5
+
+66 hopea/100 kulta/92 kirjailla/75 vaski/53 kupari/51 tina/26
+
+67 omatunto/100 soimata/100 nuhdella/73 ankarasti/66 moittia/53 julkisesti/46 katkerasti/46 katua/46 torua/40 sättiä/26 vihata/26 panetella/20 parjata/13 varoittaa/13 herjata/6
+
+68 kapea/100 ahdas/71 kuja/71 käytävä/71 mutkainen/71 mutkikas/57 sola/57 sokkelo/50 laajeta/28 luola/21 piiri/21 supistua/14 kapi/7
+
+69 kanta/100 kauna/93 hartia/73 kantaa/73 raskas/60 kantaja/53 keventää/53 nurja/20
+
+70 sanomalehti/100 kirjoitus/85 palsta/85 sisältää/64 arvostelu/57 kirjoittaja/57 numero/57 ilmoitus/50 kustantaja/50 vihko/50 uutinen/35 julkaisu/28 nimetön/14 julkisuus/7
+
+71 kauha/100 porista/92 ammentaa/78 kaivo/71 kattila/71 vati/64 ämpäri/64 saavi/57 sanko/57 sanka/28 vintti/21
+
+72 vaippa/100 viitta/86 harso/81 huntu/81 kaapu/81 huivi/63 mantteli/63
+
+73 piiska/100 ruoska/81 sivaltaa/81 keppi/51 sivallus/37 hosua/29
+
+74 alempi/100 ylempi/100 sääty/86 alhainen/80 ylhäinen/80 aateli/73 halpa/33 rahvas/26 alentua/20 kasti/20
+
+75 tasku/100 lompakko/41 kukkaro/37 käärö/31 lipas/27 rasia/27 salkku/27 kotelo/17 esiin/13 kaivella/13 ottaa/13 tukku/13 koppa/10 penkoa/10 matti/6 piilottaa/6
+
+76 koskea/100 kipeästi/89 kaivata/42 ikävöidä/36 tarvita/31 etsiä/21 korjaus/21 tarpeellinen/21 kaihota/15 tarpeen/10
+
+77 kalveta/100 vaaleta/93 vapista/60 kalpeus/53 vuoro/53
+
+78 paikallaan/100 liikkumaton/91 seisoa/91 erillään/83 muuttumaton/83 syrjässä/66 pysyä/50 seistä/41 toimeton/41
+
+79 varjostaa/100 siimes/90 tuuhea/80 puisto/66 varjo/66
+
+80 vilkas/100 hälinä/50 iloinen/37 hyörinä/31 hilpeä/25 puhelu/25 vilinä/25 eloisa/18 liike/18 ele/12 nopsa/12 virkeä/12 ketterä/6 tavaton/6 vilkastua/6
+
+81 rajusti/100 sydän/100 sykkiä/92 kiivaasti/85 valtimo/78 pakahtua/50 voimakkaasti/50 kohoilla/42 kouristaa/42 paisuttaa/28
+
+82 sulaa/100 sulattaa/100 routa/94 jää/82 nietos/70 vaha/58 hulluus/35 sula/29
+
+83 väristys/100 ruuma/81 horkka/43 väristä/43 ruumis/37 läpi/31 vavista/31 raihnainen/25 tuntea/25 väre/6 värisyttää/6
+
+84 välittää/100 ollenkaan/39 rahtu/30 yhtään/26 hiukka/21 piitata/17 epäillä/13 huolia/13 isosti/13 vähääkään/13 haitata/8 hyödyttää/8 kuitenkaan/8 liikuttaa/8
+
+85 vähetä/100 karttua/55 lisääntyä/50 enetä/44 luku/38 vuo/33 määrä/22 vähentää/22 kiihdyttää/16 lyhetä/16 vanheta/16 pikemmin/5 vieraantua/5
+
+86 notkistaa/100 polvi/81 nojata/54 kyynärpää/51 leuka/33 langeta/21 nilkka/18 tukea/15
+
+87 aikaansaada/100 äkkinäinen/100 muutos/80 tapahtua/80 uudistus/80 parannus/70 käänne/60 pikainen/60 puhdistus/60 tapaturma/50 ihme/20 kumous/10
+
+88 pilkku/100 juova/77 viiru/77 keltainen/66 piste/66 hipiä/55 läikkä/55 ripsi/55 etäällä/44
+
+89 viina/100 kannu/91 ryyppy/91 tilkka/91 pikari/79
+
+90 niin/100 olla/80 saada/60 aina/40 hyvä/40 nyt/40 suuri/40 tulla/40 vielä/40 minä/20 toinen/20
+
+91 imettää/100 nisä/92 imeä/76 maito/76 emä/61 nänni/61 lapsi/46 lasta/46 äiti/30 elättää/23 imettäjä/23 lastenlapsi/15 synnyttää/15 hemmotella/7
+
+92 helvetti/100 kadotus/100 ikuinen/85 piina/71 enkeli/64 oksentaa/57 manala/21 piinata/21
+
+93 visertää/100 leivo/85 rastas/78 käki/71 peippo/71 kiuru/57 livertää/50 korkealla/42 lehto/42 rasta/42 sirkku/42 tiainen/21 kanarialintu/14 ulpukka/14
+
+94 pinna/100 uida/100 järvi/82 lampi/82 kellua/76 pinta/76 sorsa/70 joutsen/64 tyyni/64 lammikko/52 kupla/35 lumme/5
+
+95 teos/100 kertomus/84 kuvaus/84 kuvata/69 lukija/61 aihe/30 kuvailla/30 runollinen/30 täydentää/30 vertaus/30 jatko/15 luonnos/15
+
+96 loukkaus/100 vääryys/82 kärsiä/76 kostaa/64 kärsä/64 häväistys/58 pilkka/58 häpeä/41 julkinen/41 loukata/41 pyhyys/41 vaino/29 ylenkatse/29 herja/23 surma/23 alennus/17 julkea/11 sietää/11 altis/5 huutava/5
+
+97 venytellä/100 jäsen/81 oikoa/75 haukotella/62 raaja/43 koipi/37 kankea/31 nivel/25 oikaista/25 pitkään/18 raati/18 lepuuttaa/12 koukistaa/6
+
+98 valloittaa/100 varustus/63 piirittää/45 linnoitus/36 saartaa/36 kaupunki/27 rynnäkkö/27 leiri/22 hallussa/18 vahva/18 suojata/13 rynnistää/9 tuhota/4
+
+99 este/100 vaikeus/83 voittamaton/83 vastus/66 kohdata/58 voittaa/58 poistaa/41 vastustus/41 raivata/25 tie/25
+
+100 elpyä/100 virota/100 elo/81 elvyttää/72 virkistyä/63 voimistua/45 keväin/36 mainen/36 taju/36 vilkkaus/18 palauttaa/9
+
+101 leikki/100 leikkiä/100 nukke/100 leikitellä/85 pila/85 lelu/71 telmiä/71 kanssa/57 lasketella/57 kiltti/42
+
+102 särkyä/100 sirpale/58 pommi/47 pirstale/35 pudota/35 ruutu/29 siru/29 hauras/11 liitos/11 murtua/11 ruoko/5
+
+103 seula/100 seuloa/75 utu/75 urpu/58 matara/50 vakka/50 sanella/41 heittäjä/33 ruoti/25
+
+104 velho/100 noita/60 tietäjä/60 taika/47 taikuri/47
+
+105 lämmitellä/100 takka/31
+
+106 alas/100 kavahtaa/90 ponnahtaa/80 koho/70 korkealle/60 ylös/60
+
+107 salama/100 välähtää/88 leimahtaa/84 välähdys/73 singahtaa/26 singota/26 vilahtaa/11
+
+108 kallioinen/100 mantere/47 saari/42
+
+109 morsian/100 sulhanen/100 evätä/93 sulho/93 suvanto/75 ylkä/68 impi/31 kaaso/18
+
+110 niistää/100 nenä/70 nuuska/45 kaareva/32 utuinen/32
+
+111 sievä/100 siisti/81 siistiä/81 soma/81 asu/43 pikkuinen/18 tyttönen/18 lapsukainen/6
+
+112 koppi/100 vanki/92 vankila/92 tyrmä/85 vartija/71
+
+113 kokea/100 yrittää/88 koettaa/77 tyynnyttää/77 mieli/66 rauhoittaa/66 viihdyttää/55 uskotella/44 kara/33 suostutella/33 tahtoa/33 estellä/11
+
+114 luonne/100 vakavuus/100 ilmetä/77 lempeys/66 lujuus/66 leima/55 nöyryys/55 tyyneys/44 miehekäs/33 taipumaton/33 teeskennellä/11
+
+115 kivi/100 mätäs/100 kallio/84 kanto/61 sammaleinen/61 graniitti/30 rakoilla/30 lingota/15
+
+116 viidakko/100 pensaikko/93 tiheä/93 metsikkö/81 kuusikko/56 okainen/50 risukko/37 pehko/6
+
+117 kunnia/100 maine/92 häväistä/76 tahrata/76 nimi/61 tahraton/61 pilata/38 urotyö/38
+
+118 osua/100 maali/91 sattua/75 lävistää/66 suhahtaa/58 harhaan/50 sattumalta/41 puhkaista/25
+
+119 keksiä/100 keino/93 keksi/80 sukkela/80 älykäs/46 keksintö/40 kuje/40 nerokas/40 ovela/40 temppu/40 kepponen/33 käyttää/20 näppärä/20 nokkela/13 taidokas/13 oleva/6
+
+120 sanoma/100 viesti/100 airut/85 lähettää/85 saapua/85 noutaa/71 hakea/57 antaa/42 viejä/42
+
+121 huokua/100 kylmyys/100 jäinen/81 lämpö/81 viileys/54 kuuma/45 lämmin/36 lämmittää/36 uhkua/27
+
+122 kaiku/100 kaikuva/93 kajahdella/93
+
+123 vakuus/100 tae/92 varmuus/61 varma/53
+
+124 pitkälle/100 venyttää/100 piisata/83 venyä/83 tavu/66 toistaa/66 kerrata/50 sana/50 venähtää/50
+
+125 kerroin/100 kaksin/84 käsi/76 koura/38 pidellä/30 käsin/23 ahmatti/15 syytää/15
+
+126 murhata/100 rosvota/100 ryöstää/75 hävittää/66 raiskata/66 aseeton/50 riistää/41
+
+127 urkkia/100 salaisuus/90 tieto/72 kysellä/45 tiedustella/45 vakoilla/27 vihi/27
+
+128 himo/100 tarve/100 vietti/91 halu/83 tyydyttää/83 ahneus/66 itsekäs/50 nautinto/50 ylpeys/50
+
+129 aavistaa/100 hämärästi/78 muistaa/71 tajuta/57 selvästi/50 eilinen/28
+
+130 kihlaus/100 sisu/92 lasti/84
+
+131 muutoin/100 hullusti/83 hukassa/66 hätä/66 muuten/66 tietävä/50 auttamatta/33 luulla/33 kiihkoton/16
+
+132 kohtu/100 itsetietoinen/87 sikiö/87 sisäinen/87 ihmisyys/62 jumalallinen/62 ylistää/62 jumaluus/37
+
+133 avaruus/100 mittaamaton/100 äärettömyys/100 hirviö/90 ääretön/81 tyhjyys/72
+
+134 lyhyys/100 vaihde/100 hupa/55 sen/55 takia/55 vuoksi/33
+
+135 rinnatusten/100 rinnakkain/81 vierekkäin/72 vastatusten/63 tuhto/45
+
+136 hervoton/100 raukea/90 pyörtyä/81 vaipua/63 veltto/45 tiedoton/27 tunnoton/27 sivu/18
+
+137 tuleentua/100 tähkä/87 vilja/87 halla/79 sirppi/79 korjuu/41
+
+138 taimi/100 istuttaa/88 versoa/88 vesa/88 juurtua/35 nokkonen/11
+
+139 tulevaisuus/100 nykyisyys/94 menneisyys/85
+
+140 jyry/100 kolina/100 humu/92
+
+141 läheinen/100 lähin/100 ystävä/100 naapuri/80 omainen/80 seurustella/60 tuttava/60 vierailla/60
+
+142 ravita/100 vatsa/100 nälkäinen/92 kylläinen/76 ahmia/61 haku/46 kirppu/38
+
+143 viimeksi/100 mainita/61 nimetä/61
+
+144 viheriöidä/100 vehmas/88 vihertää/88 kasteinen/66 vehreä/66
+
+145 tuki/100 turva/75 suoja/58 hoiva/33 pelastus/33 apu/25
+
+146 partio/100 alentaa/76 arvo/64 ylentää/58
+
+147 sylkäistä/100 sylkeä/85 sylki/85 yskiä/85 rykiä/71 nuha/57 yskä/57 pahasti/42 vilustua/42 syöjätär/14
+
+148 kiroilla/100 sadatella/94 karkeasti/64 kirota/64 noitua/58 uhkailla/35 tuhannesti/29 ikuisesti/17
+
+149 käsine/100 sormikas/100 hansikas/88 puuhka/77 kinnas/66 päähine/44 hanska/11
+
+150 kartuttaa/100 syventää/100 rajoittaa/83 anastaa/66 laajentaa/66 laajentua/66 valistus/66
+
+151 alhaalla/100 ylhäällä/100 tuolla/85 kaukana/50
+
+152
+
+153 olo/100 tukala/100 ahtaus/61 toivoton/61
+
+154 rapata/100 pääty/85 valkaista/85 valkea/85 mustua/57
+
+155 kaikkialta/100 turhaan/100 etsiskellä/60 haeskella/60 nuuskia/40 paikka/40 tyyssija/20
+
+156 ujo/100 arka/83 kosketella/83 koskettaa/83 satuttaa/83 kajota/66 kosketus/66 seikka/33
+
+157 odotella/100 paluu/81 odottaa/63 messias/54 synnytys/36
+
+158 hallita/100 hallitseva/85 valtikka/85 kruunata/71 tsaari/71 ruhtinas/57
+
+159 kuperkeikka/100 heitellä/86 viskata/80
+
+160 kahista/100 kahina/92 kellastua/69
+
+161 hohde/100 kuu/86 valaa/80 hohto/66 pronssi/40 purppura/13
+
+162 kohtalo/100 sallimus/69 nurkua/61 alistua/53 nurista/53 oikku/46 tyytyä/30 vaatimaton/15 yksinkertainen/15
+
+163 aarre/100 kalleus/70 kätkeä/70 ahne/50 säilyttää/50 itara/40 saituri/40 kitsas/30 saita/30 visusti/30
+
+164 etu/100 harrastus/100 yksityinen/100 yhdistää/85
+
+165 osaton/100 jättää/91 jäädä/91 yksikseen/58 elellä/33 enimmäkseen/8 joutilas/8 yksinään/8
+
+166 kaksi/100 puola/100 asettaa/80 asettua/80 molemmat/80 kerto/60 hieroa/40 vastakkain/20
+
+167 lasku/100 nousu/100 paahtaa/41 puolipäivä/35
+
+168 vakavasti/100 vakaasti/50 hiljaisesti/41 lyhyesti/41 tyynesti/41 lausua/33 suopeasti/33 synkästi/25 häijysti/16 päättää/16 varmasti/16 laama/8
+
+169 ihanuus/100 karaista/100 karkaista/100 luonto/100 terästää/80
+
+170 aie/100 aikomus/80 tuuma/80 vakaa/60
+
+171 viitsiä/100 jaaritella/80 moinen/70 joutava/60 mokoma/60 hävytön/40 kehdata/40 ikinä/20
+
+172 juoppo/100 renttu/100 syömäri/100 juomari/75 hulivili/50 tuhlari/50 nahjus/25
+
+173 huhuilla/100 huhuta/85 huuhkaja/57
+
+174 lieka/100 aisa/62 ape/62 kengittää/62 riimu/50
+
+175 kietoutua/100 kietoa/91 ympärille/83 kiertyä/75 tiivis/4
+
+176 turmella/100 heikko/69
+
+177 harvinainen/100 ihmeellinen/100 kummallinen/80 merkillinen/80 seikkailu/80 tärkeä/80 vaihe/80
+
+178 haastatella/100 kehu/100 mandariini/100 mari/100
+
+179 hautaus/100 kunniallinen/50 siveä/50 kunnon/37
+
+180 puute/100 kurjuus/93 köyhyys/93 rikkaus/56 rasitus/50 surkeus/50
+
+181 likka/100 nätti/83 rakastella/20
+
+182 kuuliainen/100 nöyrä/61 palvelija/44 tahto/38
+
+183 kumista/100 kumahtaa/83 lyönti/75
+
+184 tarkastaa/100 tarkastella/100 kiikari/71 tarkka/57 erikseen/42 tutka/42 unohtaa/42 passi/28
+
+185 itsekseen/100 mutista/100 hymähtää/50 hokea/29 mietiskellä/20 päätellä/16 arvella/12 kiukutella/12
+
+186 voitelu/100 viimeinen/36 villitys/36
+
+187 tukahtua/100 tukehtua/100
+
+188 alistaa/100 valvonta/87 järkevä/62 harkinta/50
+
+189 tarjoutua/100 tilaisuus/83 sopiva/75 otollinen/41 palvelus/33
+
+190 kuuluvasti/100 kuiskata/69 tuskin/56 voinen/17 edes/13
+
+191 hääriä/100 puuhailla/100 häärätä/85 puuhata/71 innokkaasti/57 ryhtyä/57 touhu/57
+
+192 metinen/100 vanne/80 iso/60
+
+193 yhdessä/100 yksi/100
+
+194 sihteeri/100 kirjuri/90 kanslia/72 ministeri/54 kappalainen/45
+
+195 erittäin/100 varsin/80 sangen/73 erinomainen/60 ylen/53 hienosti/33 tuntua/26 tyytyväinen/20 vähemmän/13
+
+196
+
+197 kilpailija/100 retki/60 turmiollinen/60 vaarallinen/10
+
+198 sirottaa/100 varistaa/100 pois/83 kaapia/66
+
+199 noro/100 ihana/62 kaunis/50 neitonen/50 kaino/37 rakastua/37
+
+200 koi/100 ruoste/100
+
+201 keinu/100 heilahdella/87 kiikku/87
+
+202 kaima/100 esikoinen/62 ristiä/62 hairahtaa/37 poju/25 vainaa/25
+
+203 taistella/100 puolesta/62 urheasti/62 äänestää/62 kamppailla/50 otella/50 paini/25
+
+204 pusertaa/100 rypäle/83 mehu/72 viikuna/27
+
+205 murska/100 musertaa/84 musertua/76 rutistaa/46
+
+206 liian/100 myöhäinen/93 kovaa/37
+
+207 kohina/100 ulvonta/100 kohu/93 kumina/62
+
+208 hetkinen/100 ääneti/93 kotva/80 hetki/60 sekunti/60 tuokio/60 äänetönnä/46
+
+209 kiistellä/100 tapella/88 ruveta/77 juonitella/66 riidellä/66
+
+210 hengähtää/100 pysähtyä/87 levähtää/75 uupua/62 väsyä/50
+
+211 riista/100 kalastaja/85 metsästys/85 pyynti/71 voitto/57
+
+212 oas/100 piikki/78 pistävä/78 oka/64
+
+213 oikeus/100 hallitus/91 laiton/75 holhooja/58 laillinen/50 luvaton/16
+
+214 uhkaava/100 uhata/81 turmio/72 vaara/72 ennustaa/54 onnettomuus/54 enne/45 uhka/45
+
+215 tarpoa/4 tallustaa/3 jalan/1
+
+216 unelmoida/7 ihannoida/5
+
+217 kaapata/100 takertua/100 juuttua/88 kiinni/66 kuristaa/22
+
+218 antautua/100 lumous/100 valta/100 tunnelma/80 harha/60
+
+219 muodoton/100 möhkäle/100
+
+220 törröttää/100 pystyssä/85 harjas/57 karva/57
+
+221 vaahdota/100 kohista/81 vyöry/50
+
+222 vyöttää/100 kuve/92
+
+223 mahtava/100 hallitsija/83 ylimys/83 roomalainen/66 aatelinen/50
+
+224 hyötyä/100 vaihto/14
+
+225 köysi/100 touvi/93 raakapuu/75 vantti/62
+
+226
+
+227 isota/100 janota/63 sielu/47
+
+228 sukeltaa/100 koskelo/80 sotka/80 kuikka/60 telkkä/40
+
+229 holhota/100 ojennus/100 vihkisormus/100 nulkki/50 rahakas/50
+
+230 sima/7
+
+231 liuta/100 sarja/58 kokonainen/50
+
+232 mukana/100 viedä/100
+
+233 inttää/100 kapinoida/92 sotia/92 vastaan/53
+
+234 valmis/100 kunto/88 varalta/66 laittautua/55 älytä/33
+
+235 rehkiä/9 raataja/6
+
+236 kersantti/7
+
+237 kaarrella/100 kierrellä/53 taivas/30
+
+238 pirta/8
+
+239 palkollinen/100 isäntä/66 ahnehtia/33 auttavainen/33 leikkisä/33 väärti/33
+
+240 haparoida/100 hapuilla/87 ojentaa/50 tunnustella/25
+
+241 jalka/100 siirrellä/83 asetella/66 nostella/66 liikutella/50 poljin/16
+
+242 kaikkialla/100 täydellinen/100 kolkkous/81 vallita/63 synkkyys/54
+
+243 laite/100 kone/75 vipu/62
+
+244 sireeni/100 pihlaja/92 terttu/92
+
+245 sureva/100 surra/71 kuolinvuode/57
+
+246 mikäli/100 mahdollinen/55 mahdoton/33 välttämätön/33
+
+247 nimitys/100 tarkoittaa/12
+
+248 kahle/100 kytkeä/100 katkoa/94
+
+249 sääski/100 hyttynen/88 kärpänen/68
+
+250 harjata/100 suka/71 sukia/71
+
+251
+
+252
+
+253
+
+254
+
+255
+
+256
+
+257
+
+258
+
+259
+
+260
+
+261
+
+262
+
+263
+
+264
+
+265
+
+266
+
+267
+
+268
+
+269
+
+270
+
+271
+
+272
+
+273
+
+274
+
+275
+
+276
+
+277
+
+278
+
+279
+
+280
+
+281
+
+282
+
+283
+
+284
+
+285
+
+286
+
+287
+
+288
+
+289
+
+290
+
+291
+
+292
+
+293
+
+294
+
+295
+
+296
+
+297
+
+298
+
+299
+
+300
+
+301
+
+302
+
+303
+
+304
+
+305
+
+306
+
+307
+
+308
+
+309
+
+310
+
+311
+
+312
+
+313
+
+314
+
+315
+
+316
+
+317
+
+318
+
+319
+
+320
+
+321
+
+322
+
+323
+
+324
+
+325
+
+326
+
+327
+
+328
+
+329
+
+330
+
+331
+
+332
+
+333
+
+334
+
+335
+
+336
+
+337
+
+338
+
+339
+
+340
+
+341
+
+342
+
+343
+
+344
+
+345
+
+346
+
+347
+
+348
+
+349
+
+350
+
+351
+
+352
+
+353
+
+354
+
+355
+
+356
+
+357
+
+358
+
+359
+
+360
+
+361
+
+362
+
+363
+
+364
+
+365
+
+366
+
+367
+
+368
+
+369
+
+370
+
+371
+
+372
+
+373
+
+374
+
+375
+
+376
+
+377
+
+378
+
+379
+
+380
+
+381
+
+382
+
+383
+
+384
+
+385
+
+386
+
+387
+
+388
+
+389
+
+390
+
+391
+
+392
+
+393
+
+394
+
+395
+
+396
+
+397
+
+398
+
+399
+
+400
+
+401
+
+402
+
+403
+
+404
+
+405
+
+406
+
+407
+
+408
+
+409
+
+410
+
+411
+
+412
+
+413
+
+414
+
+415
+
+416
+
+417
+
+418
+
+419
+
+420
+
+421
+
+422
+
+423
+
+424
+
+425
+
+426
+
+427
+
+428
+
+429
+
+430
+
+431
+
+432
+
+433
+
+434
+
+435
+
+436
+
+437
+
+438
+
+439
+
+440
+
+441
+
+442
+
+443
+
+444
+
+445
+
+446
+
+447
+
+448
+
+449
+
+450
+
+451
+
+452
+
+453
+
+454
+
+455
+
+456
+
+457
+
+458
+
+459
+
+460
+
+461
+
+462
+
+463
+
+464
+
+465
+
+466
+
+467
+
+468
+
+469
+
+470
+
+471
+
+472
+
+473
+
+474
+
+475
+
+476
+
+477
+
+478
+
+479
+
+480
+
+481
+
+482
+
+483
+
+484
+
+485
+
+486
+
+487
+
+488
+
+489
+
+490
+
+491
+
+492
+
+493
+
+494
+
+495
+
+496
+
+497
+
+498
+
+499
+
+500
+
+501
+
+502
+
+503
+
+504
+
+505
+
+506
+
+507
+
+508
+
+509
+
+510
+
+511
+
+512
+
+513
+
+514
+
+515
+
+516
+
+517
+
+518
+
+519
+
+520
+
+521
+
+522
+
+523
+
+524
+
+525
+
+526
+
+527
+
+528
+
+529
+
+530
+
+531
+
+532
+
+533
+
+534
+
+535
+
+536
+
+537
+
+538
+
+539
+
+540
+
+541
+
+542
+
+543
+
+544
+
+545
+
+546
+
+547
+
+548
+
+549
+
+550
+
+551
+
+552
+
+553
+
+554
+
+555
+
+556
+
+557
+
+558
+
+559
+
+560
+
+561
+
+562
+
+563
+
+564
+
+565
+
+566
+
+567
+
+568
+
+569
+
+570
+
+571
+
+572
+
+573
+
+574
+
+575
+
+576
+
+577
+
+578
+
+579
+
+580
+
+581
+
+582
+
+583
+
+584
+
+585
+
+586
+
+587
+
+588
+
+589
+
+590
+
+591
+
+592
+
+593
+
+594
+
+595
+
+596
+
+597
+
+598
+
+599
+
+600
+
+601
+
+602
+
+603
+
+604
+
+605
+
+606
+
+607
+
+608
+
+609
+
+610
+
+611
+
+612
+
+613
+
+614
+
+615
+
+616
+
+617
+
+618
+
+619
+
+620
+
+621
+
+622
+
+623
+
+624
+
+625
+
+626
+
+627
+
+628
+
+629
+
+630
+
+631
+
+632
+
+633
+
+634
+
+635
+
+636
+
+637
+
+638
+
+639
+
+640
+
+641
+
+642
+
+643
+
+644
+
+645
+
+646
+
+647
+
+648
+
+649
+
+650
+
+651
+
+652
+
+653
+
+654
+
+655
+
+656
+
+657
+
+658
+
+659
+
+660
+
+661
+
+662
+
+663
+
+664
+
+665
+
+666
+
+667
+
+668
+
+669
+
+670
+
+671
+
+672
+
+673
+
+674
+
+675
+
+676
+
+677
+
+678
+
+679
+
+680
+
+681
+
+682
+
+683
+
+684
+
+685
+
+686
+
+687
+
+688
+
+689
+
+690
+
+691
+
+692
+
+693
+
+694
+
+695
+
+696
+
+697
+
+698
+
+699
+
+700
+
+701
+
+702
+
+703
+
+704
+
+705
+
+706
+
+707
+
+708
+
+709
+
+710
+
+711
+
+712
+
+713
+
+714
+
+715
+
+716
+
+717
+
+718
+
+719
+
+720
+
+721
+
+722
+
+723
+
+724
+
+725
+
+726
+
+727
+
+728
+
+729
+
+730
+
+731
+
+732
+
+733
+
+734
+
+735
+
+736
+
+737
+
+738
+
+739
+
+740
+
+741
+
+742
+
+743
+
+744
+
+745
+
+746
+
+747
+
+748
+
+749
+
+750
+
+751
+
+752
+
+753
+
+754
+
+755
+
+756
+
+757
+
+758
+
+759
+
+760
+
+761
+
+762
+
+763
+
+764
+
+765
+
+766
+
+767
+
+768
+
+769
+
+770
+
+771
+
+772
+
+773
+
+774
+
+775
+
+776
+
+777
+
+778
+
+779
+
+780
+
+781
+
+782
+
+783
+
+784
+
+785
+
+786
+
+787
+
+788
+
+789
+
+790
+
+791
+
+792
+
+793
+
+794
+
+795
+
+796
+
+797
+
+798
+
+799
+
+800

@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>sanaklusterit</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+xdiv {position:relative;margin:0em 0 0em 0em;vertical-align:bottom;float:left;-nomoz-transform: rotate(-90deg); nomoz-transform:skew(0.2deg);} 
+span {margin:2px} 
+body {margin:20em;background:#ddd}
+.text {width:12em;background:white;text-align:center;xfloat:none;perspective:1000px;}
+.ztext:first-child {float:none}
+xdiv div.join {margin:1em}
+.join {border-top:0.5em outset #eee;border-left:1em inset white;border-bottom:0.5em solid #eee;border-right:1em outset #eee}
+p {
+   border:1px solid green;
+   position:absolute;left:30em;top:30em;
+   width:20em;
+   
+   padding-left:10em;
+  xxborder-radius: 100px 100px 0 0;
+  transform-origin: 00% 00%;
+  transform: rotate(45deg);
+  xxxtransform: skew(45deg);}
+div {
+   padding-left:20em;
+   border:1px solid green;
+   width:40em;
+   position:absolute;left:30em;top:30em;
+  xxborder-radius: 100px 100px 0 0;
+  transform-origin: 00% 00%;
+  transform: rotate(-35deg);
+  xxxtransform: skew(45deg);}
+</style>
+</head>
+<body>
+<p>
+  paljon tekstiÃ¤ paljon tekstiÃ¤ paljon tekstiÃ¤ paljon tekstiÃ¤ paljon tekstiÃ¤ paljon tekstiÃ¤ paljon tekstiÃ¤ paljon tekstiÃ¤ paljon tekstiÃ¤ 
+  
+  </p> 
+<hr/>
+<div> hiphei <br/>hui<br/> hai</div>
+   
+ <!--p style="transform: perspective( 60px ) rotateY( 15deg );border:1px solid red;width:12px">
+  hiphei hui hai
+   </p-->
+   
+   <div style="transform: rotate(-45deg);perspective:39em; width:0em;height:1em;border:1px solid green;position:relative">
+</div>
+</body>

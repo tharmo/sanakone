@@ -1,0 +1,130 @@
+
+//procedure tmylly.scarcesort(froa:array of longint;toa:array of r_scarcefield;flen,tlen:word);
+procedure tmat.sortedrow(rowno:word;toa:pointer;flen,tlen:word);
+vAR J,k,resw,ress,maks,maksw:longWORD;
+begin
+   maks:=0;maksw:=0;
+  for j:=0 to flen-1 do
+  begin
+    ress:=onerow^[j];
+   // if ress>maks then begin maksw:=j;;maks:=ress;end;
+   try
+    for k:=0 to tlen do //tlen do
+    begin
+      if ress>word((2+toa+k*4)^) then
+      begin
+          move((toa+k*4)^,(toa+k*4+4)^,(tlen-k)*4);
+          move(j,(toa+k*4)^,2);
+          move(ress,(2+toa+k*4)^,2);
+          break;
+      end;
+    end;
+   except writeln(^j,j,'Could not sort',QWORD(TOA-MAT));end;
+   end;
+  //writeln(^j,'max:',tmylly(mymylly).sanat[maksw+1],maks)
+end;
+
+function tmat.sana(wrd:word):string;
+begin
+   result:=tmylly(mymylly).sanat[wrd+1];
+end;
+function tmat.wc(r,c:word):r_scarcefield;
+var p:pointer;
+begin
+  p:=pointer(mat)+(r*cols+c)*4;
+  //result:=tmylly(mymylly).sanat[wrd+1];
+end;
+
+
+type wpoint=^word;
+function tmat.fromfull(fulmat:p_fullmat):p_scarcemat;
+var i,j:word;fullp:pointer;fullw:wpoint;
+ begin
+//note-fullmat is implemented as a 1D array to keep it in one memory block
+  write(rows,',........',rows);
+  fullp:=pointer(fulmat);
+  fullw:=pointer(fulmat);
+  for i:=0 to rows-1 do
+  begin
+     sums[i]:=0;
+    try;
+     for j:=0 to rows-1 do  if i<>j then
+     sums[i]:=sums[i]+fulmat^[rows*i+j];
+     except  write('NOSUM:',i,':',j,'/sums!!!  ');end;
+     end;
+   for i:=0 to n_w-1 do
+   begin
+     try
+
+      fillchar(onerow^,4*rows,0);
+     if sums[i]>0 then
+     for j:=0 to rows-1 do
+     if sums[j]>0 then
+     begin
+       onerow^[j]:=round((1000000000*fulmat^[rows*i+j])/((sums[j]*sums[i]+100000000))); //ADDED CONST TO DENOMINATOR TO PUNISH RARE WORDS
+     end else onerow^[j]:=0;
+     except  write(i,'nogo','xxxx',j,'/');end;
+     try
+     //write(^j^j,sana(i),':',i);
+     fullp:=pointer(mat)+i*cols*4;
+     sortedrow(i,fullp,ROWS,cOLS);
+     except write('FAILSORT');end;
+  end;
+  tmylly(mymylly).saveafile('wxw.sca',mat,rows*cols*4);
+  result:=mat;
+ // freemem(fullmat,2*n_w*n_w);
+end;
+function tmat.w(r,o:word):word;
+begin
+    result:=1;//mat[
+end;
+function tmat.c(r,o:word):r_scarcefield;
+begin
+
+    //result:=mat^;//mat[
+end;
+
+function tmat.setval(r,o,tar,siz:word):word;
+begin
+ mat^[rows*r+o].w:=r;
+ mat^[rows*r+o].s:=siz;
+ result:=1;//mat[
+end;
+
+constructor tmat.create(rown,coln:word);
+var i,j:word;  p:^word;pi:word;
+begin
+ rows:=rown;
+ cols:=coln;
+ getmem(mat,2*rows*cols);
+ getmem(onerow,4*cols);
+ fillchar(mat^,2*rows*cols,0);
+ setlength(sums,rows);
+end;
+
+function tmat.readfullmatrix:p_fullmat;
+var f:file;i,j:longword;    fullmat:p_fullmat;
+  p:^word;val:word;
+  rawsums:array[0..6461] of longword;
+  rowsum:longword;
+  //p:pointer;
+
+begin
+ try
+  getmem(fullmat,rows*rows*2);
+  // fillchar(fullmat^,sizeof(fullmat^),#0); //setlength(fullmat,n_w*n_w);
+  assign(f,'bigmat.bin');
+  Reset (F,rows*rows*2);
+  fillchar(fullmat^,rows*rows*2,0);
+  Blockread (F,fullmat^,1);
+  close (f);
+  RESULT:=FULLMAT;
+  except  write('********',rows*rows*2);end;
+  writeln('didread.',rows*rows*2);
+  for i:=0 to rows do  begin rawsums[i]:=0;  for j:=1 to rows do  if i<>j then rawsums[i]:=rawsums[i]+fullmat^[i*rows+j]; end;
+   for i:=0 to rows do if rawsums[i]>0 then
+    for j:=0 to rows-1 do  if i<>j then if rawsums[j]>0 then
+      fullmat^[i*rows+j]:=round((1000000000*fullmat^[i*rows+j])/((rawsums[j]*rawsums[i]+100000000))); //ADDED CONST TO DENOMINATOR TO PUNISH RARE WORDS
+
+end;
+

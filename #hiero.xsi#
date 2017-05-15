@@ -1,0 +1,381 @@
+f:'
+493   979+992/
+494   980+993/
+495   981+994/
+496   982+995/
+497   983+996/
+498   984+997/
+499   985+998/
+500   986+999/
+
+52% liikenteessä syntyvistä päävammoista tulee autoilijoille ja kyydissä oleville, 12% jalankulkijoille, 2% pyöräilijöille. Suuri osa päävammoista kuitenkin tulee kaatumisista muuten kuin liikenteessä.  Tarvittaneen yleinen 24*7 kypäräpakko./https://www.cdc.gov/traumaticbraininjury/pdf/blue_book.pdf
+
+
+class name=hiero
+  x
+    xse:apply sele
+  svg
+     #svgversion="1.1"    baseProfile="full"     width="3000" height="2000"    xmlns="http://www.w3.org/2000/svg"
+     xse:apply select=/hiero/node  xse:to=/scaled
+          xse:template match=node
+             node id="{@id}"  lev="{?plus(1,$dep)}"  c={node/@count()}
+                    #xse:attribute name=c value= 
+                    xse:inc: steps
+                    xse:set mysteps={$steps}
+                    xse:apply select=node withvar="mysteps={$steps},dep={?plus($dep,1)}"
+                    xse:apply select=p
+                      xse:copy
+               xse:attribute name=below value={?minus($steps,$mysteps)}
+         #circle  cx=10 cy=500 r="2" fill="black"
+     #xse:debug xse:from=/scaledp
+     style type=text/css
+      :  div div div div div div div div { overflow:visible;white-space:nowrap;margin-left:0.5em;xborder:1px solid gold;float:left;padding:opx;background:#efefef}
+      : p { border: 0px solid gray;max-width:30em;float:none;overflow:visible;white-space:normal;font-size:0.8em;xbackground:white;padding-left:1em}
+      : body { overflow:scroll}
+     div  style="border-top:1em solid black;position:relative"
+      xse:apply select=/scaled/node
+            xse:template match="*"  
+              xse:set sub={node/@count()}
+              div style="border-top:1em outset #dedede;padding:0px;border-lft:1em outset #dedede;border-right:none" 
+                xse:apply select=p
+                   xse:copy
+                 
+              ###xse:if test="?eq($sub,0)"
+                div: EOL {@id} {$sub} {node/@count()}
+              xse:if test="?eq($sub,1)"
+                div 
+                  xse:apply select=node withvar=w=100
+              xse:if test="?eq($sub,2)"
+                div 
+                  xse:set w={?div(?times(100,node[1]/@below),@below)}
+                  xse:apply select=node[1] withvar=w
+                  xse:apply select=node[2] withvar=w={?minus(98,$w)}
+              br style="clear:both"
+  broken
+    svg
+     #svgversion="1.1"    baseProfile="full"     width="3000" height="2000"    xmlns="http://www.w3.org/2000/svg"
+     xse:apply select=/hiero/node  xse:to=/scaled
+          xse:template match=node
+             node id="{@id}"  lev="{?plus(1,$dep)}"  c={node/@count()}
+                    #xse:attribute name=c value=
+                    xse:inc: steps
+                    xse:set mysteps={$steps}
+                    xse:apply select=node withvar="mysteps={$steps},dep={?plus($dep,1)}"
+               xse:attribute name=below value={?minus($steps,$mysteps)}
+         #circle  cx=10 cy=500 r="2" fill="black"
+     #xse:debug xse:from=/scaled
+     div
+         xse:apply select=/scaled/node
+              div xse:if=?eq(@c,0): loppu
+              blockquote xse:if=?eq(@c,1): ainoo {@id}
+                  xse:apply
+              xse:if test=?eq(@c,2)
+                xse:set first={?div(?times(100,node[1]/@below),@below)}
+                blockquote: first  {@id}  <b>{$first}%</b> 
+                  xse:apply select=node[1] withvar=first
+                blockquote: toka  {@id}  <b>{?minus(100,$first)}%</b> 
+                  xse:apply select=node[2]
+
+  scale
+  
+  coord
+    xse:to element=/test
+      node
+        n1
+           n11
+           n12
+             n121
+              n122
+              n123
+                  n1231
+                  n12311
+                    n123111
+                  n12312
+              n124
+           n13 
+        n2
+          n21     
+          n22
+          n23
+    xse:debug xse:from=/test
+    div style="width:100%;position:relative;border:1em solid brown"
+    xse:apply select=/test/*
+          xse:template match="*"
+              xse:set c="{./*/@count()}"
+              h1: {$c}
+              xse:if test="{?eq($c,0)}"
+                div STYLE="border:5px solid green;clear:both;background-color:black;color:red" : [{@id}]
+                #xse:break
+               
+              xse:if test="?eq($c,1)"
+               blockquote style="position:relative;background:#aff" xse:if="?eq(@c,1)": ainoo {@id}
+                  xse:apply
+                  #xse:break
+              xse:if test="?gt($c,1)"
+                xse:set first={?div(?times(100,*[1]/@below),@below)}
+                blockquote style="position:relative;clear:both;background:#faf;margin:0 0 0 1em;PADDING:0;border:1px solid #990;width:{$first}%;float:left":   {@id}  <b>{first}%</b> 
+                  xse:apply select=*[1]
+                blockquote style="position:relative;background:#ffa;margin:0 0 0 1em;PADDING:0;border:1px solid #099;width:{$first}%;float:left":   {@id}  <b>{?minus(100,$first)}%</b> 
+                  xse:apply select=*[2]
+              hr style="clear:both"
+  hr     
+     xse:apply select=/test/node
+        blockquote xse:if="?eq(*/@count(),0)": eioo {@.}
+        #xse:if test="?eq(*/@count(),0)"
+        # blockquote: eioo  {@.}
+         #xse:if test="?eq(*/@count(),1)"
+       blockquote xse:if="?gt(*/@count(),1)": monta {@.}  {?gt(*/@count(),1)}
+           xse:apply 
+       blockquote xse:if="?eq(*/@count(),1)": yks {@.}  #{*/@count()} =  {?gt(*/@count(),1)}
+           xse:apply 
+       #blockquote:  goon 
+        #ul xseif=?ne(@.,'n123')
+        # xse:apply select=*[2]
+    ###xse:apply select=/test/node/n1
+     xse:template match=*
+       blockquote style="border:1px solid gray":
+         xse:inc: glo
+         xse:set myglo={$glo}
+         xse:set line="{@.}@{$dep}" me={@.} below={$dep} 
+         xse:apply  select=* withvar="dep>below={?plus($dep,1)},line,me,myglo={$glo}"
+         xse:value: {$line} : d:{$dep} b: {$below} <b> {?minus($glo,$myglo)}</b>
+       
+    h2: {$nn}/{$u}   
+    
+    
+    
+  c      
+    xse:apply select=/test/node xwithvar=a 
+      blockquote style="border:1px solid gray": <b>{@.}</b> &gt;a{$a} b{$b} c{$c} d{$d} e{$e}  n{$n}  u{$u} 
+            xse:apply select=* withvar="a>b=0,c>d,e=0" counter="n" countto="u"
+            xse:inc: a
+            xse:inc: c
+            xse:inc: e
+            span: &lt; <b>{@.}</b> a{$a} b{$b} c{$c} d{$d} e{$e}  n{$n}  u{$u}
+  x
+    h1: go
+    xse:to element=/to
+      a: s1
+        b1: d11
+        b2: d12
+        b3: d13
+        bx: d14
+        bx: d15
+        bx: d16
+      a: s2
+       b4: d21
+       b5: d22
+       bx: d23
+      a: s3
+       b6: d31xxx
+    hr   
+    #xmp xse:from=/to: {@xmlis()} <hr>----------<hr>
+    h1: go  
+    xse:foreach select=/to xse:to=/xxx
+     ul:
+      xse:by element=!class:/y
+    h1: went  
+      
+    #xse:debug xse:from=/xxx
+    h1: xxx
+    xmp 
+      xse:apply select=/xxx
+        xse:copy
+    h1: done
+  y   
+         xse:set c=0  
+         li: biglist: 
+          xse:foreach select=*
+           ul: {$c}
+            xse:set c={?plus($c,1)}  
+            #li: this: {.} {../.}  
+            # ul id={$c}: {*/.}
+            xse:foreach select=*
+                 li: down: {.} {../.}  
+            #xse:copy
+    #xse:debug xse:from=/too
+    
+  rec
+    #xse:httpheaders
+    #  Content-Type: image/svg+xml
+    xse:set x=100 y=100 lev=50 
+    #xse:to file="turha2.html"
+    svg version="1.1"    baseProfile="full"     width="3000" height="2000"    xmlns="http://www.w3.org/2000/svg"
+      circle  cx=100 cy=100 r="2" fill="black" 
+      xse:foreach select=hiero/node
+           xse:by element=!class:/rec2
+  rec2
+            xse:set dif={$lev}
+            xse:if test=?gt($x,$y)
+                xse:set nx={?plus($x,$dif)}  ny={?minus($y,$dif)} stroke=red
+            xse:else  
+                  xse:set nx={?plus($x,$dif)}  ny={?plus($y,$dif)} stroke=blue
+            #xse:if test=?eq(@position(),1)
+            #    xse:set nx={?plus($x,$dif)}  ny={?minus($y,$dif)} stroke=red
+            #xse:else  
+            #      xse:set nx={?plus($x,$dif)}  ny={?plus($y,$dif)} stroke=blue
+            xse:set c={?plus($c,1)}  
+            #li: {$x}/{$y}/{$dif}
+            text x={?plus(10,$x)}  y={$y}: {$lev}     
+            line x1={$x} y1={$y}  x2={$nx} y2={$ny} stroke={$stroke} 
+            xse:foreach select=p
+               xse:if test=?eq(@position(),1)
+                circle  cx={$nx)} cy={$ny} r="8" fill="yellow"
+               xse:else
+                 circle  cx={$x} cy={$y} r="10" fill="green"
+            #xse:set x={$nx} y={$ny}
+            #up: {@id} {../@id}
+            #xse:logwrite: (NODESTOGO: {@asstring()}
+            xse:apply select=./node withvar=x={$nx},y={$ny},lev={?minus($lev,1)} 
+               xse:by element=!class:/rec2
+  css
+    style:  body { margin:2em}
+      : p { background:white;border:1px solid gray;display:table-cell;align:left;vertical-align:top;font-size:10px;position:absolute;top:0:left:0;xwidth:60em;height:1.2em;padding-left:5em;}
+      :    div { position:absolute; left:0;top:0} 
+      : div.a { xpadding-left:10em;xwidth:60em} div.b { xpadding-top:10em;xwidth:10em} 
+      : .p1 {  transform-origin:0% 0%;transform: rotate(-0deg);} .p2 { transform-origin:0% 0%;transform: rotate(90deg);color:red}
+
+    div style="border:5px solid red;position:relative"
+     xse:apply select=/hiero/node
+            
+            #xse:set x={?plus($x,20)}
+            xse:if test=?eq(@position(),1)
+              xse:set nx={?plus($x,10)}  ny={?minus($y,10)} stroke=red class=a
+            xse:else  
+                xse:set nx={?minus($x,10)}  ny={?plus($y,10)} stroke=blue class=b
+            xse:set c={?plus($c,1)}
+            div class={$class} style="padding-left:{$x}px;padding-top:{$y}px"
+              xse:foreach select=p
+                xse:if test=?eq(@position(),1)
+                   p class="p1": {.}
+                xse:else
+                   p class="p2": {.}
+              xse:apply select=node withvar=x={?plus($x,150)},y={?plus($y,150)}
+            #xse:set x={$nx} y={$ny}
+            #xse:by element=!class:/for2
+    
+
+  for
+    xse:httpheaders
+      Content-Type: image/svg+xml
+    xse:set x=1500 y=1500  
+    svg version="1.1"    baseProfile="full"     width="3000" height="2000"    xmlns="http://www.w3.org/2000/svg"
+      xse:foreach select=hiero/node
+         xse:by element=!class:/for2
+  for2
+        xse:foreach select=node
+            xse:if test=?eq(@position(),1)
+              xse:set nx={?plus($x,50)}  ny={?minus($y,50)} stroke=red
+            xse:else  
+                xse:set nx={?minus($x,50)}  ny={?plus($y,50)} stroke=blue
+            xse:set c={?plus($c,1)}
+            line x1={$x} y1={$y} x2={$nx} y2={$ny} stroke={$stroke}
+            xse:foreach select=p
+                xse:if test=?eq(@position(),1)
+                  #circle  cx={?plus($x,10)} cy={?plus($y,10)} r="3" fill="green"
+                  circle  cx={$x} cy={$y} r="3" fill="green"
+                xse:else
+                   circle  cx={?minus($x,10)} cy={?minus($y,10)} r="3" fill="blue"
+              xse:set x={$nx} y={$ny}
+            xse:by element=!class:/for2
+  test
+    
+    html
+      head
+        meta http-equiv="Content-Type" content="text/html;charset=windows-1252"
+        ###style type=text/css:  
+           : .xroot { position: absolute;left:50em;top:50em}
+           :    div { margin-left:1em;border:1px solid brown}
+           : {}
+      body
+        h1: bodyhere
+  testvars
+       h1: testvars
+         : xxx
+       xse:set a=aold b=bold c=cold
+       li: vars before: {$a};{$b};{$c};{$d}
+       xse:apply select=hiero/* withvar=x,a,b>d=bnew,c=cnew
+         li: vars below: {$a}:{$b};{$c};{$d}
+       li: vars after: {$a}.{$b}.{$c};{$d}
+  open
+    #xse:to file=turha.html
+    h1: go
+    html
+      head
+        meta http-equiv="Content-Type" content="text/html;charset=windows-1252"
+         :
+        style type=text/css:  
+           : .xroot { position: absolute;left:50em;top:50em}
+           :    div { margin-left:1em;border:1px solid brown}
+           : {}
+      body
+        xse:apply select=hiero/* xse:to=/divs
+           xse:templates
+            xse:template match=node
+                 div id={@id}:  fromtop={$fromtop}  
+                   xse:apply withvar="fromtop={?plus($fromtop,1)},below>belowme=0" 
+                   xse:set below={?plus($below,$belowme,1)}
+                   xse:attributes   belowme={$belowme}
+                   #xse:value:  {$fromtop}  below={$below} belowme ={$belowme}
+            xse:template match=p
+               p id={@id}: {$nc} {.}
+            xse:template match=*
+              h2: {.}{@.} {$nc}
+              #xse:apply
+        #xse:debug      
+    hr
+    hr
+    xse:apply select=/divs/div
+       xse:template match=div
+           xse:set a={div[1]/@belowme}  b={div[2]/@belowme}  
+           xse:set arel={?div(?times(100,$a),?plus($a,$b,1))}
+           xse:set brel={?minus(100,$arel)}
+           div:             a:{$arel} / b:{$brel} ::;;  {$a} / {$b}
+            xse:apply select=p
+            xse:apply select=div
+       xse:template match=p
+             xse:copy
+    xse:debug xse:from=/divs        
+  page
+    xse:set var=a: '''
+      
+             I rise at eleven, I dine about two,
+I get drunk before seven, and the next thing I do,
+I send for my whore, when for fear of a clap,
+I spend in her hand and I spew in her lap;
+
+Then we quarrel and scold, till I fall fast asleep,
+When the bitch growing bold, to my pocket does creep.
+Then slyly she leaves me, and to revenge the affront,
+At once she bereaves me of money and cunt.
+
+If by chance when I wake, hot-heated and drunk,
+What a coil do I make for the loss of my punk!
+I storm, and I roar, and I fall in a rage.
+And missing my whore, I bugger my page.
+
+Then crop-sick all morning I rail at my men,
+And in bed I lie yawning till eleven again.
+
+hjklnprstv
+
+nousen aamulla myöhään, ja syön mitä syön
+iltapäivällä itseni juovuksiin juon
+huorani haetan vaan kupan pelossa
+laukean käteeni, yrjöän syliinsä 
+
+menneitä ovat niin vittu kuin rahat
+portotta perseeseen paashia panen 
+'''
+
+    xse:set c=0
+    style: .a > .b { color:red} div { font-size:5px;border:1px solid gray;position:absolute;left:0;top:0} .a { padding-left:20em;width:100%} .b { padding-top:20em;width:20em} 
+    div style="border:3px solid black "
+      xse:apply times=4
+        xse:inc var=c
+        xse:if test="?gt($c,9)"
+          xse:break;
+        div class=a: {$c}
+          xse:apply times=2
+        div class=b:
+          xse:apply times=2
