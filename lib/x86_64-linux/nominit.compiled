@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/home/t/fpcupdeluxe/fpc/bin/x86_64-linux/fpc.sh" Date="1505816238"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/t/sanakone/lib/x86_64-linux -Fu/home/t/sanakone/ -FU/home/t/sanakone/lib/x86_64-linux/ nominit.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

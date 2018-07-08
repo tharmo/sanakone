@@ -1,0 +1,2 @@
+gawk: cmd. line:1:  BEGIN {FS="," OFS=""} {print $5, " " $1 $2 $3 $4}
+gawk: cmd. line:1:                   ^ syntax error

@@ -1,0 +1,14 @@
+hiero
+ node id=a2 
+   node id=b0
+   node id=c0
+ node  id=d6
+   node id=g0
+   node id=f4
+     node id=g0
+     node  id=h2
+       node id=i0
+       node id=j0
+   node id=k0
+          
+   

@@ -1,0 +1,4685 @@
+scaled
+  node id="root" below="260"
+    node id="n1" lev="1" c="2" par="root" y="1" below="171" x="y":    
+      node id="n89" lev="2" c="2" par="n1" y="89" below="83" x="y":    
+        node id="n90" lev="3" c="2" par="n89" y="90" below="39" x="y":    
+          node id="n91" lev="4" c="2" par="n90" y="91" below="10" x="y":    
+            node id="n97" lev="5" c="2" par="n91" y="97" below="4" x="y":    
+              node id="n101" lev="6" c="0" par="n97" y="101" below="0" x="y":    
+                p
+                  span: tietön
+                  span: kävijä
+                p
+                  span: jätti
+                  span: kääpiö
+              node id="n98" lev="6" c="2" par="n97" y="98" below="2" x="y":    
+                node id="n100" lev="7" c="0" par="n98" y="100" below="0" x="y":    
+                  p
+                    span: lopettaa
+                    span: syönti
+                    span: syöminen
+                  p
+                    span: keskeyttää
+                    span: puhe
+                    span: puhelu
+                    span: aine
+                node id="n99" lev="7" c="0" par="n98" y="99" below="0" x="y":    
+                  p
+                    span: veitsi
+                    span: kahveli
+                    span: leikata
+                    span: haarukka
+                    span: lautanen
+                    span: viiltää
+                    span: sakset
+                    span: vuolla
+                    span: kokki
+                  p
+                    span: poikki
+                    span: tori
+                    span: kannas
+                    span: keto
+                    span: aukio
+                    span: vyöllinen
+            node id="n92" lev="5" c="2" par="n91" y="92" below="4" x="y":    
+              node id="n95" lev="6" c="1" par="n92" y="95" below="1" x="y":    
+                p
+                  span: pitää
+                  span: vireillä
+                  span: jäämä
+                  span: vallassa
+                  span: kuti
+                  span: istunta
+                  span: paraati
+                  span: tauko
+                  span: siittäjä
+                  span: syömäri
+                node id="n96" lev="7" c="0" par="n95" y="96" below="0" x="y":    
+                  p
+                    span: kohdella
+                    span: julmasti
+                  p
+                    span: menetellä
+                    span: toisin
+                    span: viisaasti
+                    span: samoin
+                    span: kuinka
+                    span: eli
+                    span: tapa
+                    span: päinvastoin
+                    span: tuhmasti
+                    span: kehnosti
+              node id="n93" lev="6" c="1" par="n92" y="93" below="1" x="y":    
+                p
+                  span: vaikuttaa
+                  span: valtavasti
+                  span: mahtavasti
+                  span: voimakkaasti
+                  span: innostaa
+                  span: tenhota
+                  span: hurmaavasti
+                node id="n94" lev="7" c="0" par="n93" y="94" below="0" x="y":    
+                  p
+                    span: erittäin
+                    span: kiitollinen
+                    span: tyytyväinen
+                    span: hauska
+                    span: taitavasti
+                    span: erinomainen
+                    span: mielissään
+                    span: älykäs
+                    span: hyvillään
+                    span: säädellä
+                  p
+                    span: ystävällinen
+                    span: kohtelias
+                    span: käytös
+                    span: tervehdys
+                    span: kohtelu
+                    span: lempeä
+                    span: herttainen
+                    span: kiltti
+                    span: tyly
+                    span: rohkaista
+                    span: luonteva
+                    span: avulias
+                    span: suopea
+                    span: aina
+                    span: röyhkeä
+                    span: säyseä
+          node id="n102" lev="4" c="2" par="n90" y="102" below="27" x="y":    
+            node id="n103" lev="5" c="2" par="n102" y="103" below="11" x="y":    
+              node id="n104" lev="6" c="2" par="n103" y="104" below="4" x="y":    
+                node id="n105" lev="7" c="0" par="n104" y="105" below="0" x="y":    
+                  p
+                    span: pakkanen
+                    span: puhaltaa
+                    span: viima
+                    span: pureva
+                    span: jäinen
+                    span: pyry
+                    span: tuulla
+                    span: kirpeä
+                    span: puhuri
+                    span: palkki
+                    span: puuskuttaa
+                    span: ponneton
+                    span: litsi
+                  p
+                    span: tuuli
+                    span: myötäinen
+                    span: akana
+                    span: puuska
+                    span: tohina
+                    span: hajottaa
+                    span: tuivertaa
+                    span: harmaus
+                    span: banketti
+                node id="n106" lev="7" c="1" par="n104" y="106" below="2" x="y":    
+                  p
+                    span: henki
+                    span: pelastaja
+                    span: pidin
+                    span: herja
+                    span: kumous
+                  node id="n107" lev="8" c="1" par="n106" y="107" below="1" x="y":    
+                    p
+                      span: ruis
+                      span: tynnyri
+                      span: ohra
+                      span: kaura
+                      span: jyvä
+                      span: kappa
+                      span: vehnä
+                      span: tähkä
+                      span: vanne
+                      span: leikkuu
+                      span: herne
+                      span: tappi
+                      span: maissi
+                      span: hedelmöidä
+                    node id="n108" lev="9" c="0" par="n107" y="108" below="0" x="y":    
+                      p
+                        span: hengittää
+                        span: keuhko
+                        span: vapaasti
+                        span: raikas
+                        span: helppo
+                        span: vaikeasti
+                      p
+                        span: ilma
+                        span: raitis
+                        span: leuto
+                        span: viileä
+                        span: sumuinen
+                        span: tuulahdus
+                        span: kolea
+                        span: leijua
+                        span: auer
+                        span: suojainen
+                        span: leija
+                        span: usvainen
+                        span: vari
+              node id="n109" lev="6" c="2" par="n103" y="109" below="5" x="y":    
+                node id="n110" lev="7" c="1" par="n109" y="110" below="1" x="y":    
+                  p
+                    span: nousta
+                    span: oras
+                    span: noro
+                    span: tästä
+                    span: vetehinen
+                  node id="n111" lev="8" c="0" par="n110" y="111" below="0" x="y":    
+                    p
+                      span: kyynel
+                      span: vieriä
+                      span: kostuttaa
+                      span: kastella
+                      span: tipahtaa
+                      span: ilotella
+                    p
+                      span: veri
+                      span: suoni
+                      span: vuotaa
+                      span: vuodattaa
+                      span: hyytyä
+                      span: virrata
+                      span: tahrata
+                      span: pisara
+                      span: jähmettyä
+                      span: punata
+                      span: tihkua
+                      span: tahria
+                      span: kuumeta
+                      span: pursua
+                      span: purskua
+                      span: vuoto
+                      span: himota
+                      span: perna
+                      span: vuota
+                      span: pursuta
+                      span: punertua
+                      span: suihku
+                      span: pirskua
+                      span: juoksuttaa
+                      span: ryvettää
+                      span: viallinen
+                      span: kuohuta
+                node id="n112" lev="7" c="2" par="n109" y="112" below="2" x="y":    
+                  node id="n114" lev="8" c="0" par="n112" y="114" below="0" x="y":    
+                    p
+                      span: hellä
+                      span: hyväily
+                      span: syleily
+                      span: hoiva
+                      span: suutelu
+                      span: lemmekäs
+                      span: voltti
+                    p
+                      span: painaa
+                      span: leima
+                      span: suudelma
+                      span: suukko
+                      span: vipu
+                      span: pahka
+                      span: nasta
+                      span: halaus
+                  node id="n113" lev="8" c="0" par="n112" y="113" below="0" x="y":    
+                    p
+                      span: hauta
+                      span: haudata
+                      span: kuollut
+                      span: multa
+                      span: arkku
+                      span: vainaja
+                      span: kirstu
+                      span: siunata
+                      span: kehto
+                      span: mädätä
+                      span: kalmisto
+                      span: mullata
+                      span: raato
+                      span: kaivaja
+                      span: vainaa
+                      span: jätkä
+                      span: kiihkoton
+                    p
+                      span: kaivaa
+                      span: kuoppa
+                      span: kolo
+                      span: myyrä
+                      span: kuopata
+                      span: viemäri
+                      span: syventää
+                      span: säilö
+            node id="n115" lev="5" c="2" par="n102" y="115" below="14" x="y":    
+              node id="n116" lev="6" c="2" par="n115" y="116" below="3" x="y":    
+                node id="n117" lev="7" c="0" par="n116" y="117" below="0" x="y":    
+                  p
+                    span: johtaa
+                    span: harhaan
+                    span: opas
+                  p
+                    span: sattua
+                    span: osua
+                    span: tapaturma
+                    span: maali
+                    span: sattumalta
+                    span: joskus
+                    span: joku
+                    span: juuri
+                    span: käsillä
+                    span: näkijä
+                node id="n118" lev="7" c="1" par="n116" y="118" below="1" x="y":    
+                  p
+                    span: sali
+                    span: suure
+                    span: atlas
+                    span: huume
+                  node id="n119" lev="8" c="0" par="n118" y="119" below="0" x="y":    
+                    p
+                      span: tuska
+                      span: kipu
+                      span: lieventää
+                      span: kärsimys
+                      span: tunto
+                      span: lievitys
+                      span: vaimentaa
+                      span: lieventyä
+                      span: vaientaa
+                    p
+                      span: tuottaa
+                      span: tyydytys
+                      span: ikävyys
+                      span: hyöty
+                      span: nautinto
+                      span: huvi
+                      span: häiriö
+                      span: haitta
+                      span: huojennus
+                      span: hauskuus
+                      span: hupi
+                      span: vaihtelu
+                      span: haitata
+              node id="n120" lev="6" c="2" par="n115" y="120" below="9" x="y":    
+                node id="n127" lev="7" c="1" par="n120" y="127" below="2" x="y":    
+                  p
+                    span: ihastus
+                    span: hihkua
+                  node id="n128" lev="8" c="1" par="n127" y="128" below="1" x="y":    
+                    p
+                      span: sammal
+                      span: jäkälä
+                    node id="n129" lev="9" c="0" par="n128" y="129" below="0" x="y":    
+                      p
+                        span: silmäys
+                        span: luoda
+                        span: pikainen
+                        span: kysyvä
+                        span: vihainen
+                        span: vaihtaa
+                        span: arka
+                        span: hätäinen
+                      p
+                        span: katse
+                        span: harhailla
+                        span: raukea
+                        span: etsivä
+                        span: karttaa
+                        span: kaihota
+                        span: vakoilla
+                        span: terästää
+                        span: kiehtoa
+                        span: luihu
+                        span: hyljeksiä
+                node id="n121" lev="7" c="2" par="n120" y="121" below="5" x="y":    
+                  node id="n122" lev="8" c="1" par="n121" y="122" below="1" x="y":    
+                    p
+                      span: suu
+                      span: tukkia
+                      span: sylkeä
+                      span: sylki
+                      span: tukki
+                      span: sylkäistä
+                      span: tulppa
+                      span: mutu
+                      span: suljin
+                      span: matikka
+                    node id="n123" lev="9" c="0" par="n122" y="123" below="0" x="y":    
+                      p
+                        span: tarkka
+                        span: tutkimus
+                        span: vaari
+                        span: tulos
+                        span: vainu
+                        span: harkinta
+                        span: korjaaja
+                      p
+                        span: alainen
+                        span: valvonta
+                        span: vaikutus
+                        span: suojelus
+                        span: vaino
+                        span: pilkka
+                  node id="n124" lev="8" c="2" par="n121" y="124" below="2" x="y":    
+                    node id="n126" lev="9" c="0" par="n124" y="126" below="0" x="y":    
+                      p
+                        span: oppia
+                        span: tuntea
+                        span: konsti
+                        span: oppimaton
+                        span: oppinut
+                        span: ahkeroida
+                        span: haastatella
+                      p
+                        span: kieli
+                        span: suomi
+                        span: ruotsi
+                        span: latina
+                        span: saksa
+                        span: ranska
+                        span: osata
+                        span: kreikka
+                        span: kääntää
+                        span: unkari
+                        span: murre
+                        span: liukas
+                        span: opettaa
+                        span: lipoa
+                        span: kosketella
+                        span: sammaltaa
+                        span: ääntää
+                        span: soinnuttaa
+                        span: lipeä
+                        span: lätti
+                        span: petkel
+                        span: karjala
+                        span: kiina
+                    node id="n125" lev="9" c="0" par="n124" y="125" below="0" x="y":    
+                      p
+                        span: rauha
+                        span: häiritä
+                        span: sopu
+                        span: elää
+                        span: tyyneys
+                        span: onnellisuus
+                        span: rakentua
+                        span: sijata
+                        span: vakauttaa
+                      p
+                        span: vallita
+                        span: hiljaisuus
+                        span: äänettömyys
+                        span: kaikkialla
+                        span: täydellinen
+                        span: painostaa
+                        span: syntyä
+                        span: juhlallinen
+                        span: katka
+                        span: yksinäisyys
+                        span: yksimielisyys
+                        span: autius
+                        span: kolkkous
+                        span: synkkyys
+        node id="n130" lev="3" c="2" par="n89" y="130" below="42" x="y":    
+          node id="n152" lev="4" c="2" par="n130" y="152" below="20" x="y":    
+            node id="n164" lev="5" c="2" par="n152" y="164" below="8" x="y":    
+              node id="n165" lev="6" c="1" par="n164" y="165" below="1" x="y":    
+                p
+                  span: poimija
+                  span: maanitella
+                node id="n166" lev="7" c="0" par="n165" y="166" below="0" x="y":    
+                  p
+                    span: luola
+                    span: horna
+                    span: aukko
+                    span: erakko
+                  p
+                    span: kita
+                    span: niellä
+                    span: ammottaa
+                    span: nielaista
+                    span: ahmatti
+              node id="n167" lev="6" c="2" par="n164" y="167" below="5" x="y":    
+                node id="n168" lev="7" c="1" par="n167" y="168" below="1" x="y":    
+                  p
+                    span: seuloa
+                    span: utu
+                    span: seula
+                    span: keritsimet
+                  node id="n169" lev="8" c="0" par="n168" y="169" below="0" x="y":    
+                    p
+                      span: purkaa
+                      span: kihlaus
+                      span: lasti
+                      span: sisu
+                      span: sappi
+                      span: kiukku
+                      span: kerä
+                    p
+                      span: purjehtia
+                      span: laivasto
+                      span: alus
+                      span: myötätuuli
+                      span: helleeni
+                      span: priki
+                      span: jahti
+                node id="n170" lev="7" c="1" par="n167" y="170" below="2" x="y":    
+                  p
+                    span: arvo
+                    span: partio
+                    span: alentua
+                    span: ylentää
+                  node id="n171" lev="8" c="1" par="n170" y="171" below="1" x="y":    
+                    p
+                      span: aate
+                      span: muoto
+                      span: kannattaja
+                      span: ilmaantua
+                      span: ihmisyys
+                      span: muovata
+                    node id="n172" lev="9" c="0" par="n171" y="172" below="0" x="y":    
+                      p
+                        span: puute
+                        span: kärsä
+                        span: korvata
+                        span: käyttö
+                        span: hätä
+                        span: takia
+                      p
+                        span: kärsiä
+                        span: tappio
+                        span: vaurio
+                        span: vahinko
+                        span: paljon
+            node id="n153" lev="5" c="2" par="n152" y="153" below="10" x="y":    
+              node id="n154" lev="6" c="2" par="n153" y="154" below="3" x="y":    
+                node id="n157" lev="7" c="0" par="n154" y="157" below="0" x="y":    
+                  p
+                    span: taivaallinen
+                    span: ylkä
+                  p
+                    span: olento
+                    span: kiittämätön
+                    span: kuolevainen
+                    span: vajavainen
+                node id="n155" lev="7" c="1" par="n154" y="155" below="1" x="y":    
+                  p
+                    span: asettaa
+                    span: istuin
+                    span: varttaa
+                  node id="n156" lev="8" c="0" par="n155" y="156" below="0" x="y":    
+                    p
+                      span: iloinen
+                      span: hilpeä
+                      span: vallaton
+                      span: leikkisä
+                      span: suruton
+                    p
+                      span: nuorukainen
+                      span: reipas
+                      span: pulska
+                      span: neitonen
+                      span: rakastua
+                      span: keskenkasvuinen
+              node id="n158" lev="6" c="2" par="n153" y="158" below="5" x="y":    
+                node id="n162" lev="7" c="1" par="n158" y="162" below="1" x="y":    
+                  p
+                    span: hiljainen
+                    span: kuiskaus
+                    span: rauhallinen
+                  node id="n163" lev="8" c="0" par="n162" y="163" below="0" x="y":    
+                    p
+                      span: korpi
+                      span: synkkä
+                      span: kolkko
+                      span: aavistus
+                      span: kelo
+                      span: salko
+                      span: iloton
+                      span: alho
+                      span: syöveri
+                    p
+                      span: autio
+                      span: seutu
+                      span: tyhjä
+                      span: yksinäinen
+                      span: syrjäinen
+                      span: nummi
+                node id="n159" lev="7" c="2" par="n158" y="159" below="2" x="y":    
+                  node id="n161" lev="8" c="0" par="n159" y="161" below="0" x="y":    
+                    p
+                      span: itä
+                      span: länsi
+                      span: rajoittaa
+                      span: kaakko
+                    p
+                      span: pohjoinen
+                      span: etelä
+                      span: eteläinen
+                      span: rannikko
+                      span: matkata
+                      span: suunta
+                      span: retkeillä
+                      span: eukalyptus
+                  node id="n160" lev="8" c="0" par="n159" y="160" below="0" x="y":    
+                    p
+                      span: näkyvä
+                      span: kokonaan
+                      span: unohtaa
+                      span: tietämätön
+                      span: kaukaisuus
+                      span: unohtua
+                    p
+                      span: kadota
+                      span: häipyä
+                      span: hävitä
+                      span: näkymätön
+                      span: etäisyys
+          node id="n131" lev="4" c="2" par="n130" y="131" below="20" x="y":    
+            node id="n132" lev="5" c="2" par="n131" y="132" below="7" x="y":    
+              node id="n137" lev="6" c="1" par="n132" y="137" below="2" x="y":    
+                p
+                  span: ahnas
+                  span: ahma
+                node id="n138" lev="7" c="1" par="n137" y="138" below="1" x="y":    
+                  p
+                    span: köyhyys
+                    span: rikkaus
+                    span: kurjuus
+                    span: alennus
+                    span: laiskuus
+                  node id="n139" lev="8" c="0" par="n138" y="139" below="0" x="y":    
+                    p
+                      span: järki
+                      span: terve
+                      span: kadottaa
+                      span: hämmentää
+                      span: kritiikki
+                      span: parantaja
+                      span: hitunen
+                      span: rahtunen
+                      span: tutkiskella
+                    p
+                      span: menettää
+                      span: maltti
+                      span: tajunta
+                      span: viehätys
+                      span: teho
+                      span: silti
+                      span: neitsyys
+              node id="n133" lev="6" c="2" par="n132" y="133" below="3" x="y":    
+                node id="n134" lev="7" c="0" par="n133" y="134" below="0" x="y":    
+                  p
+                    span: syyttää
+                    span: murha
+                    span: teko
+                    span: ryöstö
+                    span: luvaton
+                    span: laiton
+                  p
+                    span: kostaa
+                    span: vääryys
+                    span: loukkaus
+                    span: häväistys
+                    span: tehdä
+                    span: julma
+                    span: hyvittää
+                    span: huutava
+                    span: ilkityö
+                    span: muka
+                    span: surmata
+                    span: konnuus
+                node id="n135" lev="7" c="1" par="n133" y="135" below="1" x="y":    
+                  p
+                    span: valkoinen
+                    span: marmori
+                    span: veistää
+                    span: kani
+                    span: päähine
+                    span: rapata
+                    span: vasa
+                  node id="n136" lev="8" c="0" par="n135" y="136" below="0" x="y":    
+                    p
+                      span: toivottaa
+                      span: suosia
+                      span: kadehtia
+                      span: ajallinen
+                      span: pysyväinen
+                      span: hurma
+                      span: hurmio
+                      span: taattu
+                    p
+                      span: onni
+                      span: onnellinen
+                      span: kätellä
+            node id="n140" lev="5" c="2" par="n131" y="140" below="11" x="y":    
+              node id="n141" lev="6" c="1" par="n140" y="141" below="3" x="y":    
+                p
+                  span: kukkaro
+                  span: lantti
+                  span: matti
+                node id="n142" lev="7" c="1" par="n141" y="142" below="2" x="y":    
+                  p
+                    span: kaukana
+                    span: pikkuisen
+                  node id="n143" lev="8" c="1" par="n142" y="143" below="1" x="y":    
+                    p
+                      span: kimallella
+                      span: jalokivi
+                      span: kide
+                    node id="n144" lev="9" c="0" par="n143" y="144" below="0" x="y":    
+                      p
+                        span: kapea
+                        span: polku
+                        span: katu
+                        span: kuja
+                        span: poiketa
+                        span: käytävä
+                        span: sola
+                        span: mutkikas
+                        span: mutkainen
+                        span: vilistä
+                        span: kulkija
+                        span: kivittää
+                        span: taivaltaa
+                      p
+                        span: edestakaisin
+                        span: kävellä
+                        span: astella
+                        span: pitkin
+                        span: kiivaasti
+                        span: juoksennella
+                        span: permanto
+                        span: kuljeskella
+                        span: vihellellä
+                        span: rinnakkain
+                        span: varjoisa
+                        span: hääriä
+                        span: piena
+              node id="n145" lev="6" c="2" par="n140" y="145" below="6" x="y":    
+                node id="n146" lev="7" c="1" par="n145" y="146" below="1" x="y":    
+                  p
+                    span: melu
+                    span: hälinä
+                    span: tauota
+                    span: hiljetä
+                  node id="n147" lev="8" c="0" par="n146" y="147" below="0" x="y":    
+                    p
+                      span: karja
+                      span: laidun
+                      span: elukka
+                      span: kaitsija
+                      span: nauta
+                      span: huhuilla
+                    p
+                      span: lammas
+                      span: vuohi
+                      span: paimen
+                      span: teurastaa
+                      span: paimentaa
+                      span: eksyä
+                      span: lauhkea
+                      span: villa
+                      span: määkiä
+                      span: keritä
+                      span: karitsa
+                      span: kaitsea
+                      span: vuona
+                      span: sokko
+                      span: saparo
+                      span: oinas
+                node id="n148" lev="7" c="2" par="n145" y="148" below="3" x="y":    
+                  node id="n151" lev="8" c="0" par="n148" y="151" below="0" x="y":    
+                    p
+                      span: ura
+                      span: uurtaa
+                      span: puurtaa
+                    p
+                      span: syvä
+                      span: lovi
+                  node id="n149" lev="8" c="1" par="n148" y="149" below="1" x="y":    
+                    p
+                      span: lepo
+                      span: paneutua
+                    node id="n150" lev="9" c="0" par="n149" y="150" below="0" x="y":    
+                      p
+                        span: laulaa
+                        span: kukko
+                        span: nuotti
+                        span: laulaja
+                        span: rastas
+                        span: kuoro
+                        span: kiekua
+                        span: hymni
+                        span: leivo
+                        span: kööri
+                        span: romanssi
+                        span: ihanasti
+                        span: kiuru
+                        span: yhteisesti
+                        span: alli
+                        span: kujertaa
+                      p
+                        span: laulu
+                        span: hyräillä
+                        span: säestää
+                        span: rasta
+                        span: luuttu
+                        span: trubaduuri
+                        span: ulpukka
+                        span: lysti
+                        span: rytmi
+                        span: serenadi
+                        span: ralli
+                        span: matkija
+      node id="n2" lev="2" c="2" par="n1" y="2" below="86" x="y":    
+        node id="n49" lev="3" c="2" par="n2" y="49" below="39" x="y":    
+          node id="n73" lev="4" c="2" par="n49" y="73" below="15" x="y":    
+            node id="n74" lev="5" c="2" par="n73" y="74" below="3" x="y":    
+              node id="n75" lev="6" c="0" par="n74" y="75" below="0" x="y":    
+                p
+                  span: kauhu
+                  span: inho
+                p
+                  span: vallata
+                  span: kauhistus
+                  span: ahdistus
+                  span: kammo
+                  span: toivottomuus
+                  span: rauhattomuus
+              node id="n76" lev="6" c="1" par="n74" y="76" below="1" x="y":    
+                p
+                  span: sekava
+                  span: selvittää
+                  span: vyyhti
+                  span: seikka
+                  span: tarkalleen
+                  span: sotku
+                node id="n77" lev="7" c="0" par="n76" y="77" below="0" x="y":    
+                  p
+                    span: tähti
+                    span: tuikkia
+                    span: tuike
+                    span: vilkkua
+                    span: tähtönen
+                    span: kuuton
+                    span: pilkkiä
+                  p
+                    span: taivas
+                    span: pilvetön
+                    span: sini
+                    span: pilvinen
+                    span: selkeä
+                    span: kaareutua
+                    span: seestyä
+                    span: revontulet
+                    span: seljetä
+                    span: kaartua
+                    span: manna
+                    span: kaarrella
+                    span: vahvuus
+                    span: tähdetön
+                    span: tummua
+                    span: alpi
+            node id="n78" lev="5" c="2" par="n73" y="78" below="10" x="y":    
+              node id="n84" lev="6" c="2" par="n78" y="84" below="4" x="y":    
+                node id="n85" lev="7" c="0" par="n84" y="85" below="0" x="y":    
+                  p
+                    span: sääty
+                    span: aateli
+                  p
+                    span: ylhäinen
+                    span: alhainen
+                    span: kasti
+                    span: lama
+                    span: mandariini
+                node id="n86" lev="7" c="1" par="n84" y="86" below="2" x="y":    
+                  p
+                    span: johto
+                    span: mansi
+                  node id="n87" lev="8" c="1" par="n86" y="87" below="1" x="y":    
+                    p
+                      span: poski
+                      span: puna
+                      span: heleä
+                      span: punoa
+                      span: mälli
+                      span: häpeä
+                      span: rusottaa
+                      span: lennähtää
+                      span: ruusuinen
+                      span: punertaa
+                      span: purppuroida
+                      span: hiukkanen
+                      span: hehkeä
+                    node id="n88" lev="9" c="0" par="n87" y="88" below="0" x="y":    
+                      p
+                        span: leipä
+                        span: syödä
+                        span: leipoa
+                        span: juusto
+                        span: liha
+                        span: pala
+                        span: jokapäiväinen
+                        span: päivällinen
+                        span: makea
+                        span: haukata
+                        span: peruna
+                        span: silakka
+                        span: muru
+                        span: paisti
+                        span: kakku
+                        span: makkara
+                        span: piimä
+                        span: kannikka
+                        span: piirakka
+                        span: karvas
+                        span: hapan
+                        span: annos
+                        span: ansas
+                        span: rasva
+                        span: ravita
+                        span: kylläinen
+                        span: kuoria
+                        span: homehtua
+                        span: murkina
+                        span: kaali
+                        span: raaka
+                        span: rokka
+                        span: paistua
+                        span: ahneesti
+                        span: murentaa
+                        span: syöpä
+                        span: torttu
+                        span: rieska
+                        span: murunen
+                        span: saanti
+                        span: kulho
+                        span: limppu
+                        span: home
+                        span: rusina
+                        span: rinkeli
+                        span: kovis
+                        span: juurikas
+                        span: leivonta
+                        span: virna
+                      p
+                        span: kahvi
+                        span: keittää
+                        span: kuppi
+                        span: tee
+                        span: sokeri
+                        span: puuro
+                        span: tarjota
+                        span: pannu
+                        span: liemi
+                        span: soppa
+                        span: velli
+                        span: höyrytä
+                        span: likööri
+                        span: juonti
+                        span: papu
+                        span: tarjoilla
+                        span: riisi
+                        span: kera
+                        span: pulla
+                        span: keitos
+                        span: toppa
+              node id="n79" lev="6" c="1" par="n78" y="79" below="4" x="y":    
+                p
+                  span: sallia
+                  span: pappa
+                node id="n80" lev="7" c="2" par="n79" y="80" below="3" x="y":    
+                  node id="n81" lev="8" c="0" par="n80" y="81" below="0" x="y":    
+                    p
+                      span: hämmästys
+                      span: tointua
+                      span: toipua
+                      span: ehtiä
+                      span: pian
+                      span: mykistyä
+                      span: kuitenkin
+                      span: siksi
+                    p
+                      span: vähitellen
+                      span: tyyntyä
+                      span: muuttua
+                      span: rauhoittua
+                      span: vaimeta
+                      span: vilkastua
+                      span: rupi
+                  node id="n82" lev="8" c="1" par="n80" y="82" below="1" x="y":    
+                    p
+                      span: itäinen
+                      span: läntinen
+                      span: raja
+                      span: kristikunta
+                      span: parsi
+                    node id="n83" lev="9" c="0" par="n82" y="83" below="0" x="y":    
+                      p
+                        span: ratsu
+                        span: kannustaa
+                        span: ratsastaja
+                        span: raisu
+                        span: varsoa
+                      p
+                        span: selkä
+                        span: hypätä
+                        span: satula
+                        span: reppu
+                        span: kontti
+                        span: aasi
+                        span: muuli
+                        span: laukku
+                        span: kameli
+                        span: loimi
+                        span: kimo
+                        span: köyry
+                        span: orhi
+                        span: raippa
+                        span: kyttyrä
+                        span: tahmea
+          node id="n50" lev="4" c="2" par="n49" y="50" below="22" x="y":    
+            node id="n63" lev="5" c="2" par="n50" y="63" below="9" x="y":    
+              node id="n64" lev="6" c="2" par="n63" y="64" below="2" x="y":    
+                node id="n66" lev="7" c="0" par="n64" y="66" below="0" x="y":    
+                  p
+                    span: virka
+                    span: toimittaa
+                    span: professori
+                    span: tulkki
+                    span: kelvoton
+                    span: tolvana
+                  p
+                    span: suorittaa
+                    span: tutkinto
+                    span: tehtävä
+                    span: maksu
+                    span: veikata
+                node id="n65" lev="7" c="0" par="n64" y="65" below="0" x="y":    
+                  p
+                    span: syntinen
+                    span: vaivainen
+                    span: katuvainen
+                    span: armahtaa
+                    span: autuas
+                    span: rampa
+                    span: fariseus
+                  p
+                    span: sielu
+                    span: autuus
+                    span: kuolematon
+                    span: ruuma
+                    span: kuolemattomuus
+                    span: janota
+                    span: isota
+                    span: proletaari
+              node id="n67" lev="6" c="2" par="n63" y="67" below="5" x="y":    
+                node id="n68" lev="7" c="1" par="n67" y="68" below="1" x="y":    
+                  p
+                    span: harjoittaa
+                    span: ammatti
+                    span: julmuus
+                    span: ilkeys
+                  node id="n69" lev="8" c="0" par="n68" y="69" below="0" x="y":    
+                    p
+                      span: lakki
+                      span: koura
+                      span: siepata
+                      span: keppi
+                      span: rautainen
+                      span: pudottaa
+                      span: kovilla
+                      span: puuhka
+                      span: kiskuri
+                    p
+                      span: hattu
+                      span: hansikas
+                      span: töyhtö
+                      span: myssy
+                      span: lieri
+                      span: siippa
+                node id="n70" lev="7" c="2" par="n67" y="70" below="2" x="y":    
+                  node id="n72" lev="8" c="0" par="n70" y="72" below="0" x="y":    
+                    p
+                      span: tiheä
+                      span: metsä
+                      span: viidakko
+                      span: pensaikko
+                      span: metsikkö
+                      span: riista
+                      span: samoilla
+                      span: kuusikko
+                      span: väki
+                      span: pimento
+                      span: metsästää
+                      span: risukko
+                      span: lymyillä
+                      span: riisto
+                    p
+                      span: läpi
+                      span: ristikko
+                      span: tungos
+                  node id="n71" lev="8" c="0" par="n70" y="71" below="0" x="y":    
+                    p
+                      span: taaksepäin
+                      span: äkkiä
+                      span: taivuttaa
+                      span: peräytyä
+                      span: säpsähtää
+                      span: hätkähtää
+                      span: pelästyä
+                      span: kiljaista
+                    p
+                      span: työntää
+                      span: syrjään
+                      span: luodata
+                      span: sysätä
+                      span: torjua
+                      span: väistyä
+                      span: vetäytyä
+                      span: siirtää
+                      span: lykätä
+                      span: viskata
+                      span: siirtyä
+                      span: salva
+                      span: karkottaa
+                      span: tela
+                      span: putki
+            node id="n51" lev="5" c="2" par="n50" y="51" below="11" x="y":    
+              node id="n52" lev="6" c="2" par="n51" y="52" below="3" x="y":    
+                node id="n53" lev="7" c="0" par="n52" y="53" below="0" x="y":    
+                  p
+                    span: side
+                    span: sitoa
+                    span: katkaista
+                    span: katketa
+                    span: köysi
+                    span: kahle
+                    span: lanka
+                    span: nuora
+                    span: yhdistää
+                    span: solmu
+                    span: katkoa
+                    span: haapa
+                    span: vahva
+                    span: väliltä
+                    span: hihna
+                    span: nilkka
+                    span: säie
+                    span: irtautua
+                    span: kahlehtia
+                    span: hellitä
+                    span: katko
+                    span: kahlita
+                  p
+                    span: kaula
+                    span: kietoa
+                    span: silmukka
+                    span: kurkottaa
+                    span: hanko
+                    span: liperi
+                    span: kaarevuus
+                node id="n54" lev="7" c="1" par="n52" y="54" below="1" x="y":    
+                  p
+                    span: luo
+                    span: amme
+                    span: hertta
+                  node id="n55" lev="8" c="0" par="n54" y="55" below="0" x="y":    
+                    p
+                      span: kuuluisa
+                      span: laajalti
+                      span: sittemmin
+                      span: tietäjä
+                      span: kaunotar
+                    p
+                      span: etevä
+                      span: kirjailija
+                      span: taiteilija
+                      span: runoilija
+                      span: tunnettu
+                      span: roomalainen
+                      span: kreikkalainen
+                      span: edustaja
+                      span: nerokas
+                      span: puhuja
+                      span: tutkija
+                      span: suosittu
+                      span: nero
+                      span: kriitikko
+              node id="n56" lev="6" c="2" par="n51" y="56" below="6" x="y":    
+                node id="n57" lev="7" c="0" par="n56" y="57" below="0" x="y":    
+                  p
+                    span: uuni
+                    span: sauna
+                    span: lämmittää
+                    span: lämmitä
+                    span: nurkka
+                    span: tupa
+                    span: lämmitellä
+                    span: nokinen
+                    span: karsina
+                    span: sirkka
+                    span: ukko
+                    span: mummo
+                    span: lämpöinen
+                    span: arina
+                    span: matara
+                    span: kylvettää
+                    span: pano
+                  p
+                    span: kiehua
+                    span: pata
+                    span: kattila
+                    span: porista
+                    span: liesi
+                    span: keitto
+                    span: höyry
+                    span: kihistä
+                    span: kauha
+                    span: paukutella
+                    span: kieliä
+                    span: sanka
+                node id="n58" lev="7" c="2" par="n56" y="58" below="4" x="y":    
+                  node id="n59" lev="8" c="0" par="n58" y="59" below="0" x="y":    
+                    p
+                      span: piru
+                      span: helvetti
+                      span: riivata
+                      span: merta
+                      span: eeden
+                      span: hukuttaa
+                      span: kirottu
+                    p
+                      span: perkele
+                      span: enkeli
+                      span: haamu
+                      span: kiusata
+                      span: hahmo
+                      span: kate
+                      span: piinata
+                      span: riivattu
+                  node id="n60" lev="8" c="2" par="n58" y="60" below="2" x="y":    
+                    node id="n62" lev="9" c="0" par="n60" y="62" below="0" x="y":    
+                      p
+                        span: rengas
+                        span: ketju
+                      p
+                        span: kultainen
+                        span: hopeinen
+                        span: hopeainen
+                        span: koristus
+                        span: koriste
+                    node id="n61" lev="9" c="0" par="n60" y="61" below="0" x="y":    
+                      p
+                        span: puro
+                        span: solista
+                        span: pulputtaa
+                      p
+                        span: joki
+                        span: äyräs
+                        span: uoma
+                        span: varsi
+                        span: silta
+                        span: tulvia
+                        span: juoksu
+                        span: kovera
+                        span: kuivilla
+        node id="n3" lev="3" c="2" par="n2" y="3" below="45" x="y":    
+          node id="n27" lev="4" c="2" par="n3" y="27" below="21" x="y":    
+            node id="n28" lev="5" c="2" par="n27" y="28" below="6" x="y":    
+              node id="n29" lev="6" c="0" par="n28" y="29" below="0" x="y":    
+                p
+                  span: kulma
+                  span: rypistää
+                p
+                  span: kääntyä
+                  span: poispäin
+                  span: äännähtää
+                  span: kulkuri
+              node id="n30" lev="6" c="1" par="n28" y="30" below="4" x="y":    
+                p
+                  span: tarkastaa
+                  span: kiikari
+                node id="n31" lev="7" c="1" par="n30" y="31" below="3" x="y":    
+                  p
+                    span: ottaa
+                    span: naukku
+                    span: lahjus
+                    span: mistä
+                    span: kasvatti
+                    span: kasari
+                    span: huoltaa
+                    span: pottu
+                    span: kuppila
+                  node id="n32" lev="8" c="2" par="n31" y="32" below="2" x="y":    
+                    node id="n34" lev="9" c="0" par="n32" y="34" below="0" x="y":    
+                      p
+                        span: valta
+                        span: antautua
+                        span: lumous
+                        span: herruus
+                        span: pakanuus
+                        span: kuninkuus
+                      p
+                        span: maallinen
+                        span: hengellinen
+                        span: jäännös
+                        span: kirkollinen
+                        span: paratiisi
+                        span: vaellus
+                        span: mahtavuus
+                        span: turhuus
+                        span: mahti
+                        span: papisto
+                    node id="n33" lev="9" c="0" par="n32" y="33" below="0" x="y":    
+                      p
+                        span: purskahtaa
+                        span: itku
+                        span: nauru
+                        span: kurkku
+                        span: puhjeta
+                        span: äänekäs
+                        span: hillitön
+                        span: katkera
+                        span: nyyhkytys
+                        span: valitus
+                        span: kuristaa
+                        span: sukia
+                        span: hillitä
+                        span: tukahduttaa
+                        span: raju
+                        span: kaikuva
+                        span: parku
+                        span: helähtää
+                        span: kajahdella
+                        span: hillitty
+                      p
+                        span: kuulua
+                        span: huuto
+                        span: kaukaa
+                        span: kumea
+                        span: läheltä
+                        span: kolina
+                        span: jyske
+                        span: kaiku
+                        span: astunta
+                        span: rähinä
+                        span: kumu
+                        span: humu
+                        span: karjunta
+                        span: jyry
+                        span: lahko
+                        span: kohu
+                        span: jymy
+                        span: kumina
+                        span: huikea
+                        span: lakkaamaton
+                        span: häly
+                        span: kusi
+                        span: roiske
+            node id="n35" lev="5" c="2" par="n27" y="35" below="13" x="y":    
+              node id="n36" lev="6" c="2" par="n35" y="36" below="4" x="y":    
+                node id="n37" lev="7" c="0" par="n36" y="37" below="0" x="y":    
+                  p
+                    span: aita
+                    span: seiväs
+                  p
+                    span: yli
+                    span: reuna
+                    span: oja
+                    span: loikata
+                    span: syvänne
+                    span: rahka
+                node id="n38" lev="7" c="1" par="n36" y="38" below="2" x="y":    
+                  p
+                    span: pohja
+                    span: perin
+                    span: turmeltua
+                    span: tukeva
+                    span: kaivos
+                    span: typerä
+                    span: itsekkyys
+                  node id="n39" lev="8" c="1" par="n38" y="39" below="1" x="y":    
+                    p
+                      span: luoti
+                      span: lävistää
+                      span: kuula
+                      span: vinkua
+                      span: ruuti
+                      span: kaatua
+                      span: suhahtaa
+                      span: vingahtaa
+                    node id="n40" lev="9" c="0" par="n39" y="40" below="0" x="y":    
+                      p
+                        span: häät
+                        span: häkä
+                        span: juhla
+                        span: joulu
+                        span: sulhanen
+                        span: morsian
+                        span: uneton
+                        span: hauskasti
+                        span: juhannus
+                        span: pääsiäinen
+                        span: sulho
+                        span: helluntai
+                        span: joutilas
+                        span: juomingit
+                      p
+                        span: viettää
+                        span: kutsua
+                        span: pidetä
+                        span: tänään
+                        span: valmistella
+                        span: vietto
+                        span: ennen
+              node id="n41" lev="6" c="2" par="n35" y="41" below="7" x="y":    
+                node id="n42" lev="7" c="2" par="n41" y="42" below="2" x="y":    
+                  node id="n44" lev="8" c="0" par="n42" y="44" below="0" x="y":    
+                    p
+                      span: kokonainen
+                      span: sarja
+                      span: liuta
+                      span: pino
+                    p
+                      span: lauma
+                      span: lukematon
+                  node id="n43" lev="8" c="0" par="n42" y="43" below="0" x="y":    
+                    p
+                      span: kynä
+                      span: muste
+                      span: kastaa
+                      span: teroittaa
+                    p
+                      span: paperi
+                      span: arkki
+                      span: salkku
+                      span: järjestellä
+                      span: penkoa
+                      span: rutistaa
+                      span: kanslia
+                node id="n45" lev="7" c="2" par="n41" y="45" below="3" x="y":    
+                  node id="n46" lev="8" c="0" par="n45" y="46" below="0" x="y":    
+                    p
+                      span: määrä
+                      span: lisääntyä
+                      span: vähetä
+                      span: ylen
+                      span: mieliä
+                      span: suunnaton
+                      span: vähentää
+                      span: pikemmin
+                      span: laajentua
+                    p
+                      span: yhä
+                      span: edelleen
+                      span: kauemmas
+                      span: enemmän
+                      span: jatkua
+                      span: enetä
+                      span: karttua
+                      span: laajeta
+                      span: uudistua
+                      span: vieraantua
+                      span: lähennellä
+                      span: tummentua
+                      span: suurentaa
+                      span: kuutonen
+                  node id="n47" lev="8" c="1" par="n45" y="47" below="1" x="y":    
+                    p
+                      span: hyvin
+                      span: varsin
+                      span: halukas
+                      span: työläs
+                      span: maalainen
+                      span: liikkuva
+                    node id="n48" lev="9" c="0" par="n47" y="48" below="0" x="y":    
+                      p
+                        span: ruumis
+                        span: väristys
+                        span: hengetön
+                        span: runnella
+                        span: täristä
+                        span: käydä
+                        span: värisyttää
+                        span: raihnainen
+                        span: paise
+                        span: raihnas
+                        span: horkka
+                        span: nukkainen
+                        span: kivuton
+                      p
+                        span: kylmä
+                        span: väre
+                        span: kääre
+                        span: kylpy
+                        span: valella
+                        span: kankea
+                        span: tunteeton
+                        span: kuvailla
+                        span: kalsea
+                        span: etikka
+                        span: jäädyttää
+                        span: peso
+          node id="n4" lev="4" c="2" par="n3" y="4" below="22" x="y":    
+            node id="n17" lev="5" c="2" par="n4" y="17" below="9" x="y":    
+              node id="n18" lev="6" c="2" par="n17" y="18" below="3" x="y":    
+                node id="n19" lev="7" c="0" par="n18" y="19" below="0" x="y":    
+                  p
+                    span: kuvata
+                    span: runollinen
+                    span: vertaus
+                  p
+                    span: luonne
+                    span: lujuus
+                    span: tarmokas
+                    span: taipumaton
+                    span: sellainen
+                    span: huikennella
+                node id="n20" lev="7" c="1" par="n18" y="20" below="1" x="y":    
+                  p
+                    span: voitto
+                    span: juhlia
+                    span: ahnehtia
+                    span: valittaja
+                  node id="n21" lev="8" c="0" par="n20" y="21" below="0" x="y":    
+                    p
+                      span: huone
+                      span: siivota
+                      span: siistiä
+                    p
+                      span: pestä
+                      span: astia
+                      span: puhdas
+                      span: pyykki
+                      span: pesiä
+                      span: lakaista
+                      span: tahra
+                      span: puhdistaa
+                      span: pesu
+                      span: saippua
+                      span: hangata
+                      span: luuta
+                      span: pytty
+                      span: saasta
+                      span: pulmunen
+                      span: kuurata
+                      span: pesijä
+              node id="n22" lev="6" c="2" par="n17" y="22" below="4" x="y":    
+                node id="n23" lev="7" c="0" par="n22" y="23" below="0" x="y":    
+                  p
+                    span: huono
+                    span: menestys
+                    span: sää
+                  p
+                    span: paha
+                    span: pula
+                    span: enne
+                    span: onneksi
+                    span: auttaa
+                    span: villitys
+                    span: löyhkätä
+                    span: pinne
+                    span: sikiö
+                    span: suova
+                    span: yllytys
+                node id="n24" lev="7" c="2" par="n22" y="24" below="2" x="y":    
+                  node id="n26" lev="8" c="0" par="n24" y="26" below="0" x="y":    
+                    p
+                      span: kokemus
+                      span: perustua
+                      span: moninainen
+                    p
+                      span: väärä
+                      span: käsitys
+                      span: luulo
+                      span: profeetta
+                      span: passi
+                      span: eksyttää
+                  node id="n25" lev="8" c="0" par="n24" y="25" below="0" x="y":    
+                    p
+                      span: kohota
+                      span: korkealle
+                      span: kohottaa
+                      span: korkea
+                      span: ylemmäs
+                      span: murentua
+                    p
+                      span: huippu
+                      span: luminen
+                      span: alppi
+            node id="n5" lev="5" c="2" par="n4" y="5" below="11" x="y":    
+              node id="n12" lev="6" c="2" par="n5" y="12" below="4" x="y":    
+                node id="n15" lev="7" c="1" par="n12" y="15" below="1" x="y":    
+                  p
+                    span: etu
+                    span: valvoa
+                    span: yhteinen
+                    span: oma
+                    span: itsekäs
+                  node id="n16" lev="8" c="0" par="n15" y="16" below="0" x="y":    
+                    p
+                      span: päästää
+                      span: julkisuus
+                    p
+                      span: irti
+                      span: kiskoa
+                      span: riuhtoa
+                      span: kiskaista
+                      span: päästä
+                      span: riistää
+                      span: tempaista
+                      span: tuohi
+                      span: nyhtää
+                node id="n13" lev="7" c="1" par="n12" y="13" below="1" x="y":    
+                  p
+                    span: vuoksi
+                    span: näkö
+                    span: varmuus
+                    span: sen
+                    span: luode
+                    span: kuulo
+                    span: vaihde
+                    span: lyhyys
+                    span: sokki
+                  node id="n14" lev="8" c="0" par="n13" y="14" below="0" x="y":    
+                    p
+                      span: esittää
+                      span: yleisö
+                      span: laulajatar
+                      span: piirros
+                      span: lemmikki
+                    p
+                      span: teatteri
+                      span: ruotsalainen
+                      span: näyttämö
+                      span: näyttelijä
+                      span: johtaja
+              node id="n6" lev="6" c="2" par="n5" y="6" below="5" x="y":    
+                node id="n7" lev="7" c="1" par="n6" y="7" below="1" x="y":    
+                  p
+                    span: voittaa
+                    span: kilpailija
+                    span: velttous
+                  node id="n8" lev="8" c="0" par="n7" y="8" below="0" x="y":    
+                    p
+                      span: raivo
+                      span: hurja
+                      span: sokea
+                      span: mieletön
+                      span: kiihtyä
+                      span: kiihko
+                      span: karjua
+                      span: pako
+                      span: ärsyttää
+                      span: uskalikko
+                      span: kimma
+                    p
+                      span: viha
+                      span: vimma
+                      span: leppymätön
+                      span: katkeruus
+                      span: kiihdyttää
+                      span: raivoisa
+                      span: kähistä
+                      span: raivokas
+                      span: kiivaus
+                      span: uhma
+                      span: puhista
+                      span: häijyys
+                      span: intoilla
+                node id="n9" lev="7" c="2" par="n6" y="9" below="2" x="y":    
+                  node id="n11" lev="8" c="0" par="n9" y="11" below="0" x="y":    
+                    p
+                      span: ulottua
+                      span: kauas
+                      span: pitkälle
+                      span: piisata
+                      span: etäälle
+                    p
+                      span: pitkä
+                      span: jono
+                      span: venyä
+                      span: loppumaton
+                      span: ripsi
+                      span: venyttää
+                      span: koipi
+                      span: venähtää
+                      span: loputon
+                      span: lyhentää
+                      span: lonkero
+                      span: alpakka
+                  node id="n10" lev="8" c="0" par="n9" y="10" below="0" x="y":    
+                    p
+                      span: elo
+                      span: virota
+                      span: herätä
+                      span: elpyä
+                      span: jälleen
+                      span: uudestaan
+                      span: uusi
+                      span: virkistyä
+                      span: uudelleen
+                      span: elvyttää
+                      span: mainen
+                      span: taas
+                      span: vilkkaus
+                    p
+                      span: liike
+                      span: vilkas
+                      span: hyörinä
+                      span: eloisa
+                      span: tavaton
+                      span: virkeä
+                      span: nopsa
+                      span: vikkelä
+                      span: vireä
+                      span: ketterä
+                      span: ripeys
+    node id="n173" lev="1" c="2" par="root" y="173" below="260" x="y":    
+      node id="n174" lev="2" c="2" par="n173" y="174" below="99" x="y":    
+        node id="n175" lev="3" c="2" par="n174" y="175" below="41" x="y":    
+          node id="n176" lev="4" c="2" par="n175" y="176" below="18" x="y":    
+            node id="n177" lev="5" c="2" par="n176" y="177" below="3" x="y":    
+              node id="n178" lev="6" c="0" par="n177" y="178" below="0" x="y":    
+                p
+                  span: väri
+                  span: vaihdella
+                  span: vaihtua
+                  span: räikeä
+                  span: pensseli
+                  span: liima
+                p
+                  span: tumma
+                  span: iho
+                  span: varjo
+                  span: pilkku
+                  span: tausta
+                  span: juova
+                  span: häämöttää
+                  span: sypressi
+              node id="n179" lev="6" c="1" par="n177" y="179" below="1" x="y":    
+                p
+                  span: terveys
+                  span: turmella
+                  span: uhkua
+                  span: murtua
+                node id="n180" lev="7" c="0" par="n179" y="180" below="0" x="y":    
+                  p
+                    span: pidellä
+                    span: ohjas
+                    span: hepo
+                    span: käsin
+                    span: räpätä
+                    span: tassu
+                  p
+                    span: taluttaa
+                    span: suitset
+                    span: ohja
+            node id="n181" lev="5" c="2" par="n176" y="181" below="13" x="y":    
+              node id="n182" lev="6" c="0" par="n181" y="182" below="0" x="y":    
+                p
+                  span: ratkoa
+                  span: sauma
+                p
+                  span: räätäli
+                  span: suutari
+              node id="n183" lev="6" c="2" par="n181" y="183" below="11" x="y":    
+                node id="n184" lev="7" c="1" par="n183" y="184" below="1" x="y":    
+                  p
+                    span: suo
+                    span: vetelä
+                    span: räme
+                    span: karpalo
+                    span: kurki
+                    span: ojittaa
+                    span: sammakko
+                  node id="n185" lev="8" c="0" par="n184" y="185" below="0" x="y":    
+                    p
+                      span: merkitä
+                      span: muisti
+                      span: lista
+                      span: almanakka
+                      span: oikeastaan
+                    p
+                      span: piirtää
+                      span: kirjain
+                      span: nimi
+                      span: viiva
+                      span: kartta
+                      span: taulu
+                      span: numero
+                      span: suura
+                      span: koukero
+                      span: luetella
+                      span: piiru
+                      span: laatta
+                node id="n186" lev="7" c="2" par="n183" y="186" below="8" x="y":    
+                  node id="n187" lev="8" c="2" par="n186" y="187" below="2" x="y":    
+                    node id="n189" lev="9" c="0" par="n187" y="189" below="0" x="y":    
+                      p
+                        span: lähde
+                        span: pulputa
+                        span: ammentaa
+                        span: kaivo
+                        span: kummuta
+                        span: ehtyä
+                        span: vintti
+                        span: keidas
+                        span: kauhoa
+                      p
+                        span: vesi
+                        span: pinna
+                        span: kellua
+                        span: kalvo
+                        span: tyyni
+                        span: suolainen
+                        span: väljä
+                        span: sanko
+                        span: ämpäri
+                        span: kupla
+                        span: lammikko
+                        span: samea
+                        span: loiskahtaa
+                        span: mutainen
+                        span: juokseva
+                        span: roiskua
+                        span: tyven
+                        span: uiva
+                        span: roiskia
+                        span: räiskyttää
+                        span: allas
+                        span: lätäkkö
+                        span: latkia
+                        span: syöjätär
+                        span: loiskuttaa
+                        span: vetreä
+                        span: pärske
+                        span: punkka
+                    node id="n188" lev="9" c="0" par="n187" y="188" below="0" x="y":    
+                      p
+                        span: soittaa
+                        span: sävel
+                        span: huilu
+                        span: harppu
+                        span: soittaja
+                        span: marssi
+                        span: kitara
+                        span: musiikki
+                        span: sointu
+                        span: sävelmä
+                        span: pelimanni
+                        span: helähdellä
+                        span: lyyra
+                        span: näpätä
+                        span: liila
+                        span: rumpali
+                      p
+                        span: torvi
+                        span: rumpu
+                        span: toitotus
+                        span: toitottaa
+                        span: soida
+                        span: päristä
+                        span: ääni
+                        span: raikua
+                        span: pasuuna
+                  node id="n190" lev="8" c="1" par="n186" y="190" below="4" x="y":    
+                    p
+                      span: sisältää
+                      span: paitsi
+                      span: joka
+                    node id="n191" lev="9" c="1" par="n190" y="191" below="3" x="y":    
+                      p
+                        span: syytös
+                        span: perätön
+                        span: moinen
+                        span: parjaus
+                      node id="n192" lev="10" c="2" par="n191" y="192" below="2" x="y":    
+                        node id="n194" lev="11" c="0" par="n192" y="194" below="0" x="y":    
+                          p
+                            span: hetkinen
+                            span: vaiti
+                            span: ääneti
+                            span: epäröidä
+                            span: levähtää
+                            span: vaieta
+                            span: perä
+                            span: sitten
+                            span: lausahtaa
+                          p
+                            span: seisoa
+                            span: tuijottaa
+                            span: liikkumaton
+                            span: istua
+                            span: paikallaan
+                            span: kivettyä
+                            span: tylsä
+                            span: äänetönnä
+                            span: vastatusten
+                            span: liikahtaa
+                            span: äänetön
+                            span: mykkä
+                            span: vastakkain
+                            span: synkästi
+                            span: neuvoton
+                            span: rahi
+                            span: allapäin
+                            span: eloton
+                            span: seistä
+                            span: avopäin
+                            span: lähinnä
+                            span: rinnatusten
+                            span: yksinään
+                            span: donna
+                            span: älytön
+                            span: äkeä
+                            span: kyykky
+                            span: mitätöntää
+                            span: vankkumatta
+                        node id="n193" lev="11" c="0" par="n192" y="193" below="0" x="y":    
+                          p
+                            span: portti
+                            span: avata
+                            span: sulkea
+                            span: luukku
+                            span: pieli
+                            span: käärö
+                            span: rasia
+                            span: kotelo
+                            span: lipas
+                            span: akku
+                            span: lippa
+                            span: sorauttaa
+                          p
+                            span: ovi
+                            span: koputtaa
+                            span: auki
+                            span: aueta
+                            span: raollaan
+                            span: aukaista
+                            span: porstua
+                            span: sulkeutua
+                            span: kamari
+                            span: ripa
+                            span: teljetä
+                            span: sarana
+                            span: salvata
+                            span: takimmainen
+                            span: kamana
+                            span: nakuttaa
+                            span: kolistella
+          node id="n195" lev="4" c="2" par="n175" y="195" below="21" x="y":    
+            node id="n196" lev="5" c="2" par="n195" y="196" below="9" x="y":    
+              node id="n202" lev="6" c="2" par="n196" y="202" below="3" x="y":    
+                node id="n203" lev="7" c="0" par="n202" y="203" below="0" x="y":    
+                  p
+                    span: katsoa
+                    span: terävästi
+                    span: karsaasti
+                    span: pitkään
+                    span: kiero
+                    span: kummaksua
+                    span: raksi
+                  p
+                    span: ympärille
+                    span: kokoontua
+                    span: kiertyä
+                    span: katsella
+                    span: silmäillä
+                    span: kertyä
+                    span: kummastella
+                    span: utelias
+                    span: ihmeissään
+                    span: tarkastella
+                    span: hosua
+                    span: sijoittua
+                node id="n204" lev="7" c="1" par="n202" y="204" below="1" x="y":    
+                  p
+                    span: koskea
+                    span: kipeästi
+                    span: kaivata
+                    span: kipeä
+                    span: varsinkin
+                  node id="n205" lev="8" c="0" par="n204" y="205" below="0" x="y":    
+                    p
+                      span: venäläinen
+                      span: rakuuna
+                      span: aito
+                      span: joukko
+                      span: krenatööri
+                      span: samainen
+                      span: juutti
+                    p
+                      span: rykmentti
+                      span: upseeri
+                      span: päällikkö
+                      span: komppania
+                      span: komentaa
+                      span: eversti
+                      span: marssia
+                      span: kaarti
+                      span: kenraali
+                      span: luutnantti
+                      span: sotilas
+                      span: kapteeni
+                      span: rintama
+                      span: majuri
+                      span: majailla
+                      span: korpraali
+                      span: komento
+                      span: adjutantti
+              node id="n197" lev="6" c="2" par="n196" y="197" below="4" x="y":    
+                node id="n200" lev="7" c="1" par="n197" y="200" below="1" x="y":    
+                  p
+                    span: esiin
+                    span: sukeltaa
+                    span: ryömiä
+                    span: syöksähtää
+                    span: loitsia
+                  node id="n201" lev="8" c="0" par="n200" y="201" below="0" x="y":    
+                    p
+                      span: lapsi
+                      span: imettää
+                      span: lastenlapsi
+                      span: kasvattaa
+                      span: isätön
+                      span: elättää
+                      span: hemmotella
+                      span: imettäjä
+                      span: lelu
+                      span: lapsenlapsi
+                      span: totuttaa
+                      span: synnyttää
+                      span: syntymätön
+                      span: siittää
+                      span: kaltoin
+                      span: ruokki
+                    p
+                      span: suudella
+                      span: syleillä
+                      span: hellästi
+                      span: hyväillä
+                      span: kumartua
+                      span: kiihkeästi
+                      span: äiti
+                      span: halailla
+                      span: lasta
+                      span: halata
+                      span: vaimo
+                      span: lemmitty
+                      span: vanhus
+                      span: isoäiti
+                node id="n198" lev="7" c="1" par="n197" y="198" below="1" x="y":    
+                  p
+                    span: ajaa
+                    span: takaa
+                    span: otus
+                    span: karkuri
+                    span: kievari
+                    span: suhauttaa
+                  node id="n199" lev="8" c="0" par="n198" y="199" below="0" x="y":    
+                    p
+                      span: päässä
+                      span: kyynärä
+                      span: pituinen
+                      span: virsta
+                      span: noin
+                      span: maili
+                      span: matka
+                      span: kolme
+                      span: pari
+                      span: neljä
+                      span: kortteli
+                      span: pituus
+                      span: puoli
+                      span: kaksi
+                      span: vaja
+                      span: kylä
+                      span: jalan
+                      span: vaaksa
+                      span: kauppala
+                      span: tolppa
+                      span: kolmannes
+                      span: punkki
+                    p
+                      span: kello
+                      span: yhdeksän
+                      span: kahdeksan
+                      span: seitsemän
+                      span: tienoo
+                      span: neljännes
+                      span: vailla
+                      span: lyönti
+                      span: ajoissa
+                      span: kilahtaa
+                      span: kumista
+                      span: kumahtaa
+                      span: raksuttaa
+                      span: kalahtaa
+                      span: helistää
+                      span: kumi
+                      span: veljes
+                      span: yhtenään
+                      span: valaja
+            node id="n206" lev="5" c="2" par="n195" y="206" below="10" x="y":    
+              node id="n207" lev="6" c="0" par="n206" y="207" below="0" x="y":    
+                p
+                  span: neula
+                  span: pistellä
+                  span: rihma
+                  span: pujottaa
+                  span: ommel
+                p
+                  span: lusikka
+                  span: läikyttää
+              node id="n208" lev="6" c="2" par="n206" y="208" below="8" x="y":    
+                node id="n209" lev="7" c="2" par="n208" y="209" below="2" x="y":    
+                  node id="n211" lev="8" c="0" par="n209" y="211" below="0" x="y":    
+                    p
+                      span: kissa
+                      span: hiiri
+                      span: rotta
+                      span: naukua
+                      span: leijona
+                      span: katti
+                    p
+                      span: hiipiä
+                      span: hiljaa
+                      span: varovasti
+                      span: salaa
+                      span: kuiskailla
+                      span: lähelle
+                      span: varkain
+                      span: aave
+                      span: salaisesti
+                      span: kaulata
+                      span: mirri
+                      span: hipsutella
+                  node id="n210" lev="8" c="0" par="n209" y="210" below="0" x="y":    
+                    p
+                      span: vara
+                      span: tuhlata
+                      span: koota
+                      span: kerätä
+                      span: melkoinen
+                      span: kasa
+                      span: vastainen
+                      span: kannattaa
+                      span: kuluttaa
+                      span: läjä
+                      span: valikoida
+                    p
+                      span: kuiva
+                      span: risu
+                      span: kulo
+                      span: pilke
+                      span: proosa
+                      span: poltin
+                node id="n212" lev="7" c="2" par="n208" y="212" below="4" x="y":    
+                  node id="n216" lev="8" c="0" par="n212" y="216" below="0" x="y":    
+                    p
+                      span: suuruus
+                      span: pienuus
+                    p
+                      span: mitta
+                      span: mitata
+                      span: yksi
+                  node id="n213" lev="8" c="1" par="n212" y="213" below="2" x="y":    
+                    p
+                      span: asettua
+                      span: kanna
+                      span: parempi
+                      span: ruisku
+                    node id="n214" lev="9" c="1" par="n213" y="214" below="1" x="y":    
+                      p
+                        span: katsahtaa
+                        span: taka
+                        span: vilkaista
+                        span: sivu
+                        span: ruhtinatar
+                        span: nostin
+                        span: taantuma
+                      node id="n215" lev="10" c="0" par="n214" y="215" below="0" x="y":    
+                        p
+                          span: vilkkaasti
+                          span: keskustella
+                          span: puhella
+                          span: innokkaasti
+                          span: jutella
+                        p
+                          span: kanssa
+                          span: seurustella
+                          span: kilpailla
+                          span: neuvotella
+                          span: leikitellä
+                          span: otella
+                          span: yhdessä
+                          span: väitellä
+                          span: riidellä
+                          span: kosketus
+                          span: kiistellä
+                          span: telmiä
+                          span: tarinoida
+                          span: puhelin
+                          span: ilveillä
+                          span: puuhailla
+                          span: valssata
+                          span: nulkki
+                          span: rinnastaa
+        node id="n217" lev="3" c="2" par="n174" y="217" below="56" x="y":    
+          node id="n218" lev="4" c="2" par="n217" y="218" below="18" x="y":    
+            node id="n219" lev="5" c="2" par="n218" y="219" below="7" x="y":    
+              node id="n225" lev="6" c="1" par="n219" y="225" below="1" x="y":    
+                p
+                  span: kompa
+                  span: uurna
+                node id="n226" lev="7" c="0" par="n225" y="226" below="0" x="y":    
+                  p
+                    span: pussi
+                    span: pilli
+                    span: käämiä
+                  p
+                    span: täyttää
+                    span: velvollisuus
+                    span: kelliä
+              node id="n220" lev="6" c="2" par="n219" y="220" below="4" x="y":    
+                node id="n221" lev="7" c="0" par="n220" y="221" below="0" x="y":    
+                  p
+                    span: melkein
+                    span: tukehtua
+                  p
+                    span: kiire
+                    span: kuumeinen
+                    span: liikaa
+                    span: hoppu
+                    span: moro
+                node id="n222" lev="7" c="2" par="n220" y="222" below="2" x="y":    
+                  node id="n224" lev="8" c="0" par="n222" y="224" below="0" x="y":    
+                    p
+                      span: uida
+                      span: joutsen
+                      span: sorsa
+                    p
+                      span: pinta
+                      span: lampi
+                      span: paine
+                      span: kynteli
+                      span: erite
+                  node id="n223" lev="8" c="0" par="n222" y="223" below="0" x="y":    
+                    p
+                      span: pelko
+                      span: arkuus
+                      span: ahdistaa
+                      span: ainainen
+                    p
+                      span: vaivata
+                      span: maksa
+                      span: viitsiä
+                      span: suotta
+                      span: painajainen
+                      span: painaja
+                      span: lei
+                      span: ähky
+            node id="n227" lev="5" c="2" par="n218" y="227" below="9" x="y":    
+              node id="n228" lev="6" c="1" par="n227" y="228" below="2" x="y":    
+                p
+                  span: pulkka
+                  span: ahkio
+                node id="n229" lev="7" c="1" par="n228" y="229" below="1" x="y":    
+                  p
+                    span: eläin
+                    span: kasvi
+                    span: kesyttää
+                    span: kesy
+                    span: vaisto
+                    span: järjetön
+                    span: sieluton
+                    span: yksivuotinen
+                  node id="n230" lev="8" c="0" par="n229" y="230" below="0" x="y":    
+                    p
+                      span: jumala
+                      span: palvella
+                      span: jumalatar
+                      span: haltija
+                      span: palvoa
+                      span: kieltäjä
+                      span: täyttö
+                    p
+                      span: alttari
+                      span: polvistua
+                      span: edessä
+                      span: uhrata
+                      span: uhri
+                      span: kuori
+                      span: peili
+                      span: papitar
+                      span: pöyhkeillä
+              node id="n231" lev="6" c="2" par="n227" y="231" below="5" x="y":    
+                node id="n232" lev="7" c="0" par="n231" y="232" below="0" x="y":    
+                  p
+                    span: politiikka
+                    span: mätä
+                  p
+                    span: puhua
+                    span: pöty
+                node id="n233" lev="7" c="1" par="n231" y="233" below="3" x="y":    
+                  p
+                    span: parvi
+                    span: nymfi
+                  node id="n234" lev="8" c="1" par="n233" y="234" below="2" x="y":    
+                    p
+                      span: nostaa
+                      span: kanne
+                    node id="n235" lev="9" c="1" par="n234" y="235" below="1" x="y":    
+                      p
+                        span: tuhka
+                        span: tomu
+                        span: tina
+                        span: lika
+                        span: karistaa
+                        span: sirottaa
+                        span: noki
+                        span: hiukka
+                        span: pöperö
+                      node id="n236" lev="10" c="0" par="n235" y="236" below="0" x="y":    
+                        p
+                          span: tuomita
+                          span: syyllinen
+                          span: syytön
+                          span: vankeus
+                          span: viaton
+                          span: mestata
+                          span: ruoskia
+                        p
+                          span: rikos
+                          span: rangaistus
+                          span: rangaista
+                          span: sovittaa
+                          span: törkeä
+                          span: osallinen
+                          span: rikollinen
+                          span: pahe
+                          span: sovitus
+                          span: lievä
+                          span: jumalaton
+                          span: riettaus
+          node id="n237" lev="4" c="2" par="n217" y="237" below="36" x="y":    
+            node id="n238" lev="5" c="2" par="n237" y="238" below="7" x="y":    
+              node id="n239" lev="6" c="1" par="n238" y="239" below="1" x="y":    
+                p
+                  span: määrätä
+                  span: sallimus
+                  span: ennalta
+                  span: holhooja
+                  span: viro
+                  span: kosmos
+                node id="n240" lev="7" c="0" par="n239" y="240" below="0" x="y":    
+                  p
+                    span: huutaa
+                    span: hurraa
+                    span: hurjasti
+                    span: huitoa
+                    span: kirkua
+                    span: parkua
+                    span: hurrata
+                    span: viuhtoa
+                    span: viittoilla
+                    span: hukassa
+                    span: räyhätä
+                    span: virveli
+                  p
+                    span: huudahtaa
+                    span: hypähtää
+                    span: iloisesti
+                    span: kauhistua
+                    span: innoissaan
+                    span: riemastua
+                    span: innostua
+                    span: tulija
+                    span: äkisti
+                    span: koho
+                    span: harmissaan
+              node id="n241" lev="6" c="2" par="n238" y="241" below="4" x="y":    
+                node id="n242" lev="7" c="0" par="n241" y="242" below="0" x="y":    
+                  p
+                    span: taakse
+                    span: piiloutua
+                    span: pensas
+                    span: kätkeytyä
+                    span: piilo
+                    span: takana
+                    span: suoja
+                    span: tiski
+                    span: telki
+                    span: piilotella
+                    span: pehko
+                  p
+                    span: lukko
+                    span: avain
+                    span: vääntää
+                    span: reikä
+                    span: aitta
+                    span: salpa
+                    span: ruostua
+                    span: vitsa
+                    span: hallussa
+                    span: luinen
+                    span: ruosteinen
+                    span: kampi
+                    span: kirskua
+                node id="n243" lev="7" c="2" par="n241" y="243" below="2" x="y":    
+                  node id="n245" lev="8" c="0" par="n243" y="245" below="0" x="y":    
+                    p
+                      span: loisto
+                      span: himmentää
+                      span: kirkkaus
+                      span: himmetä
+                      span: prameus
+                      span: houkka
+                    p
+                      span: silmä
+                      span: säihkyä
+                      span: säkenöidä
+                      span: siristää
+                      span: kiilto
+                      span: kostua
+                      span: säkenöivä
+                      span: välke
+                      span: sokaista
+                      span: kaihi
+                      span: liekehtiä
+                      span: sumentaa
+                      span: vetinen
+                      span: malka
+                      span: sumea
+                      span: puhkaista
+                      span: välttyä
+                      span: säihke
+                      span: suomu
+                      span: näkevä
+                      span: itkuinen
+                      span: samentaa
+                      span: suurentua
+                      span: seurailla
+                      span: kyynelehtiä
+                      span: innoton
+                      span: valottaa
+                      span: hara
+                  node id="n244" lev="8" c="0" par="n243" y="244" below="0" x="y":    
+                    p
+                      span: suhde
+                      span: keskinäinen
+                      span: väli
+                    p
+                      span: välillä
+                      span: erotus
+                      span: ero
+                      span: eripuraisuus
+                      span: juopa
+                      span: kilpailu
+                      span: häilyä
+                      span: häälyä
+                      span: vertailu
+                      span: kina
+            node id="n246" lev="5" c="2" par="n237" y="246" below="27" x="y":    
+              node id="n247" lev="6" c="2" par="n246" y="247" below="9" x="y":    
+                node id="n248" lev="7" c="2" par="n247" y="248" below="3" x="y":    
+                  node id="n249" lev="8" c="0" par="n248" y="249" below="0" x="y":    
+                    p
+                      span: ritari
+                      span: mies
+                      span: rehellinen
+                      span: uljas
+                      span: kunnon
+                      span: kelpo
+                      span: kunniallinen
+                      span: porvari
+                      span: ihminen
+                      span: poika
+                      span: uros
+                      span: urhea
+                      span: siivo
+                      span: vaeltaa
+                      span: rehti
+                      span: työmies
+                      span: kunnollinen
+                      span: hautaus
+                      span: nuhteeton
+                      span: siveä
+                      span: peloton
+                      span: kelvollinen
+                      span: riski
+                      span: potra
+                      span: parrakas
+                      span: eukko
+                      span: lainen
+                      span: miehinen
+                      span: syöjä
+                      span: nulikka
+                      span: häpäistä
+                      span: muutoin
+                      span: rahakas
+                      span: karski
+                      span: nahjus
+                      span: auttamatta
+                      span: tiuskaista
+                      span: murjoa
+                      span: hulttio
+                      span: heisi
+                      span: väärti
+                      span: rustailla
+                      span: liesu
+                    p
+                      span: soturi
+                      span: urhoollinen
+                      span: kokenut
+                  node id="n250" lev="8" c="1" par="n248" y="250" below="1" x="y":    
+                    p
+                      span: ilmiö
+                      span: harvinainen
+                      span: merkillinen
+                      span: tapaus
+                    node id="n251" lev="9" c="0" par="n250" y="251" below="0" x="y":    
+                      p
+                        span: verinen
+                        span: tappelu
+                        span: sota
+                        span: ottelu
+                        span: kahakka
+                        span: tuima
+                        span: kiivas
+                        span: melske
+                        span: vastustaja
+                        span: naarmu
+                        span: möhkäle
+                        span: runnoa
+                      p
+                        span: taistelu
+                        span: tuoksina
+                        span: taistella
+                        span: voittaja
+                        span: voittoisa
+                        span: puru
+                node id="n252" lev="7" c="2" par="n247" y="252" below="4" x="y":    
+                  node id="n256" lev="8" c="0" par="n252" y="256" below="0" x="y":    
+                    p
+                      span: aivan
+                      span: suunniltaan
+                      span: ihan
+                      span: poissa
+                      span: toisenlainen
+                      span: haltioissaan
+                      span: sekaisin
+                      span: uuvuksissa
+                      span: varmaan
+                      span: samanlainen
+                      span: äskettäin
+                      span: peräti
+                      span: arvoton
+                      span: hassu
+                      span: turta
+                      span: ehjä
+                    p
+                      span: ajatus
+                      span: aivot
+                      span: vaihto
+                      span: tylsistyä
+                      span: hirvittää
+                      span: haihatella
+                  node id="n253" lev="8" c="1" par="n252" y="253" below="2" x="y":    
+                    p
+                      span: korkeus
+                      span: kuninkaallinen
+                      span: suvaita
+                    node id="n254" lev="9" c="1" par="n253" y="254" below="1" x="y":    
+                      p
+                        span: valaista
+                        span: hohde
+                        span: heikosti
+                        span: punertava
+                        span: valaa
+                        span: maisema
+                        span: täysikuu
+                      node id="n255" lev="10" c="0" par="n254" y="255" below="0" x="y":    
+                        p
+                          span: markka
+                          span: sata
+                          span: penni
+                          span: viisi
+                          span: dollari
+                          span: kymmenen
+                          span: miljoona
+                          span: rupla
+                          span: palkka
+                          span: arvoinen
+                          span: kilo
+                          span: laina
+                          span: lähes
+                          span: palkkio
+                          span: arvioida
+                          span: lisäksi
+                          span: jopa
+                          span: puijata
+                        p
+                          span: maksaa
+                          span: velka
+                          span: vero
+                          span: korko
+                          span: sakko
+                          span: summa
+                          span: lunnaat
+                          span: kymmenys
+                          span: äyri
+                          span: kuitata
+                          span: tuhlaaja
+                          span: velkoa
+              node id="n257" lev="6" c="2" par="n246" y="257" below="16" x="y":    
+                node id="n258" lev="7" c="2" par="n257" y="258" below="5" x="y":    
+                  node id="n259" lev="8" c="0" par="n258" y="259" below="0" x="y":    
+                    p
+                      span: ranta
+                      span: lahti
+                      span: saari
+                      span: soutaa
+                      span: niemi
+                      span: salmi
+                      span: järvi
+                      span: pohjukka
+                      span: poukama
+                      span: manner
+                      span: kallioinen
+                      span: lahdelma
+                      span: ruuhi
+                      span: luoto
+                      span: lautta
+                      span: utuinen
+                      span: suvanto
+                      span: niemeke
+                      span: pienoinen
+                      span: perukka
+                      span: väylä
+                      span: koillinen
+                      span: kaisla
+                      span: neva
+                      span: ruohoinen
+                      span: lounainen
+                      span: sotka
+                      span: lounas
+                      span: raita
+                      span: loitota
+                      span: kaartaa
+                      span: alava
+                      span: töyräs
+                      span: kalastaa
+                      span: tavi
+                      span: merellinen
+                      span: aallotar
+                      span: kaleeri
+                      span: luovia
+                      span: riutta
+                      span: mantere
+                      span: seisoja
+                      span: kare
+                      span: kujerrus
+                      span: päätyä
+                      span: kitka
+                      span: luovi
+                      span: somerikko
+                      span: joukkio
+                      span: koskelo
+                      span: piipata
+                      span: avo
+                      span: kitsi
+                    p
+                      span: meri
+                      span: aava
+                      span: laiva
+                      span: ulappa
+                      span: ankkuri
+                      span: satama
+                      span: myrskyinen
+                      span: ajelehtia
+                      span: maininki
+                      span: upota
+                      span: miehistö
+                      span: lastata
+                      span: kari
+                      span: laituri
+                      span: myrskytä
+                      span: hukkua
+                      span: tyrsky
+                      span: purjehtija
+                      span: majakka
+                      span: hylky
+                      span: santa
+                      span: seilata
+                      span: touvi
+                      span: luutia
+                      span: kaappari
+                      span: reissu
+                  node id="n260" lev="8" c="2" par="n258" y="260" below="3" x="y":    
+                    node id="n261" lev="9" c="0" par="n260" y="261" below="0" x="y":    
+                      p
+                        span: ilta
+                        span: pimetä
+                        span: eilen
+                        span: hämärtyä
+                        span: hämy
+                        span: yöpyä
+                      p
+                        span: alkaa
+                        span: hämärtää
+                        span: tuntu
+                        span: välkky
+                        span: vyöry
+                        span: verso
+                        span: rykiä
+                        span: vanheta
+                        span: kilju
+                        span: kehu
+                        span: tutti
+                        span: tempo
+                        span: sättiä
+                        span: rätti
+                        span: pakki
+                        span: ratti
+                        span: pihi
+                        span: mari
+                        span: vähittäin
+                        span: vaimentua
+                        span: rukoilu
+                        span: vesoa
+                        span: saarto
+                    node id="n262" lev="9" c="1" par="n260" y="262" below="1" x="y":    
+                      p
+                        span: kuolema
+                        span: kamppailla
+                        span: vapahtaa
+                        span: piina
+                        span: vapauttaja
+                      node id="n263" lev="10" c="0" par="n262" y="263" below="0" x="y":    
+                        p
+                          span: päättyä
+                          span: toimitus
+                          span: retki
+                          span: lakko
+                          span: siten
+                          span: etsin
+                        p
+                          span: loppua
+                          span: siihen
+                node id="n264" lev="7" c="2" par="n257" y="264" below="9" x="y":    
+                  node id="n265" lev="8" c="0" par="n264" y="265" below="0" x="y":    
+                    p
+                      span: ryhti
+                      span: ylpeä
+                      span: arvokas
+                      span: käynti
+                      span: miehekäs
+                      span: itsetietoinen
+                      span: kopea
+                      span: ylväs
+                      span: lisä
+                    p
+                      span: näköinen
+                      span: huolestua
+                      span: vakava
+                      span: tyytymätön
+                      span: huoleton
+                      span: äreä
+                      span: juro
+                      span: yrmeä
+                      span: tyhmä
+                  node id="n266" lev="8" c="2" par="n264" y="266" below="7" x="y":    
+                    node id="n267" lev="9" c="1" par="n266" y="267" below="2" x="y":    
+                      p
+                        span: tunne
+                        span: tulkita
+                        span: sääli
+                        span: orpous
+                        span: riemukas
+                        span: häpy
+                        span: voimakkuus
+                        span: kuohunta
+                        span: herkästi
+                        span: kylläisyys
+                        span: lämpimyys
+                      node id="n268" lev="10" c="1" par="n267" y="268" below="1" x="y":    
+                        p
+                          span: kannus
+                          span: kylki
+                          span: kuve
+                          span: ruoska
+                          span: kellahtaa
+                        node id="n269" lev="11" c="0" par="n268" y="269" below="0" x="y":    
+                          p
+                            span: syöstä
+                            span: turmio
+                            span: joutua
+                            span: ennustaa
+                            span: tuho
+                            span: häviö
+                            span: onnettomuus
+                            span: rappio
+                            span: kadotus
+                            span: pelastaa
+                            span: surma
+                            span: hävitys
+                            span: saattaa
+                            span: ahdinko
+                            span: lumo
+                          p
+                            span: vaara
+                            span: uhkaava
+                            span: uhata
+                            span: altis
+                            span: välttää
+                            span: väijyä
+                            span: uhmata
+                            span: uhka
+                            span: piiranen
+                    node id="n270" lev="9" c="2" par="n266" y="270" below="3" x="y":    
+                      node id="n271" lev="10" c="0" par="n270" y="271" below="0" x="y":    
+                        p
+                          span: maata
+                          span: vuode
+                          span: sänky
+                          span: lattia
+                          span: peite
+                          span: tyyny
+                          span: patja
+                          span: pitkällään
+                          span: virua
+                          span: olki
+                          span: laita
+                          span: pyörtyä
+                          span: kuolinvuode
+                          span: ruohikko
+                          span: vierekkäin
+                          span: tiedoton
+                          span: pielus
+                          span: tunnoton
+                          span: koju
+                          span: piehtaroida
+                          span: ryysyinen
+                          span: riippumatto
+                          span: ryijy
+                          span: täkki
+                        p
+                          span: uni
+                          span: sikeä
+                          span: vaipua
+                          span: nukkua
+                          span: horros
+                          span: nukahtaa
+                          span: tuudittaa
+                          span: uuvuttaa
+                          span: uupua
+                          span: havahtua
+                          span: kuorsata
+                          span: virkistää
+                          span: uinua
+                          span: nukuttaa
+                          span: uneksia
+                          span: nukkuja
+                          span: rauhaton
+                          span: uinahtaa
+                          span: sitkeä
+                          span: rauhaisa
+                          span: väsyä
+                          span: torkahtaa
+                          span: humalainen
+                      node id="n272" lev="10" c="1" par="n270" y="272" below="1" x="y":    
+                        p
+                          span: kääriä
+                          span: huivi
+                          span: vaippa
+                          span: liina
+                          span: riepu
+                          span: villainen
+                          span: tiukka
+                          span: huopa
+                          span: viltti
+                          span: tiukkaan
+                        node id="n273" lev="11" c="0" par="n272" y="273" below="0" x="y":    
+                          p
+                            span: mennyt
+                            span: kalu
+                            span: ajo
+                            span: muistella
+                            span: vaihe
+                            span: taitos
+                          p
+                            span: muisto
+                            span: lapsuus
+                            span: varhainen
+                            span: säilyä
+                            span: rakas
+                            span: muinainen
+                            span: tottua
+                            span: tuttu
+                            span: muistelma
+                            span: pysyvä
+                            span: koto
+                            span: lähtien
+      node id="n274" lev="2" c="2" par="n173" y="274" below="159" x="y":    
+        node id="n391" lev="3" c="2" par="n274" y="391" below="42" x="y":    
+          node id="n426" lev="4" c="1" par="n391" y="426" below="7" x="y":    
+            p
+              span: antaa
+              span: aihe
+              span: liuku
+              span: potku
+              span: valu
+              span: haaste
+              span: ojennus
+            node id="n427" lev="5" c="2" par="n426" y="427" below="6" x="y":    
+              node id="n428" lev="6" c="1" par="n427" y="428" below="1" x="y":    
+                p
+                  span: ravinto
+                  span: tuottaja
+                node id="n429" lev="7" c="0" par="n428" y="429" below="0" x="y":    
+                  p
+                    span: pelata
+                    span: kortti
+                    span: peli
+                  p
+                    span: lyödä
+                    span: veto
+                    span: kämmen
+                    span: murska
+                    span: paini
+                    span: lauta
+                    span: pallo
+                    span: valtti
+                    span: reisi
+                    span: sokeus
+                    span: palli
+                    span: pirta
+                    span: vaikka
+                    span: kumauttaa
+                    span: maila
+                    span: nakki
+                    span: lyöjä
+              node id="n430" lev="6" c="2" par="n427" y="430" below="3" x="y":    
+                node id="n433" lev="7" c="0" par="n430" y="433" below="0" x="y":    
+                  p
+                    span: kova
+                    span: polte
+                    span: kolhia
+                    span: nuha
+                    span: kopra
+                    span: graniitti
+                    span: aallokko
+                  p
+                    span: kestää
+                    span: koetus
+                    span: rasitus
+                    span: ikuisesti
+                    span: kamppailu
+                    span: urheasti
+                    span: purjehdus
+                    span: kerronta
+                node id="n431" lev="7" c="1" par="n430" y="431" below="1" x="y":    
+                  p
+                    span: varma
+                    span: vakaumus
+                    span: vakuus
+                    span: vakuutus
+                    span: tae
+                    span: todiste
+                  node id="n432" lev="8" c="0" par="n431" y="432" below="0" x="y":    
+                    p
+                      span: hyväksyä
+                      span: nyökätä
+                      span: suostumus
+                      span: merkki
+                      span: ilman
+                      span: lausunto
+                    p
+                      span: suostua
+                      span: pyyntö
+                      span: tarjous
+                      span: myöntyä
+                      span: uudistaa
+                      span: mielellään
+                      span: hylätä
+                      span: anomus
+                      span: esitys
+                      span: evätä
+                      span: vihdoin
+                      span: lopulta
+                      span: tietysti
+                      span: serkku
+          node id="n392" lev="4" c="2" par="n391" y="392" below="33" x="y":    
+            node id="n393" lev="5" c="2" par="n392" y="393" below="10" x="y":    
+              node id="n394" lev="6" c="2" par="n393" y="394" below="3" x="y":    
+                node id="n395" lev="7" c="0" par="n394" y="395" below="0" x="y":    
+                  p
+                    span: hakata
+                    span: karkeasti
+                    span: taltta
+                  p
+                    span: kallio
+                    span: halkeama
+                    span: karu
+                    span: louhia
+                    span: järkäle
+                node id="n396" lev="7" c="1" par="n394" y="396" below="1" x="y":    
+                  p
+                    span: pimeä
+                    span: hapuilla
+                    span: soppi
+                    span: peikko
+                    span: säkä
+                  node id="n397" lev="8" c="0" par="n396" y="397" below="0" x="y":    
+                    p
+                      span: asia
+                      span: sekaantua
+                      span: tärkeä
+                      span: hullusti
+                      span: sotkea
+                      span: vihi
+                      span: aprikoida
+                      span: tärkki
+                      span: tietty
+                      span: tietävä
+                      span: hautua
+                      span: avittaa
+                    p
+                      span: tarkoin
+                      span: punnita
+                      span: tutkia
+                      span: harkita
+                      span: miettiä
+                      span: vaaka
+                      span: tarkkaan
+                      span: puntari
+                      span: tyystin
+                      span: varoa
+                      span: tiedustella
+                      span: kysellä
+                      span: tutka
+                      span: tunnustella
+                      span: ensin
+              node id="n398" lev="6" c="2" par="n393" y="398" below="5" x="y":    
+                node id="n399" lev="7" c="1" par="n398" y="399" below="1" x="y":    
+                  p
+                    span: ankara
+                    span: nuhde
+                    span: kuri
+                    span: kuritus
+                    span: muistutus
+                    span: anoppi
+                    span: vitsaus
+                    span: vihaaja
+                  node id="n400" lev="8" c="0" par="n399" y="400" below="0" x="y":    
+                    p
+                      span: ilmaista
+                      span: suuttumus
+                      span: harmi
+                      span: salata
+                      span: ele
+                      span: pettymys
+                      span: peitellä
+                      span: kokea
+                      span: monesti
+                      span: säikky
+                    p
+                      span: koettaa
+                      span: tyynnyttää
+                      span: rauhoittaa
+                      span: lepyttää
+                      span: uskotella
+                      span: viihdyttää
+                      span: mahdollinen
+                      span: kara
+                      span: estellä
+                      span: suostutella
+                      span: viekoitella
+                      span: vieroittaa
+                      span: kaunistella
+                      span: pelotella
+                node id="n401" lev="7" c="1" par="n398" y="401" below="2" x="y":    
+                  p
+                    span: pystyttää
+                    span: teltta
+                    span: leiri
+                    span: patsas
+                    span: pylväs
+                    span: kota
+                    span: läheisyys
+                  node id="n402" lev="8" c="1" par="n401" y="402" below="1" x="y":    
+                    p
+                      span: hymyillä
+                      span: herttaisesti
+                      span: suopeasti
+                      span: mielistellä
+                      span: häijysti
+                    node id="n403" lev="9" c="0" par="n402" y="403" below="0" x="y":    
+                      p
+                        span: kulku
+                        span: suunnata
+                        span: ohjata
+                        span: jouduttaa
+                        span: jatkaa
+                        span: suoraan
+                        span: vaivalloinen
+                        span: kiirehtää
+                      p
+                        span: askel
+                        span: hidas
+                        span: kiireinen
+                        span: horjuva
+                        span: harpata
+                        span: kuulumaton
+                        span: lähetä
+                        span: edetä
+                        span: lähestyä
+                        span: sipsuttaa
+                        span: rippi
+                        span: hiipivä
+                        span: kepeä
+                        span: horjahdella
+                        span: tasata
+                        span: hoippua
+                        span: joutuisa
+            node id="n404" lev="5" c="2" par="n392" y="404" below="21" x="y":    
+              node id="n417" lev="6" c="2" par="n404" y="417" below="8" x="y":    
+                node id="n418" lev="7" c="1" par="n417" y="418" below="2" x="y":    
+                  p
+                    span: kynsi
+                    span: pureskella
+                    span: raapia
+                    span: kesiä
+                  node id="n419" lev="8" c="1" par="n418" y="419" below="1" x="y":    
+                    p
+                      span: härkä
+                      span: sarvi
+                      span: puskea
+                      span: sonni
+                      span: mylviä
+                      span: pukki
+                      span: runsaus
+                      span: pässi
+                      span: kauris
+                      span: sorkka
+                      span: seivästää
+                      span: pusku
+                    node id="n420" lev="9" c="0" par="n419" y="420" below="0" x="y":    
+                      p
+                        span: silkki
+                        span: sametti
+                        span: nauha
+                        span: nukka
+                        span: silkkinen
+                      p
+                        span: punainen
+                        span: sininen
+                        span: sävähtää
+                        span: keltainen
+                        span: verka
+                        span: värjätä
+                        span: naama
+                        span: viiru
+                        span: mekko
+                        span: turbaani
+                        span: neilikka
+                        span: pioni
+                        span: kirsikka
+                        span: läikkä
+                        span: tilkku
+                node id="n421" lev="7" c="2" par="n417" y="421" below="4" x="y":    
+                  node id="n425" lev="8" c="0" par="n421" y="425" below="0" x="y":    
+                    p
+                      span: vanha
+                      span: romu
+                      span: konkari
+                      span: mummu
+                      span: rämä
+                      span: jörö
+                      span: karju
+                      span: geeli
+                      span: dekaani
+                    p
+                      span: ämmä
+                      span: äijä
+                  node id="n422" lev="8" c="2" par="n421" y="422" below="2" x="y":    
+                    node id="n424" lev="9" c="0" par="n422" y="424" below="0" x="y":    
+                      p
+                        span: korjata
+                        span: sato
+                        span: talteen
+                        span: erehdys
+                        span: virhe
+                        span: kapine
+                      p
+                        span: runsas
+                        span: saalis
+                        span: lahja
+                        span: jako
+                        span: aulis
+                    node id="n423" lev="9" c="0" par="n422" y="423" below="0" x="y":    
+                      p
+                        span: valtio
+                        span: perustaa
+                        span: kunta
+                        span: kustannus
+                        span: yksityinen
+                        span: hallitus
+                        span: itsenäinen
+                        span: palvelus
+                        span: laitos
+                        span: tehdas
+                        span: järjestää
+                        span: laajentaa
+                        span: julkinen
+                        span: hallinto
+                        span: pyhättö
+                        span: nimittäin
+                        span: museo
+                        span: omistus
+                      p
+                        span: jäsen
+                        span: oikoa
+                        span: yhdistys
+                        span: akatemia
+                        span: seurue
+                        span: haukotella
+                        span: raati
+                        span: venytellä
+                        span: valita
+                        span: suvuton
+                        span: porvaristo
+              node id="n405" lev="6" c="2" par="n404" y="405" below="11" x="y":    
+                node id="n406" lev="7" c="2" par="n405" y="406" below="4" x="y":    
+                  node id="n409" lev="8" c="1" par="n406" y="409" below="1" x="y":    
+                    p
+                      span: tulo
+                      span: odotella
+                      span: meno
+                      span: messias
+                    node id="n410" lev="9" c="0" par="n409" y="410" below="0" x="y":    
+                      p
+                        span: rinta
+                        span: huokaus
+                        span: helpotus
+                        span: kohoilla
+                        span: hengähtää
+                        span: paisuttaa
+                        span: karvainen
+                        span: luotta
+                      p
+                        span: raskaasti
+                        span: huoata
+                        span: huoahtaa
+                        span: huokailla
+                        span: huokaista
+                  node id="n407" lev="8" c="1" par="n406" y="407" below="1" x="y":    
+                    p
+                      span: sepittää
+                      span: sonetti
+                    node id="n408" lev="9" c="0" par="n407" y="408" below="0" x="y":    
+                      p
+                        span: riisua
+                        span: vaate
+                        span: kenkä
+                        span: saapas
+                        span: turkki
+                        span: paikata
+                        span: pukeutua
+                        span: alasti
+                        span: alaston
+                        span: rikkinäinen
+                        span: naamari
+                        span: teettää
+                        span: kinnas
+                      p
+                        span: pukea
+                        span: puku
+                        span: hienosti
+                        span: kaapu
+                        span: viitta
+                        span: ryysy
+                        span: kuosi
+                        span: asu
+                        span: kirjava
+                        span: haarniska
+                        span: yksinkertainen
+                        span: korea
+                        span: mustata
+                        span: mantteli
+                        span: koruton
+                        span: narri
+                        span: fauni
+                node id="n411" lev="7" c="2" par="n405" y="411" below="5" x="y":    
+                  node id="n415" lev="8" c="1" par="n411" y="415" below="1" x="y":    
+                    p
+                      span: ehto
+                      span: tahtoa
+                    node id="n416" lev="9" c="0" par="n415" y="416" below="0" x="y":    
+                      p
+                        span: lempeästi
+                        span: nuhdella
+                        span: vakavasti
+                        span: sanoa
+                        span: varoittaa
+                        span: neuvoa
+                        span: laama
+                      p
+                        span: vastata
+                        span: lyhyesti
+                        span: kylmästi
+                        span: tyynesti
+                        span: vältellä
+                        span: vakaasti
+                        span: hiljaisesti
+                        span: äkäisesti
+                        span: ane
+                        span: jaa
+                  node id="n412" lev="8" c="1" par="n411" y="412" below="2" x="y":    
+                    p
+                      span: vaunu
+                      span: komi
+                      span: matkustaja
+                    node id="n413" lev="9" c="1" par="n412" y="413" below="1" x="y":    
+                      p
+                        span: lapio
+                        span: kuokka
+                      node id="n414" lev="10" c="0" par="n413" y="414" below="0" x="y":    
+                        p
+                          span: arvoitus
+                          span: selitys
+                          span: selittää
+                          span: selvitä
+                          span: selvitys
+                          span: sfinksi
+                          span: perus
+                        p
+                          span: ratkaista
+                          span: riita
+                          span: pulma
+                          span: vaikea
+                          span: ongelma
+                          span: tora
+                          span: kiista
+                          span: arpoa
+                          span: purkaja
+                          span: mesiäinen
+        node id="n275" lev="3" c="2" par="n274" y="275" below="115" x="y":    
+          node id="n276" lev="4" c="2" par="n275" y="276" below="46" x="y":    
+            node id="n277" lev="5" c="2" par="n276" y="277" below="13" x="y":    
+              node id="n278" lev="6" c="2" par="n277" y="278" below="2" x="y":    
+                node id="n280" lev="7" c="0" par="n278" y="280" below="0" x="y":    
+                  p
+                    span: ani
+                    span: harvoin
+                    span: harva
+                    span: vertainen
+                    span: ainoastaan
+                    span: tavata
+                    span: vain
+                  p
+                    span: pysyä
+                    span: pystyssä
+                    span: erillään
+                    span: muuttumaton
+                    span: syrjässä
+                    span: levollinen
+                    span: tasalla
+                    span: erä
+                    span: kotona
+                    span: vaivoin
+                    span: toimeton
+                    span: elossa
+                    span: vähin
+                node id="n279" lev="7" c="0" par="n278" y="279" below="0" x="y":    
+                  p
+                    span: piippu
+                    span: polttaa
+                    span: tupakka
+                    span: savu
+                    span: poro
+                    span: imeä
+                    span: koppa
+                    span: ien
+                    span: sauhu
+                    span: haiku
+                    span: massi
+                    span: kasketa
+                    span: kessu
+                    span: mustuttaa
+                  p
+                    span: pilvi
+                    span: sumu
+                    span: peittää
+                    span: peittyä
+                    span: sakea
+                    span: paksu
+                    span: hattara
+                    span: hälvetä
+                    span: pimeys
+                    span: verho
+                    span: pimittää
+                    span: hajota
+                    span: pöly
+                    span: saeta
+                    span: peitto
+                    span: öinen
+                    span: synkeä
+                    span: sake
+                    span: kultanen
+                    span: häivä
+                    span: lumen
+              node id="n281" lev="6" c="2" par="n277" y="281" below="9" x="y":    
+                node id="n282" lev="7" c="2" par="n281" y="282" below="3" x="y":    
+                  node id="n285" lev="8" c="0" par="n282" y="285" below="0" x="y":    
+                    p
+                      span: alempi
+                      span: ylempi
+                      span: aste
+                    p
+                      span: luokka
+                      span: ylin
+                      span: alin
+                      span: porras
+                      span: hallitseva
+                      span: sysiä
+                  node id="n283" lev="8" c="1" par="n282" y="283" below="1" x="y":    
+                    p
+                      span: ruoka
+                      span: juoma
+                      span: maistua
+                      span: sekoittaa
+                      span: kelvata
+                      span: rasvainen
+                      span: kestitä
+                      span: jäte
+                      span: herkutella
+                    node id="n284" lev="9" c="0" par="n283" y="284" below="0" x="y":    
+                      p
+                        span: valo
+                        span: kirkas
+                        span: himmeä
+                        span: häikäistä
+                        span: loistaa
+                        span: kuutamo
+                        span: heijastaa
+                        span: heijastua
+                        span: heijastus
+                        span: kimmeltää
+                        span: lämpö
+                        span: kelmeä
+                        span: sinertävä
+                        span: kajastaa
+                        span: sädehtiä
+                        span: välkehtiä
+                        span: kristalli
+                        span: valju
+                        span: hämäryys
+                        span: himmentyä
+                        span: häilyvä
+                        span: pilkuttaa
+                        span: sähköinen
+                        span: kajo
+                        span: keskiö
+                      p
+                        span: aurinko
+                        span: paistaa
+                        span: säde
+                        span: kirkkaasti
+                        span: paahtaa
+                        span: nousu
+                        span: kuu
+                        span: lasku
+                        span: helottaa
+                        span: varras
+                        span: talvinen
+                        span: syksyinen
+                        span: kehrä
+                        span: vino
+                        span: viisto
+                        span: kierto
+                        span: karkeloida
+                        span: kimallus
+                        span: hopeoida
+                        span: vaisu
+                        span: näkyvissä
+                        span: levy
+                        span: valos
+                        span: viipyillä
+                        span: polttiainen
+                node id="n286" lev="7" c="2" par="n281" y="286" below="4" x="y":    
+                  node id="n290" lev="8" c="0" par="n286" y="290" below="0" x="y":    
+                    p
+                      span: seinä
+                      span: maalaus
+                      span: mustua
+                      span: valkaista
+                      span: salvaa
+                      span: tiivis
+                      span: taittaja
+                    p
+                      span: kiinni
+                      span: paiskata
+                      span: naulata
+                      span: paukahtaa
+                      span: köyttää
+                      span: muurata
+                      span: kaapata
+                      span: juuttua
+                      span: vanua
+                      span: tavoittaa
+                      span: ottaja
+                      span: vantti
+                  node id="n287" lev="8" c="2" par="n286" y="287" below="2" x="y":    
+                    node id="n289" lev="9" c="0" par="n287" y="289" below="0" x="y":    
+                      p
+                        span: hajaantua
+                        span: ryhmä
+                        span: haara
+                        span: yksitellen
+                      p
+                        span: laji
+                        span: suku
+                        span: eri
+                        span: yksilö
+                        span: jälkeläinen
+                        span: kukin
+                        span: heimo
+                        span: erilainen
+                        span: alue
+                        span: läheinen
+                        span: erota
+                        span: elin
+                        span: rotu
+                        span: erikseen
+                        span: usea
+                        span: hedelmätön
+                        span: sama
+                        span: verrata
+                        span: nykyään
+                        span: asustaa
+                        span: tai
+                        span: miltei
+                        span: aatelinen
+                        span: vähemmän
+                    node id="n288" lev="9" c="0" par="n287" y="288" below="0" x="y":    
+                      p
+                        span: vähääkään
+                        span: rahtu
+                        span: ollenkaan
+                        span: lainkaan
+                        span: yhtään
+                        span: kuitenkaan
+                        span: isosti
+                      p
+                        span: välittää
+                        span: aavistaa
+                        span: huolia
+                        span: piitata
+            node id="n291" lev="5" c="2" par="n276" y="291" below="31" x="y":    
+              node id="n314" lev="6" c="2" par="n291" y="314" below="8" x="y":    
+                node id="n319" lev="7" c="2" par="n314" y="319" below="3" x="y":    
+                  node id="n320" lev="8" c="0" par="n319" y="320" below="0" x="y":    
+                    p
+                      span: ilo
+                      span: riemu
+                      span: hurmos
+                    p
+                      span: nauttia
+                      span: eläke
+                      span: viileys
+                      span: mukavuus
+                      span: huvitus
+                      span: luonnos
+                      span: syöttäjä
+                  node id="n321" lev="8" c="1" par="n319" y="321" below="1" x="y":    
+                    p
+                      span: jäädä
+                      span: vaille
+                      span: osaton
+                      span: yksikseen
+                      span: jättää
+                      span: unohdus
+                      span: yksin
+                      span: koskematon
+                      span: tehoton
+                      span: työtön
+                      span: kuopus
+                      span: sintsi
+                      span: vajava
+                      span: otanta
+                    node id="n322" lev="9" c="0" par="n321" y="322" below="0" x="y":    
+                      p
+                        span: hame
+                        span: kahina
+                        span: poimu
+                        span: palle
+                      p
+                        span: helma
+                        span: heilahdella
+                node id="n315" lev="7" c="2" par="n314" y="315" below="3" x="y":    
+                  node id="n316" lev="8" c="0" par="n315" y="316" below="0" x="y":    
+                    p
+                      span: ahdas
+                      span: piiri
+                      span: supistua
+                      span: rukoilija
+                      span: komero
+                      span: sokkelo
+                    p
+                      span: muodostaa
+                      span: kehä
+                      span: ympyrä
+                      span: muotoinen
+                      span: keskusta
+                      span: keskus
+                      span: puolikuu
+                  node id="n317" lev="8" c="1" par="n315" y="317" below="1" x="y":    
+                    p
+                      span: voi
+                      span: onneton
+                      span: sentään
+                      span: poloinen
+                      span: hupsu
+                      span: sääliä
+                    node id="n318" lev="9" c="0" par="n317" y="318" below="0" x="y":    
+                      p
+                        span: suksi
+                        span: hiihtää
+                        span: latu
+                        span: hanki
+                        span: lähteä
+                        span: kelkka
+                        span: luistaa
+                        span: survaista
+                        span: hiihtäjä
+                        span: suihke
+                        span: liikkuja
+                      p
+                        span: lumi
+                        span: sulaa
+                        span: sataa
+                        span: jää
+                        span: sulattaa
+                        span: kinos
+                        span: kahlata
+                        span: jäätyä
+                        span: rae
+                        span: routa
+                        span: vaha
+                        span: nietos
+                        span: lapioida
+                        span: jäätikkö
+                        span: ryöpytä
+                        span: kaapia
+                        span: tarpoa
+                        span: pehmyt
+              node id="n292" lev="6" c="2" par="n291" y="292" below="21" x="y":    
+                node id="n305" lev="7" c="2" par="n292" y="305" below="8" x="y":    
+                  node id="n310" lev="8" c="2" par="n305" y="310" below="3" x="y":    
+                    node id="n311" lev="9" c="0" par="n310" y="311" below="0" x="y":    
+                      p
+                        span: karhu
+                        span: nahka
+                        span: nylkeä
+                        span: tappaa
+                        span: hirvi
+                        span: käpälä
+                        span: ilves
+                        span: jälki
+                        span: talja
+                        span: peura
+                        span: otso
+                        span: metsästys
+                        span: tappo
+                        span: pantteri
+                        span: kaataja
+                        span: tappaja
+                        span: polle
+                        span: suistaa
+                        span: villava
+                        span: mursu
+                      p
+                        span: koira
+                        span: haukunta
+                        span: haukkua
+                        span: susi
+                        span: ulvoa
+                        span: ulvonta
+                        span: haukku
+                        span: murista
+                        span: kuono
+                        span: pentu
+                        span: metsästäjä
+                        span: jänis
+                        span: äkäinen
+                        span: penikka
+                        span: vainuta
+                        span: tapella
+                        span: äristä
+                        span: ulvahtaa
+                        span: rakki
+                        span: ulista
+                        span: hätyyttää
+                        span: haaska
+                        span: sepeli
+                        span: kama
+                        span: rupinen
+                        span: uuhi
+                        span: näykkiä
+                    node id="n312" lev="9" c="1" par="n310" y="312" below="1" x="y":    
+                      p
+                        span: pöytä
+                        span: kattaa
+                        span: pyöreä
+                        span: lavitsa
+                        span: asetella
+                        span: vati
+                        span: varata
+                        span: asetti
+                      node id="n313" lev="10" c="0" par="n312" y="313" below="0" x="y":    
+                        p
+                          span: käsky
+                          span: totella
+                          span: jaella
+                          span: viittaus
+                        p
+                          span: noudattaa
+                          span: sääntö
+                          span: poikkeus
+                          span: määräys
+                          span: kutsu
+                          span: ohje
+                          span: kutsumus
+                          span: neuvoja
+                          span: pikkumainen
+                          span: reitti
+                  node id="n306" lev="8" c="2" par="n305" y="306" below="3" x="y":    
+                    node id="n309" lev="9" c="0" par="n306" y="309" below="0" x="y":    
+                      p
+                        span: suora
+                        span: oikaista
+                        span: linja
+                        span: sääri
+                      p
+                        span: väsynyt
+                        span: uninen
+                        span: kyllästyä
+                        span: lepuuttaa
+                        span: raaja
+                        span: vaeltaja
+                        span: kävely
+                    node id="n307" lev="9" c="1" par="n306" y="307" below="1" x="y":    
+                      p
+                        span: kerta
+                        span: kaikkiaan
+                        span: moni
+                        span: monta
+                        span: kerto
+                        span: toistua
+                      node id="n308" lev="10" c="0" par="n307" y="308" below="0" x="y":    
+                        p
+                          span: siemen
+                          span: kylvää
+                          span: itää
+                          span: kylpeä
+                          span: taimi
+                          span: kylväjä
+                          span: nauris
+                          span: kasvu
+                          span: itu
+                          span: sinappi
+                          span: hamppu
+                          span: tuhkata
+                        p
+                          span: pelto
+                          span: kyntää
+                          span: piennar
+                          span: niitty
+                          span: vako
+                          span: aura
+                          span: vilja
+                          span: viljellä
+                          span: halla
+                          span: kuokkia
+                          span: lanta
+                          span: muokata
+                          span: viljava
+                          span: sarka
+                          span: kesanto
+                          span: kyntäjä
+                          span: sirppi
+                          span: savinen
+                          span: sonta
+                          span: aidata
+                          span: jukka
+                node id="n293" lev="7" c="2" par="n292" y="293" below="11" x="y":    
+                  node id="n294" lev="8" c="2" par="n293" y="294" below="4" x="y":    
+                    node id="n295" lev="9" c="0" par="n294" y="295" below="0" x="y":    
+                      p
+                        span: alla
+                        span: katos
+                        span: syvällä
+                        span: turve
+                        span: mäntä
+                      p
+                        span: pehmeä
+                        span: levätä
+                        span: nurmikko
+                        span: untuva
+                        span: luuton
+                    node id="n296" lev="9" c="1" par="n294" y="296" below="2" x="y":    
+                      p
+                        span: päällä
+                        span: leijailla
+                        span: korkealla
+                      node id="n297" lev="10" c="1" par="n296" y="297" below="1" x="y":    
+                        p
+                          span: rakentaa
+                          span: hirsi
+                          span: tiili
+                          span: asumus
+                          span: solu
+                          span: perusta
+                        node id="n298" lev="11" c="0" par="n297" y="298" below="0" x="y":    
+                          p
+                            span: iskeä
+                            span: kirves
+                            span: kallo
+                            span: halkaista
+                            span: saha
+                            span: nuija
+                            span: pyöveli
+                            span: kanki
+                            span: pii
+                            span: hamara
+                            span: ilkiö
+                            span: vesuri
+                          p
+                            span: miekka
+                            span: tuppi
+                            span: kahva
+                            span: vyö
+                            span: puukko
+                            span: huotra
+                            span: paljastaa
+                            span: terä
+                            span: tikari
+                            span: sivaltaa
+                            span: vyöttää
+                            span: sapeli
+                            span: tapailla
+                            span: ponsi
+                            span: sivallus
+                            span: kalskahtaa
+                  node id="n299" lev="8" c="2" par="n293" y="299" below="5" x="y":    
+                    node id="n300" lev="9" c="1" par="n299" y="300" below="1" x="y":    
+                      p
+                        span: tarttua
+                        span: takaapäin
+                        span: höylä
+                      node id="n301" lev="10" c="0" par="n300" y="301" below="0" x="y":    
+                        p
+                          span: tanssia
+                          span: tanssi
+                          span: tahti
+                          span: valssi
+                          span: hyppiä
+                          span: nuoriso
+                          span: par
+                          span: tanssija
+                          span: keijukainen
+                          span: hyppy
+                          span: tepastella
+                          span: keiju
+                          span: daami
+                        p
+                          span: jalka
+                          span: polkea
+                          span: tallata
+                          span: tohveli
+                          span: paljas
+                          span: luistin
+                          span: potkaista
+                          span: potka
+                          span: talla
+                          span: potkia
+                          span: nostella
+                          span: loka
+                          span: siirrellä
+                          span: antura
+                          span: pohje
+                          span: kontata
+                          span: poljin
+                          span: puntti
+                          span: patti
+                          span: rapakko
+                    node id="n302" lev="9" c="1" par="n299" y="302" below="2" x="y":    
+                      p
+                        span: kansi
+                        span: vakka
+                        span: lakaisija
+                      node id="n303" lev="10" c="1" par="n302" y="303" below="1" x="y":    
+                        p
+                          span: lukija
+                          span: kuvaus
+                          span: arvata
+                          span: väsyttää
+                          span: arvostelu
+                          span: muistaa
+                          span: täydentää
+                          span: kuvitella
+                          span: luultavasti
+                        node id="n304" lev="11" c="0" par="n303" y="304" below="0" x="y":    
+                          p
+                            span: reki
+                            span: jalas
+                            span: ratina
+                            span: piha
+                            span: rattaat
+                            span: ajaja
+                            span: kitistä
+                            span: kola
+                            span: keskimmäinen
+                            span: koivuinen
+                          p
+                            span: hevonen
+                            span: valjastaa
+                            span: satuloida
+                            span: valjaat
+                            span: kavio
+                            span: laukata
+                            span: seisauttaa
+                            span: kärry
+                            span: aisa
+                            span: kengittää
+                            span: kuski
+                            span: käskeä
+                            span: ape
+                            span: lieka
+                            span: hirnahtaa
+                            span: vauhko
+                            span: päitset
+                            span: vedättää
+                            span: riimu
+                            span: piiskata
+                            span: vetäjä
+                            span: kura
+                            span: berberi
+          node id="n323" lev="4" c="2" par="n275" y="323" below="67" x="y":    
+            node id="n324" lev="5" c="2" par="n323" y="324" below="19" x="y":    
+              node id="n325" lev="6" c="2" par="n324" y="325" below="5" x="y":    
+                node id="n326" lev="7" c="1" par="n325" y="326" below="1" x="y":    
+                  p
+                    span: luja
+                    span: kestävä
+                  node id="n327" lev="8" c="0" par="n326" y="327" below="0" x="y":    
+                    p
+                      span: särkyä
+                      span: ruutu
+                      span: särkeä
+                      span: pirstale
+                      span: sirpale
+                      span: pato
+                      span: eheä
+                      span: ruoko
+                      span: siru
+                    p
+                      span: ikkuna
+                      span: kurkistaa
+                node id="n328" lev="7" c="1" par="n325" y="328" below="2" x="y":    
+                  p
+                    span: vuoro
+                    span: perään
+                    span: toinen
+                    span: nyt
+                    span: sadatella
+                    span: tutkailla
+                  node id="n329" lev="8" c="1" par="n328" y="329" below="1" x="y":    
+                    p
+                    node id="n330" lev="9" c="0" par="n329" y="330" below="0" x="y":    
+                      p
+                        span: juna
+                        span: veturi
+                        span: viheltää
+                        span: kulkea
+                        span: vihellys
+                        span: asema
+                        span: ohi
+                        span: rata
+                        span: pysähtyä
+                        span: myöhästyä
+                        span: lähtö
+                        span: kisko
+                        span: hurahtaa
+                        span: sääksi
+                      p
+                        span: kiitää
+                        span: vauhti
+                        span: eteenpäin
+                        span: kiidättää
+                        span: rientää
+                        span: lisätä
+                        span: pyrkiä
+                        span: samota
+                        span: kone
+                        span: auto
+                        span: juoksija
+                        span: ripeä
+                        span: ravata
+                        span: hoiperrella
+                        span: kirmata
+                        span: keinu
+                        span: kilpa
+                        span: kutteri
+                        span: etana
+              node id="n331" lev="6" c="2" par="n324" y="331" below="12" x="y":    
+                node id="n332" lev="7" c="2" par="n331" y="332" below="4" x="y":    
+                  node id="n336" lev="8" c="0" par="n332" y="336" below="0" x="y":    
+                    p
+                      span: vuosi
+                      span: kato
+                      span: laskenta
+                    p
+                      span: tunti
+                      span: myöhemmin
+                      span: vajaa
+                      span: päivittäin
+                  node id="n333" lev="8" c="1" par="n332" y="333" below="2" x="y":    
+                    p
+                      span: vaatia
+                      span: kuuliaisuus
+                      span: ehdoton
+                      span: tili
+                      span: tarpeen
+                      span: raittius
+                      span: uhraus
+                      span: vaadin
+                      span: pakollinen
+                    node id="n334" lev="9" c="1" par="n333" y="334" below="1" x="y":    
+                      p
+                        span: vene
+                        span: airo
+                        span: soutaja
+                        span: loiske
+                        span: kokka
+                        span: keula
+                        span: mela
+                        span: sauvoa
+                        span: lipua
+                        span: soutu
+                        span: tuhto
+                        span: tervata
+                        span: ohjaaja
+                        span: vetäistä
+                      node id="n335" lev="10" c="0" par="n334" y="335" below="0" x="y":    
+                        p
+                          span: laukaus
+                          span: ampua
+                          span: pamahtaa
+                          span: tykki
+                          span: kanuuna
+                          span: kivääri
+                          span: ammua
+                          span: patteri
+                          span: paukahdella
+                          span: aseeton
+                        p
+                          span: pyssy
+                          span: ladata
+                          span: laukaista
+                          span: tähdätä
+                          span: pauke
+                          span: kantama
+                          span: paukaus
+                          span: karbiini
+                          span: laukoa
+                          span: nalli
+                node id="n337" lev="7" c="2" par="n331" y="337" below="6" x="y":    
+                  node id="n341" lev="8" c="2" par="n337" y="341" below="2" x="y":    
+                    node id="n343" lev="9" c="0" par="n341" y="343" below="0" x="y":    
+                      p
+                        span: oikeassa
+                        span: ehkä
+                        span: kenties
+                        span: elementti
+                        span: totisesti
+                        span: olla
+                      p
+                        span: vastaus
+                        span: kysymys
+                        span: myöntää
+                        span: pohtia
+                        span: viivyttää
+                        span: viivytellä
+                        span: ahdistella
+                        span: tässä
+                    node id="n342" lev="9" c="0" par="n341" y="342" below="0" x="y":    
+                      p
+                        span: este
+                        span: poistaa
+                        span: voittamaton
+                        span: epäilys
+                        span: kaikki
+                      p
+                        span: kohdata
+                        span: vaikeus
+                        span: vastus
+                        span: vastustus
+                        span: vastoinkäyminen
+                  node id="n338" lev="8" c="2" par="n337" y="338" below="2" x="y":    
+                    node id="n340" lev="9" c="0" par="n338" y="340" below="0" x="y":    
+                      p
+                        span: ystävä
+                        span: vihamies
+                        span: tuttava
+                        span: suosija
+                        span: uskottu
+                        span: omainen
+                        span: paras
+                        span: onnitella
+                        span: suositella
+                      p
+                        span: uskollinen
+                        span: palvelija
+                        span: kuuliainen
+                        span: palkata
+                        span: uskoton
+                        span: auttaja
+                        span: kumppani
+                        span: toveri
+                        span: rakastaja
+                    node id="n339" lev="9" c="0" par="n338" y="339" below="0" x="y":    
+                      p
+                        span: hyvyys
+                        span: palkita
+                        span: ansio
+                        span: lempeys
+                        span: pahuus
+                        span: hurskaus
+                        span: kuninkaallisesti
+                      p
+                        span: kunnioitus
+                        span: osoittaa
+                        span: kiitollisuus
+                        span: luottamus
+                        span: ystävyys
+                        span: rakkaus
+                        span: rajaton
+                        span: ihailu
+                        span: hellyys
+                        span: vilpitön
+                        span: esine
+                        span: nöyryys
+                        span: sekainen
+                        span: vastaanottaa
+                        span: teeskennellä
+                        span: jumaloida
+                        span: alttius
+                        span: lujaa
+                        span: halveksua
+                        span: urheus
+                        span: liehakoida
+                        span: sankaruus
+                        span: kolli
+            node id="n344" lev="5" c="2" par="n323" y="344" below="46" x="y":    
+              node id="n345" lev="6" c="2" par="n344" y="345" below="16" x="y":    
+                node id="n355" lev="7" c="2" par="n345" y="355" below="6" x="y":    
+                  node id="n359" lev="8" c="2" par="n355" y="359" below="2" x="y":    
+                    node id="n361" lev="9" c="0" par="n359" y="361" below="0" x="y":    
+                      p
+                        span: talli
+                        span: navetta
+                        span: varsa
+                        span: tamma
+                        span: ori
+                        span: ruuna
+                        span: laukki
+                        span: valio
+                      p
+                        span: heinä
+                        span: niittää
+                        span: viikate
+                        span: lato
+                        span: korsi
+                        span: luoko
+                        span: korjuu
+                        span: apila
+                        span: tukko
+                        span: hellitellä
+                        span: niitti
+                    node id="n360" lev="9" c="0" par="n359" y="360" below="0" x="y":    
+                      p
+                        span: avaruus
+                        span: ääretön
+                        span: halki
+                        span: hirviö
+                        span: lakeus
+                        span: paljous
+                        span: äärettömyys
+                        span: tyhjyys
+                        span: aavikko
+                        span: ikuisuus
+                        span: massa
+                        span: lapsukainen
+                        span: määrätön
+                        span: vana
+                      p
+                        span: aukea
+                        span: kenttä
+                        span: paikka
+                        span: avara
+                        span: keskellä
+                        span: paikko
+                        span: aro
+                        span: suojaton
+                        span: vääräsääri
+                  node id="n356" lev="8" c="2" par="n355" y="356" below="2" x="y":    
+                    node id="n358" lev="9" c="0" par="n356" y="358" below="0" x="y":    
+                      p
+                        span: virittää
+                        span: ansa
+                        span: paula
+                        span: hana
+                        span: sadin
+                        span: houkutella
+                        span: viritellä
+                        span: vietellä
+                        span: linnustaja
+                      p
+                        span: vetää
+                        span: vire
+                        span: apaja
+                        span: käsine
+                    node id="n357" lev="9" c="0" par="n356" y="357" below="0" x="y":    
+                      p
+                        span: ulos
+                        span: pujahtaa
+                        span: mennä
+                        span: lappaa
+                        span: kiirehtiä
+                        span: houkuttaa
+                      p
+                        span: astua
+                        span: sisään
+                        span: rohkeasti
+                        span: työntyä
+                        span: kiireisesti
+                        span: tallustaa
+                        span: juntata
+                node id="n346" lev="7" c="2" par="n345" y="346" below="8" x="y":    
+                  node id="n347" lev="8" c="1" par="n346" y="347" below="1" x="y":    
+                    p
+                      span: akka
+                      span: jotta
+                      span: mustalainen
+                      span: kakara
+                      span: peukaloinen
+                      span: suulas
+                    node id="n348" lev="9" c="0" par="n347" y="348" below="0" x="y":    
+                      p
+                        span: pois
+                        span: kitkeä
+                        span: häätää
+                        span: kaikota
+                        span: luotain
+                        span: siirtymä
+                        span: kiskottaa
+                      p
+                        span: temmata
+                        span: tuonela
+                  node id="n349" lev="8" c="2" par="n346" y="349" below="5" x="y":    
+                    node id="n350" lev="9" c="1" par="n349" y="350" below="1" x="y":    
+                      p
+                        span: jalo
+                        span: ylevä
+                        span: sankari
+                        span: pyrkimys
+                      node id="n351" lev="10" c="0" par="n350" y="351" below="0" x="y":    
+                        p
+                          span: kala
+                          span: siima
+                          span: vapa
+                          span: koukku
+                          span: perho
+                          span: onkia
+                          span: lohi
+                          span: kutea
+                          span: rulla
+                          span: perata
+                          span: syötti
+                          span: nuotta
+                          span: haavi
+                          span: pyynti
+                          span: heitto
+                          span: turska
+                          span: taimen
+                          span: liero
+                        p
+                          span: ahven
+                          span: hauki
+                          span: särki
+                          span: siika
+                          span: lahna
+                          span: kuha
+                    node id="n352" lev="9" c="1" par="n349" y="352" below="2" x="y":    
+                      p
+                        span: usko
+                        span: lunastus
+                        span: varmistua
+                        span: järkkyä
+                      node id="n353" lev="10" c="1" par="n352" y="353" below="1" x="y":    
+                        p
+                          span: yhteen
+                          span: ääneen
+                          span: liittää
+                          span: törmätä
+                          span: sointua
+                          span: liittyä
+                          span: sovitella
+                          span: piste
+                        node id="n354" lev="11" c="0" par="n353" y="354" below="0" x="y":    
+                          p
+                            span: kauppa
+                            span: päällinen
+                            span: vielä
+                            span: rahaton
+                          p
+                            span: hieroa
+                            span: sovinto
+              node id="n362" lev="6" c="2" par="n344" y="362" below="28" x="y":    
+                node id="n363" lev="7" c="2" par="n362" y="363" below="12" x="y":    
+                  node id="n364" lev="8" c="2" par="n363" y="364" below="4" x="y":    
+                    node id="n365" lev="9" c="0" par="n364" y="365" below="0" x="y":    
+                      p
+                        span: vatsa
+                        span: nälkäinen
+                        span: täyte
+                        span: ahmia
+                        span: janoinen
+                        span: haku
+                      p
+                        span: täyteen
+                        span: ahtaa
+                        span: sulloa
+                        span: maha
+                        span: mättää
+                    node id="n366" lev="9" c="2" par="n364" y="366" below="2" x="y":    
+                      node id="n368" lev="10" c="0" par="n366" y="368" below="0" x="y":    
+                        p
+                          span: vastustaa
+                          span: kiusaus
+                          span: jyrkästi
+                          span: johdattaa
+                          span: houkutus
+                        p
+                          span: ankarasti
+                          span: arvostella
+                          span: moittia
+                          span: kieltää
+                          span: torua
+                          span: kurittaa
+                      node id="n367" lev="10" c="0" par="n366" y="367" below="0" x="y":    
+                        p
+                          span: katkerasti
+                          span: nyyhkyttää
+                          span: nyyhkiä
+                          span: voivotella
+                          span: surkeus
+                          span: ruikuttaa
+                          span: taannoin
+                        p
+                          span: itkeä
+                          span: katua
+                          span: vihata
+                          span: surra
+                          span: ruveta
+                          span: niini
+                  node id="n369" lev="8" c="2" par="n363" y="369" below="6" x="y":    
+                    node id="n373" lev="9" c="1" par="n369" y="373" below="2" x="y":    
+                      p
+                        span: syy
+                        span: pätevä
+                        span: siitä
+                        span: ylpeillä
+                        span: päteä
+                        span: viivytys
+                        span: kahdenlainen
+                        span: kerskailla
+                        span: pohjimmainen
+                        span: kuitu
+                        span: ylvästellä
+                      node id="n374" lev="10" c="1" par="n373" y="374" below="1" x="y":    
+                        p
+                          span: syvälle
+                          span: painua
+                          span: vajota
+                          span: juurtua
+                          span: syöpyä
+                          span: lieju
+                          span: muta
+                        node id="n375" lev="11" c="0" par="n374" y="375" below="0" x="y":    
+                          p
+                            span: prinssi
+                            span: prinsessa
+                            span: herttua
+                            span: kuningatar
+                            span: hovi
+                            span: puoliso
+                            span: lumota
+                            span: kreivi
+                            span: ylhäisyys
+                            span: kreivitär
+                            span: seuralainen
+                            span: saattue
+                          p
+                            span: keisari
+                            span: kuningas
+                            span: alamainen
+                            span: kruunu
+                            span: armollinen
+                            span: paavi
+                            span: hallitsija
+                            span: kruunata
+                            span: rouva
+                            span: valtikka
+                            span: ruhtinas
+                            span: keisarinna
+                            span: hallita
+                            span: vasalli
+                            span: lahjoittaa
+                            span: herra
+                            span: valtias
+                            span: neiti
+                            span: seuraaja
+                            span: käskyläinen
+                            span: ylimys
+                            span: tsaari
+                            span: ministeri
+                            span: aikuinen
+                            span: panetella
+                            span: kurkkia
+                            span: aateloida
+                            span: vaaita
+                    node id="n370" lev="9" c="2" par="n369" y="370" below="2" x="y":    
+                      node id="n372" lev="10" c="0" par="n370" y="372" below="0" x="y":    
+                        p
+                          span: keihäs
+                          span: kilpi
+                          span: kypärä
+                          span: suojella
+                          span: nurja
+                          span: taikoa
+                        p
+                          span: terävä
+                          span: kärki
+                          span: piikki
+                          span: peitsi
+                          span: naskali
+                          span: särmä
+                          span: pistävä
+                          span: pistin
+                          span: oas
+                      node id="n371" lev="10" c="0" par="n370" y="371" below="0" x="y":    
+                        p
+                          span: päätös
+                          span: kumota
+                          span: senaatti
+                          span: vakaa
+                          span: horjua
+                          span: peruuttaa
+                          span: horjumaton
+                          span: vahvistua
+                        p
+                          span: vannoa
+                          span: vala
+                          span: uskollisuus
+                          span: rikkoa
+                          span: ikuinen
+                          span: lupaus
+                          span: vahvistaa
+                          span: rikko
+                          span: vannottaa
+                          span: velvoittaa
+                          span: kausi
+                          span: valas
+                          span: ikuistaa
+                node id="n376" lev="7" c="2" par="n362" y="376" below="14" x="y":    
+                  node id="n385" lev="8" c="2" par="n376" y="385" below="5" x="y":    
+                    node id="n389" lev="9" c="1" par="n385" y="389" below="1" x="y":    
+                      p
+                        span: yleinen
+                        span: syyttäjä
+                        span: apulainen
+                        span: hilpeys
+                        span: sekaannus
+                      node id="n390" lev="10" c="0" par="n389" y="390" below="0" x="y":    
+                        p
+                          span: paremmin
+                          span: parhaiten
+                          span: soveltua
+                          span: sopia
+                          span: menestyä
+                          span: mainio
+                          span: taitaa
+                          span: sujua
+                          span: tietää
+                          span: luulla
+                          span: parhain
+                          span: muusa
+                        p
+                          span: hoitaa
+                          span: talous
+                          span: huonosti
+                          span: hoitaja
+                          span: vaalia
+                          span: pito
+                          span: sisarus
+                          span: holhota
+                          span: lari
+                    node id="n386" lev="9" c="1" par="n385" y="386" below="2" x="y":    
+                      p
+                        span: kiittää
+                        span: ylistää
+                        span: luoja
+                        span: antaja
+                        span: kehua
+                        span: kylliksi
+                        span: luomi
+                        span: imarrella
+                        span: parjata
+                      node id="n387" lev="10" c="1" par="n386" y="387" below="1" x="y":    
+                        p
+                          span: alas
+                          span: laskeutua
+                          span: jyrkänne
+                          span: suistua
+                          span: luiskahtaa
+                          span: kieriä
+                          span: soljua
+                          span: heilahtaa
+                          span: syöksy
+                          span: vaarna
+                          span: revittää
+                          span: huilata
+                          span: pölinä
+                        node id="n388" lev="11" c="0" par="n387" y="388" below="0" x="y":    
+                          p
+                            span: koski
+                            span: kohista
+                            span: kuohua
+                            span: kohina
+                            span: kuohu
+                            span: virta
+                            span: pauhata
+                            span: pauhu
+                            span: vaahto
+                            span: pyörre
+                            span: vaahdota
+                            span: jyskyä
+                            span: hei
+                            span: laskija
+                            span: kiho
+                          p
+                            span: aalto
+                            span: vyöryä
+                            span: harja
+                            span: huuhdella
+                            span: huuhtoa
+                            span: keikkua
+                            span: halkoa
+                            span: ärjyä
+                            span: hyökyä
+                            span: keinuttaa
+                            span: hyöky
+                  node id="n377" lev="8" c="2" par="n376" y="377" below="7" x="y":    
+                    node id="n382" lev="9" c="1" par="n377" y="382" below="2" x="y":    
+                      p
+                        span: penkki
+                        span: istuskella
+                        span: lehteri
+                        span: perimmäinen
+                        span: torkkua
+                      node id="n383" lev="10" c="1" par="n382" y="383" below="1" x="y":    
+                        p
+                          span: haihtua
+                          span: usva
+                          span: olematon
+                          span: kerrassaan
+                          span: huuru
+                        node id="n384" lev="11" c="0" par="n383" y="384" below="0" x="y":    
+                          p
+                            span: kehitys
+                            span: kansallinen
+                            span: henkinen
+                            span: sivistys
+                            span: historiallinen
+                            span: merkitys
+                            span: harrastus
+                            span: edistys
+                            span: herätys
+                            span: perustus
+                            span: kansallisuus
+                            span: yhteys
+                            span: synty
+                            span: kulttuuri
+                            span: muodostua
+                            span: käsite
+                            span: itsetunto
+                            span: todellinen
+                            span: raakuus
+                            span: täten
+                            span: viljely
+                            span: herättäjä
+                          p
+                            span: kirjallisuus
+                            span: suomalainen
+                            span: historia
+                            span: seura
+                            span: tuote
+                            span: saksalainen
+                            span: tuntija
+                            span: rikastuttaa
+                            span: sissi
+                            span: itsepäinen
+                            span: virolainen
+                            span: myös
+                    node id="n378" lev="9" c="2" par="n377" y="378" below="3" x="y":    
+                      node id="n379" lev="10" c="0" par="n378" y="379" below="0" x="y":    
+                        p
+                          span: varas
+                          span: rosvo
+                          span: varastaa
+                          span: petturi
+                          span: ryöväri
+                          span: murhaaja
+                          span: roisto
+                          span: vangita
+                          span: konna
+                          span: hirttää
+                          span: poliisi
+                          span: lurjus
+                          span: valehdella
+                          span: koru
+                          span: tuo
+                          span: juoppo
+                          span: valehtelija
+                          span: ryöstäjä
+                          span: voro
+                          span: huora
+                        p
+                          span: kurja
+                          span: raukka
+                          span: tila
+                          span: hökkeli
+                          span: pelkuri
+                          span: viheliäinen
+                          span: surkea
+                          span: surkutella
+                          span: kehno
+                          span: toivoton
+                          span: katala
+                          span: kunnossa
+                          span: avuton
+                          span: kavaltaja
+                          span: heittiö
+                          span: ahtaus
+                          span: viettelijä
+                          span: moukka
+                          span: hylkiä
+                          span: moska
+                      node id="n380" lev="10" c="1" par="n378" y="380" below="1" x="y":    
+                        p
+                          span: neuvo
+                          span: kysyä
+                          span: varoitus
+                          span: viisas
+                          span: järkevä
+                          span: muu
+                        node id="n381" lev="11" c="0" par="n380" y="381" below="0" x="y":    
+                          p
+                            span: toteuttaa
+                            span: aie
+                            span: tuuma
+                            span: käytäntö
+                            span: aikomus
+                            span: mahdoton
+                            span: veljeys
+                          p
+                            span: toteutua
+                            span: toive
+                            span: unelma
+                            span: ennustus
+                            span: toivo
+                            span: toivomus
+                            span: täyttyä
+                            span: todellisuus
+                            span: haave
+                            span: ihanne
+                            span: haaveilla
+                            span: unelmoida
+                            span: täyttymys

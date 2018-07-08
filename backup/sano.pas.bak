@@ -1,0 +1,27 @@
+unit sano;
+
+{$mode objfpc}{$H+}
+
+interface
+uses
+  Classes, math,SysUtils,sanamat;
+
+   //tricks.. could not get fillchars blockreads etc to work with dyn arrays, so just made big enough 1D abs array. Jus needed memory allocate, tho
+  //type tmylly=class;
+
+   //var  tmppointer:pointer;//tmylly;
+
+implementation
+
+
+
+
+{$R *.lfm}
+{$I outofsight.inc}
+{  $I sanamylly.inc}
+{  $I sanamat.inc}
+{$I current.inc}
+{$I sanamatnew.inc}
+
+end.
+

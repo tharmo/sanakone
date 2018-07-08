@@ -1,0 +1,278 @@
+class name=kotus
+  kotustocsv: {: xml to text: all words with tn (skips composites), produces format suitable for finding unique types of words  } 
+   xmp
+    xse:gawk in="kotus-sanalista_v1.xml" out="kot-wrdx.csv": '''
+      BEGIN { FS="[<|>]"}
+      /\<tn\>/ { 
+         ssta=match($0,"<s>")+3;ssto=match($0,"</s>");tsta=match($0,"<tn>")+4;tsto=match($0,"</tn>");
+         asta=match($0,"<av>")+4;asto=match($0,"</av>");   ##!!handle <av astevaihtelu="valinnainen"
+         av=substr($0,asta,asto-asta)
+          if (av=="") { av="0"}
+          
+          st=substr($0,ssta,ssto-ssta)
+          stlast=substr(st,length(st),1)
+          st2last=substr(st,length(st)-1,1)
+         tn=sprintf("%03d", substr($0,tsta,tsto-tsta));
+         ## if (st=="") {st="XXX"}
+         if (st=="hapan") tn="034"
+         if (st=="show") next
+         if (tn=="049" && substr(st,length(st))=="e") tn="048"
+         if (length(av)>2) {
+         print tn  "," substr(av,length(av)) "," stlast "," length(st) "," st  
+          av="0"sana
+          }
+         print tn   "," av "," stlast "," length(st) "," st  
+       } 
+
+     '''
+     
+    xse:shellexec: cat kot-wrdx.csv |uniq > kot-wrd.csv {: poistaa samoin taipuvat homonyymit.. ehkä niistä ois iloa jos finwordnettiä kaiveltais??}
+    hr
+    xmp
+     #just words to be fed into hfst
+     xse:gawk in="kot-wrd.csv" out="kot4join.lst":  BEGIN { FS=","} { if (index($5,"-")<1) if (index($5," ")<1) print tolower($5)}
+     xse:gawk in="kot-wrd.csv" out="kot4hfstgen.lst":  BEGIN { FS=","; OFS=""} { if (index($5,"-")<1) if (index($5," ")<1) print tolower($5), " " $1 $2 $3}
+    
+  sanaluokat:  analysoi hfst:llä sanat, siivoa  ja yhdistä kotus-taivutusluokkatietoihin (joissa se olis voinut olla valmiiksi)
+    xse:shellexec: cat kot4hfstgen.lst  | hfst-proc -a -v  -p /usr/local/share/hfst/fi/fi-analysis.hfst.ol  > hfst.ana
+    xmp
+        xse:gawk in="hfst.ana" out="sana_lka.lst":  '''  {: poimii perusmuodot kustakin sanaluokasta, tallettaa sana+" "+luokka }
+          BEGIN  { FS="/"; OFS=" "} 
+          /^\^\-/ { next}
+          /^\^/{ 
+            $1=substr($1,2)
+            for (i=2;i<=NF;i++) { 
+               split($i,ss," ")
+               if (ss[1]==$1)
+                {
+                    sub(/\$/,"",ss[2])
+                    if (index(ss[2],"Num")==1)
+                       if (index(ss[3],"Nom")>0)
+                         print $1 ,  ss[2] #  , ss[3], ss[4]
+                    if (index(ss[2],"Pron")>0)   #no x tests 
+                       print $1 ,  ss[2]  #, ss[3], ss[4]
+                      
+                    #if (index(ss[2],"Adv")>0)
+                    # print $1  , ss[2], ss[3], ss[4] "!"
+                   if (ss[2]=="V")
+                     if (index(ss[3],"Inf")>0)
+                       print $1, ss[2] #, ss[2], ss[3], ss[4]
+                   if (ss[2]=="N")
+                     if (index(ss[3],"Nom")==1 && index(ss[4],"Sg")==1)
+                       print $1, ss[2] # , ss[2], ss[3], ss[4]
+                   if (ss[2]=="A")
+                     if (index(ss[3],"Pos")==1 && index(ss[4],"Nsoom")==1)
+                       print $1, ss[2] #,  ss[3], ss[4]
+                   # if (index("ANVAdvInterjAdvNumAbbrAdp",ss[2])<1)
+                   #   print $1  ":" ss[2] ";" ss[3], ss[4] , ss[5] , ss[6] 
+                   # continue  
+               }
+            }
+          }  
+          #END   { for (i in v) print "V:", i, v[i]}
+        '''
+    ###xse:gawk in=sana_tvt.lst out=taiv.lst: '''  {: add length (to be sorted by in order to get cleaner "paradigm-words for conjugation)}
+      { print $0, length($1) } 
+    '''   
+    xse:shellexec:  export LC_ALL=C;join -e MISSING -a1 sana_lka.lst kot4join.lst |uniq >kot_lkax.lst {: kotuslista sanaluokan kera  }
+    xse:shellexec: export LC_ALL=C;cat sanainfo.lst |sort --field-separator=' ' -k2 -k3 -k4 -k1 |uniq >sanat.lst  {: sortaa luokan mukaan}
+    hr
+    xse:gawk in=sanat.lst out=sanoja.tmp: '''
+        {  # just pick firsts of a kind 
+         ###if ($1=="huti") print "xxxxxxxxxxxxxxxxx" $0
+        if (NF<3) next
+        if (prev==$2 $3) { 
+         if (has2>3) { next} else { has2=has2+1}
+        } else has2=0 
+        print $2, $3, $1
+        prev=$2 $3
+        }
+       '''    
+    xse:shellexec: export LC_ALL=C;cat sanoja.tmp | sort -k3|uniq >sanoja.lst
+    #xmp:   {?read('sanoja.lst')}
+    hr   
+    xmp: INFOT: {?read('sanat.lst')}
+    # MUISTA HANKKIUTUA EROON YHDYSSANOISTA, HFST-TULOKSISSA $2 SIS "#"
+  paradigms
+    xse:gawk in=sanoja.lst out=taivuta.lst: '''
+      @include "V.gen"  
+      @include "A.gen"  
+      @include "N.gen"  
+      @include "Pron.gen"  
+      @include "Num.gen"  
+      // { 
+      
+       #if ($2=="V") V($1)
+       #if ($2=="A")  A($1)
+       if ($1=="N" && substr($2,1,3)+0<50)  N($3)
+       #if ($2=="Pron")  Pron($1)
+       #if ($2=="Num")  Num($1)
+      }
+    '''
+    
+    hr
+    xse:shellexec: cat  taivuta.lst | ./figen >hfstx.res
+    xse:shellexec: grep -Ev "^$" hfstx.res > hfst.res
+
+    xse:gawk in=sanoja.lst out=s.tmp: '''
+       { print $3, $1 $2}
+    '''   
+    # kot-wrdx.csv |uniq >kot-wrd.csv | sana_tvt.lst |  hfst>hfst.ana
+      #                                                -> add length>taiv.lst >.. >sanainfo.lst |sanat.lst (sorted by hfst.ana results + len) &lastlet, length 
+     # sanat.lst > uniq,drop len? >sanoja.tmp   >  sort by sana,LEN KATOAA >sanoja.lst >taivuta.lst |hfst> .. >hfst.res (aakostettu)                                                
+     # SANOJA.LST | reorder, sana ekaks | s.tmp | poimi Nouns > s.tmp | join with hfst.res >taivutetut.lst | sort >tai.tmp (jotain hävisi!)
+   
+  join   
+    xse:shellexec: export LC_ALL=C;cat s.tmp |grep ' V0'| sed -e 's/ /,/g' | sort --field-separator=',' -k1,1  -s | sed -e 's/,/ /g'>s2.tmp
+    xse:shellexec: join -i -a1 s2.tmp hfstv.res >taiverbs.lst
+    ##xse:shellexec: join -i -a1 s2.tmp hfst.res >taivutetut.lst
+    h1: taivutetus 
+    pre: 
+        xse:shellexec:  export LC_ALL=C;                cat taivutetut.lst |sort --field-separator=' ' -k1,1  -s>tai.tmp
+        #xse:shellexec: export LC_ALL=C;cat taivutetut.lst |sort --field-separator=' ' -k1,1 -d -s >tai.tmp
+        hr
+        #xse:shellexec: head hfst
+    h1: ta.lst    
+    hr     
+    xmp
+      xse:gawk in=tai.tmp out=ta.lst: '''
+            //{ 
+            if (NF<2) next
+            if (prev1==$1) {
+                if (prev==$2 $3 $4) { w=w "/" $6 } 
+             else
+              w=w "," $6 
+              prev=$2 $3 $4
+              next
+            }
+              print onf prev1 w  
+              prev1=$1
+              prev=$2 $3 $4
+              onf=$2 ","
+              w="," $6
+            }
+             
+         '''
+   
+    #xmp: {:tulos: {?read('tai.lst')}
+    xse:shellexec: cat ta.lst | sort > ta2.lst
+    xse:shellexec: iconv -t ISO-8859-1//TRANSLIT -f UTF-8 ta2.lst >tai.lst
+    xmp     
+      xse:shellexec: cat tai.lst 
+       
+  join2 {: pick out secondary forms}   
+    xse:shellexec: cat tai.tmp |uniq > taiu.lst
+    xmp
+      xse:gawk in=taiu.lst out=tax2.lst: '''
+       
+            //{ 
+            if (NF<2) next
+            if (prev1==$1) {  #same word 
+                if (prev==$4 $5) {  #same form as prev
+                  #if (hits > 10)  { print "????????????????"
+                  #  hits=hits+1;next #skip third etc occs
+                  #  }
+                  #  else { #if (hits > 0)   # second(0)/third(1) occurrence
+                  form=form "+" $6 
+                  hits=hits+1
+                  #print "#" form;next;
+                  if (hits>maxhits) maxhits=hits    
+                   #hits=hits+1;form=form "___" $6 
+                 } 
+                 else { #first oc of new form
+                   if (hits>maxhits) maxhits=hits      
+                   if (hits==1) form=""
+                   w=w "," form  #save prev form
+                   form=$6 " ";
+                   prev=$4 $5
+                   hits=1
+                 }  
+            }
+            else { #new word
+              if (maxhits==1) w="," 
+              print onf "!" prev1 w  
+               maxhits=1
+              form="x"
+              hits=1
+              prev1=$1
+              prev=$4 $5
+              onf=$2 " "
+              w="" 
+            }
+     }        
+         '''
+    xse:shellexec: cat tax2.lst | sort > taxx.lst
+    xmp
+      xse:shellexec: iconv -t ISO-8859-1//TRANSLIT -f UTF-8 taxx.lst >taix.lst
+    xse:gawk in=taix.lst: '''
+        BEGIN { FS=","}
+        //{            lks=substr($0,1,4)
+              if (lks!=prevlks) print("</TABLE><h2>" lks "</h2><TABLE border=1>")
+              prevlks=lks
+              print "<tr>"
+              for (i=1;i<NF;i++) 
+               print "<td>" $i "</td>"
+              print "</tr>"
+           }   
+    '''      
+    # gawk '{s=s " " $2} {print s}'
+  taivu  
+     xse:shellexec: iconv -t ISO-8859-1//TRANSLIT -f UTF-8 sanat.lst >sanatansi.lst
+     xse:shellexec: ./taivu 
+  nommuodot
+    pre
+      xse:gawk in=muodot.lst: '''
+       BEGIN { FS=",";q="\x27"} 
+        /:/{ next}
+       //{ muodot="const N" $1 ":array[1.." NF-2 "] of ansistring =(";
+       for (i=2;i<NF-1;i++) muodot=muodot q $i q ",";print muodot  q $(NF-1) q");"}
+     '''  
+  teeverbikaava   
+     xse:to file=vk1.tmp
+       xse:from file=verbikaava.html {: http://henrihe.mbnet.fi/tiede/verbikaava.html)
+          xse:apply select=//table/tbody/tr/td[2] 
+           div: {.}
+     xse:gawk in=vk1.tmp out=vk2.tmp: { if (NF==1) print}    
+     xse:shellexec: iconv -f ISO-8859-1 -t UTF-8 verbim.lst >vk3.tmp
+     xse:shellexec: cat vk3.tmp |./fiana >vk4.tmp 
+     #xse:shellexec: cat vk4.tmp |iconv -t ISO-8859-1//TRANSLIT -f UTF-8  |gawk 'BEGIN { FS="/"} { print $1 "/" substr($1,1,5)}' |sort >vk5.tmp
+     xse:gawk in=vk4.tmp out=vk5.tmp: '''
+       function PR(f) { print "print wrd \"" substr(f,index(f," ")) "\""}
+       
+       BEGIN { FS="/";print "function V(wrd) { " } 
+       /\^/{ for (i=2;i<=NF;i++) PR($i)}
+       END { print "}"}
+       '''
+     xse:shellexec:  cat vk5.tmp|iconv -t ISO-8859-1//TRANSLIT -f UTF-8  |sort >V.gen
+     pre: {?read('V.gen')}
+       
+         #  ;split("Nom,Par,Gen,Ill,All,Abe,Nom,Par,Gen,Ill,All,Ins,Abe",muoto,",");}
+       #//{ for (i=1;i<NF;i++) muodot=muodot "'" muoto[i] ", " $i }
+  aste
+   echo   A ( kk : k ) - B ( pp : p ) - C ( tt : t ) - D ( k : - ) - E ( p : v ) - F ( t : d ) - G ( nk : ng ) - H ( mp : mm ) - I ( lt : ll ) - J ( nt : nn ) - K ( rt : rr ) - L ( k : j ) - M ( k : v )
+
+  vparadigms
+    xse:gawk in=sanoja.lst out=taiverb.lst: '''
+      @include "V.gen"  
+      #@include "A.gen"  
+      #@include "N.gen"  
+      #@include "Pron.gen"  
+      #@include "Num.gen"  
+      // { 
+       #if ($2=="V") V($1)
+       #if ($2=="A")  A($1)
+       #if ($1=="N" && substr($2,1,3)+0<50)  N($3)
+      if ($1=="V")  V($3)
+       #if ($2=="Pron")  Pron($1)
+       #if ($2=="Num")  Num($1)
+      }
+    '''
+    
+    hr
+    xse:shellexec: cat  taiverb.lst | ./figen >hfstvx.res
+    xse:shellexec: grep -Ev "^$" hfstvx.res > hfstv.res
+
+    xse:gawk in=sanoja.lst out=s.tmp: '''
+       { print $3, $1 $2}
+    '''   
+  

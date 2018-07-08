@@ -1,0 +1,7 @@
+todo
+
+ - find best descriptive words for merged clusters by iterative multiplication
+ - create the svg (in xseus)
+ - something needed for the basic clustering  .. maybe some iterations with overlapping clusters
+ - maybe final stage has overlaps (fuzzy?)
+

@@ -1,0 +1,30 @@
+class name=kotus
+  kotus
+    #xse:to file="kotus.res"
+    #xse:shellexec cmd="gawk '{ print }' kotus.xsi >kot.hui" 
+    #xse:gawk in="kotshort.xml" out="kot.res": '''
+    xse:gawk in="kotus-sanalista_v1.xml" out="kot.res": '''
+      BEGIN { FS="[<|>]"}
+      /\<tn\>/ { 
+         ssta=match($0,"<s>")+3;ssto=match($0,"</s>");tsta=match($0,"<tn>")+4;tsto=match($0,"</tn>");
+         asta=match($0,"<av>")+4;asto=match($0,"</av>");
+         av=substr($0,asta,asto-asta)
+          if (av=="") { av="-"}
+          st=substr($0,ssta,ssto-ssta)
+          stlast=substr(st,length(st),1)
+          st2last=substr(st,length(st)-1,1)
+         tn=sprintf("%03d", substr($0,tsta,tsto-tsta));
+         ## if (st=="") {st="XXX"}
+         print tn   "," av "," stlast "," length(st) "," st  
+       } 
+
+     '''
+    xse:shellexec: cat kot.res |sort -V > kotus.str
+    #parads      
+   xmp
+    xse:gawk in="kotus.str" out="kotus.pdm": '''
+      BEGIN { FS=","}
+      { this=$1 $2 $3;
+      if (this!=prev) print NR "  "  $1$2 ":" $5 ;prev=this}
+      '''
+    xse:debug

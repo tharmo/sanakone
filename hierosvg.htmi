@@ -1,0 +1,1389 @@
+svg version="1.11" baseProfile="full" width="3000" height="3000" xmlns="http://www.w3.org/2000/svg" encoding="ISO-8859-1"
+  line x1="2571" y1="1899" stroke="red" opacity="0.7" stroke-width="1" x2="2459" y2="1679"
+  text x="2571" y="1907" font-size="15" fill="red": 14_350
+  line x1="2459" y1="1679" stroke="red" opacity="0.7" stroke-width="1" x2="2270" y2="1532"
+  text x="2459" y="1685" font-size="15" fill="red": 13_325
+  line x1="2270" y1="1532" stroke="red" opacity="0.7" stroke-width="1" x2="2045" y2="1482"
+  text x="2270" y="1537" font-size="15" fill="red": 12_300
+  line x1="2038" y1="1562" stroke="green" opacity="0.7" stroke-width="1" x2="2045" y2="1482"
+  text x="2038" y="1572" font-size="15" fill="green": 12_275
+  line x1="2045" y1="1482" stroke="red" opacity="0.7" stroke-width="1" x2="1829" y2="1530"
+  text x="2045" y="1486" font-size="15" fill="red": 11_275
+  line x1="2230" y1="1602" stroke="red" opacity="0.7" stroke-width="1" x2="2038" y2="1562"
+  text x="2230" y="1604" font-size="15" fill="red": 13_300
+  line x1="2038" y1="1562" stroke="red" opacity="0.7" stroke-width="1" x2="1856" y2="1605"
+  text x="2038" y="1568" font-size="15" fill="red": 12_275
+  line x1="1884" y1="1681" stroke="green" opacity="0.7" stroke-width="1" x2="1856" y2="1605"
+  text x="1884" y="1681" font-size="15" fill="green": 12_250
+  line x1="1856" y1="1605" stroke="green" opacity="0.7" stroke-width="1" x2="1829" y2="1530"
+  text x="1856" y="1613" font-size="15" fill="green": 11_250
+  line x1="1829" y1="1530" stroke="red" opacity="0.7" stroke-width="1" x2="1661" y2="1661"
+  text x="1829" y="1539" font-size="15" fill="red": 10_250
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1609" font-size="15" fill="red": 11_250
+  line x1="1717" y1="1717" stroke="green" opacity="0.7" stroke-width="1" x2="1661" y2="1661"
+  text x="1717" y="1731" font-size="15" fill="green": 10_225
+  line x1="1661" y1="1661" stroke="red" opacity="0.7" stroke-width="1" x2="1568" y2="1843"
+  text x="1661" y="1664" font-size="15" fill="red": 9_225
+  line x1="2038" y1="1562" stroke="red" opacity="0.7" stroke-width="1" x2="1856" y2="1605"
+  text x="2038" y="1576" font-size="15" fill="red": 12_275
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1608" font-size="15" fill="red": 11_250
+  line x1="1774" y1="1774" stroke="green" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1774" y="1778" font-size="15" fill="green": 11_225
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1729" font-size="15" fill="red": 10_225
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1779" font-size="15" fill="red": 11_225
+  line x1="1793" y1="1925" stroke="green" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1793" y="1935" font-size="15" fill="green": 11_200
+  line x1="1718" y1="1897" stroke="green" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1718" y="1905" font-size="15" fill="green": 10_200
+  line x1="1643" y1="1870" stroke="green" opacity="0.7" stroke-width="1" x2="1568" y2="1843"
+  text x="1643" y="1880" font-size="15" fill="green": 9_200
+  line x1="1568" y1="1843" stroke="red" opacity="0.7" stroke-width="1" x2="1562" y2="2038"
+  text x="1568" y="1847" font-size="15" fill="red": 8_200
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1877" font-size="15" fill="red": 9_200
+  line x1="1721" y1="2024" stroke="green" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1721" y="2026" font-size="15" fill="green": 9_175
+  line x1="1641" y1="2031" stroke="green" opacity="0.7" stroke-width="1" x2="1562" y2="2038"
+  text x="1641" y="2038" font-size="15" fill="green": 8_175
+  line x1="1562" y1="2038" stroke="red" opacity="0.7" stroke-width="1" x2="1636" y2="2210"
+  text x="1562" y="2046" font-size="15" fill="red": 7_175
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1615" font-size="15" fill="red": 11_250
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1725" font-size="15" fill="red": 10_225
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1877" font-size="15" fill="red": 9_200
+  line x1="1721" y1="2024" stroke="green" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1721" y="2032" font-size="15" fill="green": 9_175
+  line x1="1641" y1="2031" stroke="red" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1641" y="2036" font-size="15" fill="red": 8_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2026" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2097" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="green" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1775" y="2138" font-size="15" fill="green": 8_150
+  line x1="1706" y1="2170" stroke="green" opacity="0.7" stroke-width="1" x2="1636" y2="2210"
+  text x="1706" y="2176" font-size="15" fill="green": 7_150
+  line x1="1636" y1="2210" stroke="red" opacity="0.7" stroke-width="1" x2="1771" y2="2328"
+  text x="1636" y="2210" font-size="15" fill="red": 6_150
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1611" font-size="15" fill="red": 11_250
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1719" font-size="15" fill="red": 10_225
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1882" font-size="15" fill="red": 9_200
+  line x1="1641" y1="2031" stroke="red" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1641" y="2044" font-size="15" fill="red": 8_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2031" font-size="15" fill="red": 9_175
+  line x1="1775" y1="2130" stroke="green" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1775" y="2140" font-size="15" fill="green": 8_150
+  line x1="1706" y1="2170" stroke="red" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1706" y="2179" font-size="15" fill="red": 7_150
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1910" font-size="15" fill="red": 10_200
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2038" font-size="15" fill="red": 9_175
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2017" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2093" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2139" font-size="15" fill="red": 8_150
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2021" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2097" font-size="15" fill="red": 9_150
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2059" font-size="15" fill="red": 10_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2074" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2135" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="green" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1862" y="2208" font-size="15" fill="green": 7_125
+  line x1="1816" y1="2262" stroke="green" opacity="0.7" stroke-width="1" x2="1771" y2="2328"
+  text x="1816" y="2268" font-size="15" fill="green": 6_125
+  line x1="1771" y1="2328" stroke="red" opacity="0.7" stroke-width="1" x2="1934" y2="2374"
+  text x="1771" y="2340" font-size="15" fill="red": 5_125
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1726" font-size="15" fill="red": 10_225
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1871" font-size="15" fill="red": 9_200
+  line x1="1721" y1="2024" stroke="green" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1721" y="2031" font-size="15" fill="green": 9_175
+  line x1="1641" y1="2031" stroke="red" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1641" y="2032" font-size="15" fill="red": 8_175
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1898" font-size="15" fill="red": 10_200
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2035" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2092" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="green" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1775" y="2137" font-size="15" fill="green": 8_150
+  line x1="1706" y1="2170" stroke="red" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1706" y="2175" font-size="15" fill="red": 7_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2136" font-size="15" fill="red": 8_150
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2132" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="green" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1862" y="2204" font-size="15" fill="green": 7_125
+  line x1="1816" y1="2262" stroke="red" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1816" y="2266" font-size="15" fill="red": 6_125
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2143" font-size="15" fill="red": 8_150
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2197" font-size="15" fill="red": 7_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2141" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2145" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="green" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1962" y="2231" font-size="15" fill="green": 6_100
+  line x1="1948" y1="2295" stroke="green" opacity="0.7" stroke-width="1" x2="1934" y2="2374"
+  text x="1948" y="2304" font-size="15" fill="green": 5_100
+  line x1="1934" y1="2374" stroke="red" opacity="0.7" stroke-width="1" x2="2093" y2="2348"
+  text x="1934" y="2374" font-size="15" fill="red": 4_100
+  line x1="2038" y1="1562" stroke="red" opacity="0.7" stroke-width="1" x2="1856" y2="1605"
+  text x="2038" y="1569" font-size="15" fill="red": 12_275
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1610" font-size="15" fill="red": 11_250
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1728" font-size="15" fill="red": 10_225
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1783" font-size="15" fill="red": 11_225
+  line x1="1793" y1="1925" stroke="green" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1793" y="1933" font-size="15" fill="green": 11_200
+  line x1="1718" y1="1897" stroke="green" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1718" y="1909" font-size="15" fill="green": 10_200
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1870" font-size="15" fill="red": 9_200
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1777" font-size="15" fill="red": 11_225
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1902" font-size="15" fill="red": 10_200
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1930" font-size="15" fill="red": 11_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2017" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="green" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1721" y="2026" font-size="15" fill="green": 9_175
+  line x1="1641" y1="2031" stroke="red" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1641" y="2044" font-size="15" fill="red": 8_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2027" font-size="15" fill="red": 9_175
+  line x1="1775" y1="2130" stroke="green" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1775" y="2135" font-size="15" fill="green": 8_150
+  line x1="1706" y1="2170" stroke="red" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1706" y="2181" font-size="15" fill="red": 7_150
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2028" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2100" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2139" font-size="15" fill="red": 8_150
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2141" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="green" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1862" y="2200" font-size="15" fill="green": 7_125
+  line x1="1816" y1="2262" stroke="red" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1816" y="2273" font-size="15" fill="red": 6_125
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2036" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2100" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2131" font-size="15" fill="red": 8_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2094" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2137" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2198" font-size="15" fill="red": 7_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2143" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2060" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2139" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="green" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1962" y="2229" font-size="15" fill="green": 6_100
+  line x1="1948" y1="2295" stroke="red" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="1948" y="2302" font-size="15" fill="red": 5_100
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2034" font-size="15" fill="red": 9_175
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2132" font-size="15" fill="red": 8_150
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2139" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2211" font-size="15" fill="red": 7_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2133" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2149" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2230" font-size="15" fill="red": 6_100
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2137" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2143" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2040" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2124" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="green" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="2052" y="2198" font-size="15" fill="green": 5_75
+  line x1="2072" y1="2270" stroke="green" opacity="0.7" stroke-width="1" x2="2093" y2="2348"
+  text x="2072" y="2270" font-size="15" fill="green": 4_75
+  line x1="2093" y1="2348" stroke="red" opacity="0.7" stroke-width="1" x2="2219" y2="2260"
+  text x="2093" y="2358" font-size="15" fill="red": 3_75
+  line x1="2038" y1="1562" stroke="red" opacity="0.7" stroke-width="1" x2="1856" y2="1605"
+  text x="2038" y="1564" font-size="15" fill="red": 12_275
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1611" font-size="15" fill="red": 11_250
+  line x1="1774" y1="1774" stroke="green" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1774" y="1776" font-size="15" fill="green": 11_225
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1725" font-size="15" fill="red": 10_225
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1787" font-size="15" fill="red": 11_225
+  line x1="1793" y1="1925" stroke="green" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1793" y="1931" font-size="15" fill="green": 11_200
+  line x1="1718" y1="1897" stroke="green" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1718" y="1907" font-size="15" fill="green": 10_200
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1880" font-size="15" fill="red": 9_200
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1902" font-size="15" fill="red": 10_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2029" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="green" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1721" y="2027" font-size="15" fill="green": 9_175
+  line x1="1641" y1="2031" stroke="red" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1641" y="2045" font-size="15" fill="red": 8_175
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1898" font-size="15" fill="red": 10_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2031" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2026" font-size="15" fill="red": 9_175
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2021" font-size="15" fill="red": 10_175
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2060" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2096" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="green" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1775" y="2140" font-size="15" fill="green": 8_150
+  line x1="1706" y1="2170" stroke="red" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1706" y="2175" font-size="15" fill="red": 7_150
+  line x1="1884" y1="1681" stroke="red" opacity="0.7" stroke-width="1" x2="1774" y2="1774"
+  text x="1884" y="1695" font-size="15" fill="red": 12_250
+  line x1="1830" y1="1830" stroke="green" opacity="0.7" stroke-width="1" x2="1774" y2="1774"
+  text x="1830" y="1831" font-size="15" fill="green": 12_225
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1782" font-size="15" fill="red": 11_225
+  line x1="1793" y1="1925" stroke="green" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1793" y="1929" font-size="15" fill="green": 11_200
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1898" font-size="15" fill="red": 10_200
+  line x1="1830" y1="1830" stroke="red" opacity="0.7" stroke-width="1" x2="1793" y2="1925"
+  text x="1830" y="1834" font-size="15" fill="red": 12_225
+  line x1="1868" y1="1952" stroke="green" opacity="0.7" stroke-width="1" x2="1793" y2="1925"
+  text x="1868" y="1952" font-size="15" fill="green": 12_200
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1936" font-size="15" fill="red": 11_200
+  line x1="1880" y1="2010" stroke="green" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1880" y="2017" font-size="15" fill="green": 11_175
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2031" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2034" font-size="15" fill="red": 9_175
+  line x1="1830" y1="1830" stroke="red" opacity="0.7" stroke-width="1" x2="1793" y2="1925"
+  text x="1830" y="1844" font-size="15" fill="red": 12_225
+  line x1="1868" y1="1952" stroke="green" opacity="0.7" stroke-width="1" x2="1793" y2="1925"
+  text x="1868" y="1955" font-size="15" fill="green": 12_200
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1931" font-size="15" fill="red": 11_200
+  line x1="1868" y1="1952" stroke="red" opacity="0.7" stroke-width="1" x2="1880" y2="2010"
+  text x="1868" y="1965" font-size="15" fill="red": 12_200
+  line x1="1880" y1="2010" stroke="green" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1880" y="2017" font-size="15" fill="green": 11_175
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2023" font-size="15" fill="red": 10_175
+  line x1="1868" y1="1952" stroke="red" opacity="0.7" stroke-width="1" x2="1880" y2="2010"
+  text x="1868" y="1952" font-size="15" fill="red": 12_200
+  line x1="1880" y1="2010" stroke="red" opacity="0.7" stroke-width="1" x2="1913" y2="2050"
+  text x="1880" y="2021" font-size="15" fill="red": 11_175
+  line x1="1983" y1="2010" stroke="green" opacity="0.7" stroke-width="1" x2="1913" y2="2050"
+  text x="1983" y="2016" font-size="15" fill="green": 11_150
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2064" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2094" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2133" font-size="15" fill="red": 8_150
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1930" font-size="15" fill="red": 11_200
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2024" font-size="15" fill="red": 10_175
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2062" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2091" font-size="15" fill="red": 9_150
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2057" font-size="15" fill="red": 10_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2077" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2142" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="green" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1862" y="2207" font-size="15" fill="green": 7_125
+  line x1="1816" y1="2262" stroke="red" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1816" y="2270" font-size="15" fill="red": 6_125
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1776" font-size="15" fill="red": 11_225
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1906" font-size="15" fill="red": 10_200
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2037" font-size="15" fill="red": 9_175
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2136" font-size="15" fill="red": 8_150
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2022" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2097" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2077" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2145" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2211" font-size="15" fill="red": 7_125
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2017" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2093" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2132" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2062" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2145" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="green" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1962" y="2217" font-size="15" fill="green": 6_100
+  line x1="1948" y1="2295" stroke="red" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="1948" y="2296" font-size="15" fill="red": 5_100
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1901" font-size="15" fill="red": 10_200
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2035" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2092" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2140" font-size="15" fill="red": 8_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2091" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2072" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2144" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2205" font-size="15" fill="red": 7_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2141" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2061" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2152" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2218" font-size="15" fill="red": 6_100
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2096" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2078" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2144" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2062" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2148" font-size="15" fill="red": 7_100
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2074" font-size="15" fill="red": 9_125
+  line x1="2003" y1="1980" stroke="green" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="2003" y="1991" font-size="15" fill="green": 9_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2062" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1975" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2046" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2120" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="green" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="2052" y="2205" font-size="15" fill="green": 5_75
+  line x1="2072" y1="2270" stroke="red" opacity="0.7" stroke-width="1" x2="2167" y2="2199"
+  text x="2072" y="2283" font-size="15" fill="red": 4_75
+  line x1="1884" y1="1681" stroke="red" opacity="0.7" stroke-width="1" x2="1774" y2="1774"
+  text x="1884" y="1681" font-size="15" fill="red": 12_250
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1778" font-size="15" fill="red": 11_225
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1909" font-size="15" fill="red": 10_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2017" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2024" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2095" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2132" font-size="15" fill="red": 8_150
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1931" font-size="15" fill="red": 11_200
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2017" font-size="15" fill="red": 10_175
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2055" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2093" font-size="15" fill="red": 9_150
+  line x1="1880" y1="2010" stroke="red" opacity="0.7" stroke-width="1" x2="1913" y2="2050"
+  text x="1880" y="2010" font-size="15" fill="red": 11_175
+  line x1="1983" y1="2010" stroke="green" opacity="0.7" stroke-width="1" x2="1913" y2="2050"
+  text x="1983" y="2015" font-size="15" fill="green": 11_150
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2064" font-size="15" fill="red": 10_150
+  line x1="2000" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="2000" y="2007" font-size="15" fill="green": 10_125
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2080" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2131" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2205" font-size="15" fill="red": 7_125
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2030" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2101" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2076" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2134" font-size="15" fill="red": 8_125
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2079" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2065" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2147" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2220" font-size="15" fill="red": 6_100
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2099" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2144" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2063" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2142" font-size="15" fill="red": 7_100
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2066" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2063" font-size="15" fill="red": 8_100
+  line x1="2003" y1="1980" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="1961"
+  text x="2003" y="1993" font-size="15" fill="red": 9_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1963" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2041" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2118" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="red" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2052" y="2205" font-size="15" fill="red": 5_75
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1933" font-size="15" fill="red": 11_200
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2029" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2102" font-size="15" fill="red": 9_150
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2053" font-size="15" fill="red": 10_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2074" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2140" font-size="15" fill="red": 8_125
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2063" font-size="15" fill="red": 10_150
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2073" font-size="15" fill="red": 9_125
+  line x1="2000" y1="2000" stroke="red" opacity="0.7" stroke-width="1" x2="2003" y2="1980"
+  text x="2000" y="2012" font-size="15" fill="red": 10_125
+  line x1="2003" y1="1980" stroke="green" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="2003" y="1991" font-size="15" fill="green": 9_100
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2067" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2139" font-size="15" fill="red": 7_100
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2050" font-size="15" fill="red": 10_150
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2074" font-size="15" fill="red": 9_125
+  line x1="2003" y1="1980" stroke="green" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="2003" y="1992" font-size="15" fill="green": 9_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2061" font-size="15" fill="red": 8_100
+  line x1="2003" y1="1980" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="1961"
+  text x="2003" y="1987" font-size="15" fill="red": 9_100
+  line x1="1969" y1="1884" stroke="green" opacity="0.7" stroke-width="1" x2="1990" y2="1961"
+  text x="1969" y="1889" font-size="15" fill="green": 9_75
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1962" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2053" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2125" font-size="15" fill="red": 6_75
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2072" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2064" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1974" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2042" font-size="15" fill="red": 7_75
+  line x1="2003" y1="1980" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="1961"
+  text x="2003" y="1982" font-size="15" fill="red": 9_100
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1965" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1958" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2018" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="green" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2064" y="2088" font-size="15" fill="green": 5_50
+  line x1="2116" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="2167" y2="2199"
+  text x="2116" y="2140" font-size="15" fill="green": 4_50
+  line x1="2167" y1="2199" stroke="green" opacity="0.7" stroke-width="1" x2="2219" y2="2260"
+  text x="2167" y="2202" font-size="15" fill="green": 3_50
+  line x1="2219" y1="2260" stroke="red" opacity="0.7" stroke-width="1" x2="2290" y2="2135"
+  text x="2219" y="2268" font-size="15" fill="red": 2_50
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1615" font-size="15" fill="red": 11_250
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1718" font-size="15" fill="red": 10_225
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1788" font-size="15" fill="red": 11_225
+  line x1="1718" y1="1897" stroke="green" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1718" y="1900" font-size="15" fill="green": 10_200
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1870" font-size="15" fill="red": 9_200
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1904" font-size="15" fill="red": 10_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2019" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="green" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1721" y="2033" font-size="15" fill="green": 9_175
+  line x1="1641" y1="2031" stroke="red" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1641" y="2044" font-size="15" fill="red": 8_175
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1901" font-size="15" fill="red": 10_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2021" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2028" font-size="15" fill="red": 9_175
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2020" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2097" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="green" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1775" y="2130" font-size="15" fill="green": 8_150
+  line x1="1706" y1="2170" stroke="red" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1706" y="2177" font-size="15" fill="red": 7_150
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1782" font-size="15" fill="red": 11_225
+  line x1="1793" y1="1925" stroke="green" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1793" y="1926" font-size="15" fill="green": 11_200
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1909" font-size="15" fill="red": 10_200
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1936" font-size="15" fill="red": 11_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2023" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2037" font-size="15" fill="red": 9_175
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2029" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2092" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2130" font-size="15" fill="red": 8_150
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2021" font-size="15" fill="red": 10_175
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2059" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2091" font-size="15" fill="red": 9_150
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2052" font-size="15" fill="red": 10_150
+  line x1="2000" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="2000" y="2007" font-size="15" fill="green": 10_125
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2079" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2132" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="green" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1862" y="2197" font-size="15" fill="green": 7_125
+  line x1="1816" y1="2262" stroke="red" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1816" y="2266" font-size="15" fill="red": 6_125
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2141" font-size="15" fill="red": 8_150
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2135" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2201" font-size="15" fill="red": 7_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2144" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2141" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="green" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1962" y="2227" font-size="15" fill="green": 6_100
+  line x1="1948" y1="2295" stroke="red" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="1948" y="2307" font-size="15" fill="red": 5_100
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1787" font-size="15" fill="red": 11_225
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1911" font-size="15" fill="red": 10_200
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2034" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2099" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2131" font-size="15" fill="red": 8_150
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2022" font-size="15" fill="red": 10_175
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2057" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2091" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2080" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2143" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2201" font-size="15" fill="red": 7_125
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2099" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2137" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2063" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2143" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2220" font-size="15" fill="red": 6_100
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2139" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2064" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2138" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2044" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2130" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="green" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="2052" y="2207" font-size="15" fill="green": 5_75
+  line x1="2072" y1="2270" stroke="red" opacity="0.7" stroke-width="1" x2="2167" y2="2199"
+  text x="2072" y="2278" font-size="15" fill="red": 4_75
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2035" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2104" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2130" font-size="15" fill="red": 8_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2098" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2079" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2143" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2202" font-size="15" fill="red": 7_125
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2102" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2072" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2138" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2068" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2148" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2223" font-size="15" fill="red": 6_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2147" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2045" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2122" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="red" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2052" y="2202" font-size="15" fill="red": 5_75
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2103" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2134" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2067" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2148" font-size="15" fill="red": 7_100
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2076" font-size="15" fill="red": 9_125
+  line x1="2003" y1="1980" stroke="green" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="2003" y="1989" font-size="15" fill="green": 9_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2064" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1973" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2052" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2118" font-size="15" fill="red": 6_75
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2069" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1962" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2053" font-size="15" fill="red": 7_75
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1974" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1954" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2016" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="green" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2064" y="2079" font-size="15" fill="green": 5_50
+  line x1="2116" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="2167" y2="2199"
+  text x="2116" y="2144" font-size="15" fill="green": 4_50
+  line x1="2167" y1="2199" stroke="red" opacity="0.7" stroke-width="1" x2="2218" y2="2101"
+  text x="2167" y="2208" font-size="15" fill="red": 3_50
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2024" font-size="15" fill="red": 9_175
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2143" font-size="15" fill="red": 8_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2100" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2141" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2200" font-size="15" fill="red": 7_125
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2099" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2131" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2068" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2142" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2227" font-size="15" fill="red": 6_100
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2092" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2145" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2139" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2045" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2118" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="red" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2052" y="2195" font-size="15" fill="red": 5_75
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2103" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2143" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2062" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2141" font-size="15" fill="red": 7_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2063" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1966" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2043" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2130" font-size="15" fill="red": 6_75
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2068" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1968" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2041" font-size="15" fill="red": 7_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1967" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2022" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="green" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2064" y="2086" font-size="15" fill="green": 5_50
+  line x1="2116" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2145" y2="2068"
+  text x="2116" y="2149" font-size="15" fill="red": 4_50
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2090" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2075" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2133" font-size="15" fill="red": 8_125
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2068" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2064" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2139" font-size="15" fill="red": 7_100
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2070" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2062" font-size="15" fill="red": 8_100
+  line x1="2003" y1="1980" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="1961"
+  text x="2003" y="1980" font-size="15" fill="red": 9_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1965" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2041" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2128" font-size="15" fill="red": 6_75
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2060" font-size="15" fill="red": 8_100
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2048" font-size="15" fill="red": 7_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1963" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2023" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="red" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2064" y="2084" font-size="15" fill="red": 5_50
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2077" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2069" font-size="15" fill="red": 8_100
+  line x1="2003" y1="1980" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="1961"
+  text x="2003" y="1985" font-size="15" fill="red": 9_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1961" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2045" font-size="15" fill="red": 7_75
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1966" font-size="15" fill="red": 8_75
+  line x1="1910" y1="1893" stroke="green" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1910" y="1904" font-size="15" fill="green": 8_50
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1961" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="red" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="2013" y="2018" font-size="15" fill="red": 6_50
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1965" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="red" opacity="0.7" stroke-width="1" x2="1927" y2="1966"
+  text x="1961" y="1966" font-size="15" fill="red": 7_50
+  line x1="1927" y1="1966" stroke="green" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="1927" y="1972" font-size="15" fill="green": 6_25
+  line x1="2000" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2000" y="2008" font-size="15" fill="green": 5_25
+  line x1="2073" y1="2034" stroke="green" opacity="0.7" stroke-width="1" x2="2145" y2="2068"
+  text x="2073" y="2045" font-size="15" fill="green": 4_25
+  line x1="2145" y1="2068" stroke="green" opacity="0.7" stroke-width="1" x2="2218" y2="2101"
+  text x="2145" y="2071" font-size="15" fill="green": 3_25
+  line x1="2218" y1="2101" stroke="green" opacity="0.7" stroke-width="1" x2="2290" y2="2135"
+  text x="2218" y="2112" font-size="15" fill="green": 2_25
+  line x1="2290" y1="2135" stroke="red" opacity="0.7" stroke-width="1" x2="2300" y2="2000"
+  text x="2290" y="2142" font-size="15" fill="red": 1_25
+  line x1="1856" y1="1605" stroke="red" opacity="0.7" stroke-width="1" x2="1717" y2="1717"
+  text x="1856" y="1608" font-size="15" fill="red": 11_250
+  line x1="1717" y1="1717" stroke="red" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1717" y="1717" font-size="15" fill="red": 10_225
+  line x1="1718" y1="1897" stroke="green" opacity="0.7" stroke-width="1" x2="1643" y2="1870"
+  text x="1718" y="1911" font-size="15" fill="green": 10_200
+  line x1="1643" y1="1870" stroke="red" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1643" y="1884" font-size="15" fill="red": 9_200
+  line x1="1721" y1="2024" stroke="green" opacity="0.7" stroke-width="1" x2="1641" y2="2031"
+  text x="1721" y="2025" font-size="15" fill="green": 9_175
+  line x1="1641" y1="2031" stroke="red" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1641" y="2036" font-size="15" fill="red": 8_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2025" font-size="15" fill="red": 9_175
+  line x1="1775" y1="2130" stroke="green" opacity="0.7" stroke-width="1" x2="1706" y2="2170"
+  text x="1775" y="2135" font-size="15" fill="green": 8_150
+  line x1="1706" y1="2170" stroke="red" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1706" y="2172" font-size="15" fill="red": 7_150
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2026" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2097" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2144" font-size="15" fill="red": 8_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2103" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2067" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2135" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="green" opacity="0.7" stroke-width="1" x2="1816" y2="2262"
+  text x="1862" y="2199" font-size="15" fill="green": 7_125
+  line x1="1816" y1="2262" stroke="red" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1816" y="2272" font-size="15" fill="red": 6_125
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1899" font-size="15" fill="red": 10_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2023" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2034" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2094" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2136" font-size="15" fill="red": 8_150
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2020" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2100" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2076" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2135" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2198" font-size="15" fill="red": 7_125
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2103" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2070" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2132" font-size="15" fill="red": 8_125
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2076" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2068" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2150" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="green" opacity="0.7" stroke-width="1" x2="1948" y2="2295"
+  text x="1962" y="2217" font-size="15" fill="green": 6_100
+  line x1="1948" y1="2295" stroke="red" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="1948" y="2306" font-size="15" fill="red": 5_100
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2033" font-size="15" fill="red": 9_175
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2134" font-size="15" fill="red": 8_150
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2209" font-size="15" fill="red": 7_125
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2151" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2221" font-size="15" fill="red": 6_100
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2094" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2135" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2069" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2143" font-size="15" fill="red": 7_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2062" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1974" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2051" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2128" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="green" opacity="0.7" stroke-width="1" x2="2072" y2="2270"
+  text x="2052" y="2197" font-size="15" fill="green": 5_75
+  line x1="2072" y1="2270" stroke="red" opacity="0.7" stroke-width="1" x2="2167" y2="2199"
+  text x="2072" y="2278" font-size="15" fill="red": 4_75
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1778" font-size="15" fill="red": 11_225
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1901" font-size="15" fill="red": 10_200
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2034" font-size="15" fill="red": 9_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2097" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2137" font-size="15" fill="red": 8_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2102" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2066" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2139" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2199" font-size="15" fill="red": 7_125
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2103" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2075" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2138" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2073" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2143" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2227" font-size="15" fill="red": 6_100
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2141" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2144" font-size="15" fill="red": 7_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2060" font-size="15" fill="red": 8_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2051" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2129" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="red" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2052" y="2207" font-size="15" fill="red": 5_75
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2137" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2138" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2044" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2128" font-size="15" fill="red": 6_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2052" font-size="15" fill="red": 7_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1963" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2018" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="green" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2064" y="2090" font-size="15" fill="green": 5_50
+  line x1="2116" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="2167" y2="2199"
+  text x="2116" y="2149" font-size="15" fill="green": 4_50
+  line x1="2167" y1="2199" stroke="red" opacity="0.7" stroke-width="1" x2="2218" y2="2101"
+  text x="2167" y="2205" font-size="15" fill="red": 3_50
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1786" font-size="15" fill="red": 11_225
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1906" font-size="15" fill="red": 10_200
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2032" font-size="15" fill="red": 9_175
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2026" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2095" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2133" font-size="15" fill="red": 8_150
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2019" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2099" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2138" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2202" font-size="15" fill="red": 7_125
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2017" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2094" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2142" font-size="15" fill="red": 8_125
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2068" font-size="15" fill="red": 9_125
+  line x1="2003" y1="1980" stroke="green" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="2003" y="1989" font-size="15" fill="green": 9_100
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2073" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2145" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2226" font-size="15" fill="red": 6_100
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2098" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2137" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2143" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2045" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2116" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="red" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2052" y="2198" font-size="15" fill="red": 5_75
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2092" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2072" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2145" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2142" font-size="15" fill="red": 7_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2073" font-size="15" fill="red": 8_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2040" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2129" font-size="15" fill="red": 6_75
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2068" font-size="15" fill="red": 8_100
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2051" font-size="15" fill="red": 7_75
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1971" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1968" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2029" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="green" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2064" y="2083" font-size="15" fill="green": 5_50
+  line x1="2116" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2145" y2="2068"
+  text x="2116" y="2142" font-size="15" fill="red": 4_50
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2030" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2104" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2145" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2070" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2142" font-size="15" fill="red": 7_100
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2069" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2072" font-size="15" fill="red": 8_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2049" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2119" font-size="15" fill="red": 6_75
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2071" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2062" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1971" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2044" font-size="15" fill="red": 7_75
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1968" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1968" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2019" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="red" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2064" y="2077" font-size="15" fill="red": 5_50
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2074" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2069" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1970" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2043" font-size="15" fill="red": 7_75
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1962" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1957" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="red" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="2013" y="2025" font-size="15" fill="red": 6_50
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1968" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="red" opacity="0.7" stroke-width="1" x2="1927" y2="1966"
+  text x="1961" y="1964" font-size="15" fill="red": 7_50
+  line x1="1927" y1="1966" stroke="green" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="1927" y="1969" font-size="15" fill="green": 6_25
+  line x1="2000" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2000" y="2008" font-size="15" fill="green": 5_25
+  line x1="2073" y1="2034" stroke="green" opacity="0.7" stroke-width="1" x2="2145" y2="2068"
+  text x="2073" y="2039" font-size="15" fill="green": 4_25
+  line x1="2145" y1="2068" stroke="green" opacity="0.7" stroke-width="1" x2="2218" y2="2101"
+  text x="2145" y="2075" font-size="15" fill="green": 3_25
+  line x1="2218" y1="2101" stroke="red" opacity="0.7" stroke-width="1" x2="2220" y2="2000"
+  text x="2218" y="2107" font-size="15" fill="red": 2_25
+  line x1="1774" y1="1774" stroke="red" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1774" y="1777" font-size="15" fill="red": 11_225
+  line x1="1793" y1="1925" stroke="green" opacity="0.7" stroke-width="1" x2="1718" y2="1897"
+  text x="1793" y="1935" font-size="15" fill="green": 11_200
+  line x1="1718" y1="1897" stroke="red" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1718" y="1902" font-size="15" fill="red": 10_200
+  line x1="1801" y1="2017" stroke="green" opacity="0.7" stroke-width="1" x2="1721" y2="2024"
+  text x="1801" y="2019" font-size="15" fill="green": 10_175
+  line x1="1721" y1="2024" stroke="red" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1721" y="2026" font-size="15" fill="red": 9_175
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2026" font-size="15" fill="red": 10_175
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2053" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="green" opacity="0.7" stroke-width="1" x2="1775" y2="2130"
+  text x="1844" y="2090" font-size="15" fill="green": 9_150
+  line x1="1775" y1="2130" stroke="red" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1775" y="2144" font-size="15" fill="red": 8_150
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2021" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2095" font-size="15" fill="red": 9_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2074" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="green" opacity="0.7" stroke-width="1" x2="1862" y2="2197"
+  text x="1908" y="2143" font-size="15" fill="green": 8_125
+  line x1="1862" y1="2197" stroke="red" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1862" y="2209" font-size="15" fill="red": 7_125
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1925" font-size="15" fill="red": 11_200
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2031" font-size="15" fill="red": 10_175
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2097" font-size="15" fill="red": 9_150
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2051" font-size="15" fill="red": 10_150
+  line x1="1954" y1="2066" stroke="green" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1954" y="2076" font-size="15" fill="green": 9_125
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2140" font-size="15" fill="red": 8_125
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2074" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2061" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="green" opacity="0.7" stroke-width="1" x2="1962" y2="2217"
+  text x="1976" y="2151" font-size="15" fill="green": 7_100
+  line x1="1962" y1="2217" stroke="red" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="1962" y="2221" font-size="15" fill="red": 6_100
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2104" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2139" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2068" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2151" font-size="15" fill="red": 7_100
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2062" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1971" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2049" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="green" opacity="0.7" stroke-width="1" x2="2052" y2="2193"
+  text x="2031" y="2129" font-size="15" fill="green": 6_75
+  line x1="2052" y1="2193" stroke="red" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2052" y="2194" font-size="15" fill="red": 5_75
+  line x1="1793" y1="1925" stroke="red" opacity="0.7" stroke-width="1" x2="1801" y2="2017"
+  text x="1793" y="1927" font-size="15" fill="red": 11_200
+  line x1="1801" y1="2017" stroke="red" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1801" y="2022" font-size="15" fill="red": 10_175
+  line x1="1913" y1="2050" stroke="green" opacity="0.7" stroke-width="1" x2="1844" y2="2090"
+  text x="1913" y="2053" font-size="15" fill="green": 10_150
+  line x1="1844" y1="2090" stroke="red" opacity="0.7" stroke-width="1" x2="1908" y2="2131"
+  text x="1844" y="2098" font-size="15" fill="red": 9_150
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2138" font-size="15" fill="red": 8_125
+  line x1="1990" y1="2059" stroke="green" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1990" y="2061" font-size="15" fill="green": 8_100
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2151" font-size="15" fill="red": 7_100
+  line x1="1913" y1="2050" stroke="red" opacity="0.7" stroke-width="1" x2="1954" y2="2066"
+  text x="1913" y="2055" font-size="15" fill="red": 10_150
+  line x1="1954" y1="2066" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="2059"
+  text x="1954" y="2074" font-size="15" fill="red": 9_125
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2067" font-size="15" fill="red": 8_100
+  line x1="2003" y1="1980" stroke="red" opacity="0.7" stroke-width="1" x2="1990" y2="1961"
+  text x="2003" y="1991" font-size="15" fill="red": 9_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1966" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2051" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2125" font-size="15" fill="red": 6_75
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2061" font-size="15" fill="red": 8_100
+  line x1="1990" y1="1961" stroke="green" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="1973" font-size="15" fill="green": 8_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2039" font-size="15" fill="red": 7_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1959" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2026" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="green" opacity="0.7" stroke-width="1" x2="2116" y2="2138"
+  text x="2064" y="2080" font-size="15" fill="green": 5_50
+  line x1="2116" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2145" y2="2068"
+  text x="2116" y="2151" font-size="15" fill="red": 4_50
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2133" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2141" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2045" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2119" font-size="15" fill="red": 6_75
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2053" font-size="15" fill="red": 7_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1956" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2021" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="red" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2064" y="2088" font-size="15" fill="red": 5_50
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2048" font-size="15" fill="red": 7_75
+  line x1="2013" y1="2015" stroke="red" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="2013" y="2015" font-size="15" fill="red": 6_50
+  line x1="1927" y1="1966" stroke="green" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="1927" y="1977" font-size="15" fill="green": 6_25
+  line x1="2000" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2000" y="2006" font-size="15" fill="green": 5_25
+  line x1="2073" y1="2034" stroke="green" opacity="0.7" stroke-width="1" x2="2145" y2="2068"
+  text x="2073" y="2046" font-size="15" fill="green": 4_25
+  line x1="2145" y1="2068" stroke="red" opacity="0.7" stroke-width="1" x2="2140" y2="2000"
+  text x="2145" y="2070" font-size="15" fill="red": 3_25
+  line x1="1908" y1="2131" stroke="red" opacity="0.7" stroke-width="1" x2="1976" y2="2138"
+  text x="1908" y="2138" font-size="15" fill="red": 8_125
+  line x1="1976" y1="2138" stroke="red" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="1976" y="2150" font-size="15" fill="red": 7_100
+  line x1="2010" y1="2039" stroke="green" opacity="0.7" stroke-width="1" x2="2031" y2="2116"
+  text x="2010" y="2039" font-size="15" fill="green": 7_75
+  line x1="2031" y1="2116" stroke="red" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2031" y="2130" font-size="15" fill="red": 6_75
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2066" font-size="15" fill="red": 8_100
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2047" font-size="15" fill="red": 7_75
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1974" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1958" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="green" opacity="0.7" stroke-width="1" x2="2064" y2="2077"
+  text x="2013" y="2025" font-size="15" fill="green": 6_50
+  line x1="2064" y1="2077" stroke="red" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2064" y="2077" font-size="15" fill="red": 5_50
+  line x1="1990" y1="2059" stroke="red" opacity="0.7" stroke-width="1" x2="2010" y2="2039"
+  text x="1990" y="2063" font-size="15" fill="red": 8_100
+  line x1="2010" y1="2039" stroke="red" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="2010" y="2039" font-size="15" fill="red": 7_75
+  line x1="1961" y1="1954" stroke="green" opacity="0.7" stroke-width="1" x2="2013" y2="2015"
+  text x="1961" y="1963" font-size="15" fill="green": 7_50
+  line x1="2013" y1="2015" stroke="red" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="2013" y="2017" font-size="15" fill="red": 6_50
+  line x1="1990" y1="1961" stroke="red" opacity="0.7" stroke-width="1" x2="1961" y2="1954"
+  text x="1990" y="1971" font-size="15" fill="red": 8_75
+  line x1="1961" y1="1954" stroke="red" opacity="0.7" stroke-width="1" x2="1927" y2="1966"
+  text x="1961" y="1961" font-size="15" fill="red": 7_50
+  line x1="1855" y1="1932" stroke="green" opacity="0.7" stroke-width="1" x2="1927" y2="1966"
+  text x="1855" y="1943" font-size="15" fill="green": 7_25
+  line x1="1927" y1="1966" stroke="green" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="1927" y="1973" font-size="15" fill="green": 6_25
+  line x1="2000" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2073" y2="2034"
+  text x="2000" y="2005" font-size="15" fill="green": 5_25
+  line x1="2073" y1="2034" stroke="red" opacity="0.7" stroke-width="1" x2="2060" y2="2000"
+  text x="2073" y="2047" font-size="15" fill="red": 4_25
+  line x1="1980" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2060" y2="2000"
+  text x="1980" y="2013" font-size="15" fill="green": 4_0
+  line x1="2060" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2140" y2="2000"
+  text x="2060" y="2011" font-size="15" fill="green": 3_0
+  line x1="2140" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2220" y2="2000"
+  text x="2140" y="2012" font-size="15" fill="green": 2_0
+  line x1="2220" y1="2000" stroke="green" opacity="0.7" stroke-width="1" x2="2300" y2="2000"
+  text x="2220" y="2010" font-size="15" fill="green": 1_0
+  line x1="2300" y1="2000" stroke="" opacity="0.7" stroke-width="1" x2="2000" y2="2000"
+  text x="2300" y="2000" font-size="15" fill="": _0

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.11" baseProfile="full" width="3000" height="3000" xmlns="http://www.w3.org/2000/svg" encoding="ISO-8859-1">
+  <svg>
+    <text x="2150" y="2000" font-size="6" font-color="">/30
+      <text x="2148" y="2086" font-size="6" font-color="green">1/60
+        <text x="2095" y="2165" font-size="6" font-color="green">2/90
+          <text x="2000" y="2223" font-size="6" font-color="green">3/120
+            <text x="1873" y="2220" font-size="6" font-color="green">4/150
+              <text x="1746" y="2146" font-size="6" font-color="green">5/180</text>
+              <text x="2089" y="2331" font-size="6" font-color="red">5/105</text>
+            </text>
+            <text x="2215" y="2215" font-size="6" font-color="red">4/75
+              <text x="2085" y="2319" font-size="6" font-color="green">5/105</text>
+            </text>
+          </text>
+          <text x="2264" y="2071" font-size="6" font-color="red">3/45
+            <text x="2216" y="2216" font-size="6" font-color="green">4/75
+              <text x="2089" y="2333" font-size="6" font-color="green">5/105</text>
+            </text>
+          </text>
+        </text>
+        <text x="2233" y="1938" font-size="6" font-color="red">2/15
+          <text x="2254" y="2068" font-size="6" font-color="green">3/45
+            <text x="2202" y="2202" font-size="6" font-color="green">4/75
+              <text x="2081" y="2301" font-size="6" font-color="green">5/105</text>
+            </text>
+          </text>
+        </text>
+      </text>
+      <text x="2156" y="1844" font-size="6" font-color="red">1/345
+        <text x="2236" y="1937" font-size="6" font-color="green">2/15
+          <text x="2257" y="2069" font-size="6" font-color="green">3/45
+            <text x="2211" y="2211" font-size="6" font-color="green">4/75
+              <text x="2084" y="2313" font-size="6" font-color="green">5/105</text>
+            </text>
+          </text>
+        </text>
+      </text>
+    </text>
+  </svg>
+</svg>

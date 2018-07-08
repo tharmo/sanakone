@@ -1,0 +1,132 @@
+class name="nominit"
+  hi
+    h1: hello
+    
+  open
+    pre
+      xse:gawk in="taivall.lst" out="taivlka.tmp": { if (substr($2,1,3)<52) len=sprintf("%03d",length($1));print substr($2,1,3),substr($2,4,1),"x"NR % 2 , len,$1}
+      xse:shellexec: sort taivlka.tmp >taivsort.tmp
+      # otetaan "otos" ekat poikkeavat
+      xse:shellexec: sort taivlka.tmp | rev | uniq -f 2 | rev >taivosa.tmp
+      xse:shellexec:  export LC_ALL=C; cat taivsort.tmp|sort |iconv -t ISO-8859-1//TRANSLIT -f UTF-8  > nomsall.tmp
+      xse:shellexec:  export LC_ALL=C; cat taivosa.tmp|sort |iconv -t ISO-885libre9-1//TRANSLIT -f UTF-8  > nomsosa.tmp
+      xse:gawk in=nomsall.tmp out=nomsall.lst: { if ($1<50) print $1,$2,$5} 
+      xse:gawk in=nomsosa.tmp out=nomosa.lst: { if ($1<50) print $1,$2,$5} 
+      : {?read('nomosa.lst')}
+       
+      #export LC_ALL=C;rev  noms.lst | uniq -f 1 | rev  
+  taka
+       xse:shellexec: ./nominoi taka nomsall.lst tmp
+       h2: helpompi greppailla voksoint normalisoitua listaa tiedostosta "tmp"
+       
+  ## t‰ss‰ v‰liss‰ tehty "listaaoudot" (lopussa), ja talletettu korjaustiedosto nimell‰  noms.fix
+  fixmonikot 
+       xse:shellexec: ./nominoi fixtee nomsall.lst nomsall2__fixt.lst
+       ## tuottaa (hardwired) nomsfixed1
+       ## muuttaa jotkut kotuksesta poimitut sanat yksikˆlliseksi k‰sityˆn‰ tehtyyn listaan perustuen (perusmuotoa ei aina voi p‰‰tell‰ monikosta)
+       ## sanalistojen muuttaminen pit‰‰ joskus tehd‰ sujuvammaksi...
+       ##nomfix.lst + nomsall.lst ->nomsfixed1.lst
+  luolista
+     h1: luolista 
+     xse:shellexec: ./nominoi {/form/w}
+     : </ul></ul></ul></ul><h3>huuhaa</h3>
+     h1:  nomsfixed1.lst -> nomsall4.csv
+     xse:shellexec: export LC_ALL=C;cat nomsall4.csv |sort >nomssort4.csv
+     h1: xse:shellexec: export LC_ALL=C;cat nomsall4.csv |sort >nomssort4.csv
+     
+  testaalistaa
+    pre
+     xse:gawk in=nomsort.csv: '''
+       BEGIN {  FS="," }
+       // {   
+       #print $2
+       if (length($6)<1  ) print
+       if (length($3)>2) print "<B>",$0,"!</B>"
+       #if ($4!=prev) if (substr($4,1,1)!=substr($4,2,1)) print #substr($4,1,1),substr($4,2,1)
+       prev=$4
+         voks[$3]=voks[$3]+1 ;avs[$4]=avs[$4]+1 }
+       END { 
+       print "<hr>"
+       for (s in voks) print "<li>" s," : ",voks[s]
+       print "<hr>"
+       print "<hr>"
+       for (s in avs) print "<li>" s," : ",avs[s]
+       }
+       
+     ''' 
+  listaa
+       #xse:shellexec: export LC_ALL=C;cat nomsall3.csv |sort >nomssort3.csv
+       xse:shellexec: ./nominoi listaa
+      : </ul></ul></ul></ul></ul></ul>
+      h2: luki nomsall3.csv (jonka teki "luolista"), tuottaa siit‰ nomssort3.csv ja listaa sanoja luokittain puuna
+      
+  listaaoudot 
+     xse:gawk in=lopvoks.txt  env="LC_ALL=C": BEGIN { FS=","} { st=st $2 ","} END{ print "<li>" tolower(st)}
+     xse:shellexec: ./nominoi listaaoudot
+  ### h3: listaa t-loppuisia muotoja k‰sin l‰pik‰yt‰v‰ksi - mitk‰ monikkomuotoja, mist‰ puuttuu loppuvokaali perusmuodossa
+   h3:
+   
+   ul
+     #xse:gawk in="nomsall.lst" env="LC_ALL=C": '''
+     xse:gawk in="tmp" env="LC_ALL=C": '''
+       BEGIN{ FS=" "}
+       { 
+         ll=substr($3, length($3),1)
+           if (ll=="t") {
+         ll=substr($3, length($3)-1,2)
+           }
+         
+         #if (ll=="p") print 
+         if (olka!=$1) {
+          lst=""
+          n=asorti(lls,x)
+         for (ll in lls) {
+           lst=lst  lls[ll] "<b>" ll "</b>, "
+         
+         }
+         print "<li><b>" olka,"</b>",lst "</li>"
+         delete lls
+         }
+         lls[ll]=lls[ll]+1;
+         olka=$1; 
+       }
+     '''  
+  karsi
+   # k‰sin poistetaan v‰‰ri‰ sanoja,kotuksen ihmeellisyyksia - pit‰‰ viel‰ tutkia
+   hr  
+   xse:shellexec: grep -a 005 nomsall.lst  
+   #| grep -a -v i$
+  hr  
+   ###xse:shellexec: grep -a 002 nomsall.lst  
+  hr  
+    pre
+     xse:gawk in=nomsall.lst: '''
+       BEGIN{ FS=" "}
+       
+       /t$/{ if ($1<32) print}
+       { if (length($3)>169) print}
+       /kaan$/ { print}
+       /kin$/ { if (length($3)>8 ) print}
+     '''    
+   hr  
+  gett
+     # xse:gawk in=nomsall.lst xout=nomstobefixed.lst: 
+     # xse:shellexec: export LC_ALL=C; gawk '
+     #xse:to  element="/"
+     xse:set var=cmd: 
+          
+          .  BEGIN { FS=" "}; 
+          . { if ($1<32) 
+          .  if (substr($3,length($3),1)=="t") 
+          . print $0 ,substr($3,length($3),1), length($3)
+          . } 
+        
+     hr   
+     #pre :  export LC_ALL=C; gawk '  {$cmd} ' nomsall.cmd
+     hr    
+     xse:debug 
+     
+     #xse:shellexec: export LC_ALL=C; gawk '  {$cmd} ' nomsall.cmd
+     #xse:to file=fixmon.awk
+     # : {$cmd}
+           

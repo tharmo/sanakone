@@ -1,0 +1,457 @@
+procedure tmat.sortedrow(onerow:p_longrow;rowno:word;toa:pointer;flen,tlen:word);
+vAR J,k,resw,ress:word;maks,maksw:longWORD;
+begin
+ try
+  maks:=0;maksw:=0;
+  //word(toa^):=rowno;
+  //word((toa+2)^):=sums^[rowno];
+  except writeln('nosort');end;
+  try
+  //writeln(^j,^j,'???',sana(rowno],word((2+toa+4)^),' ');
+  except writeln('wthef',rowno);end;
+  //WRITELN(sana(ROWNO],'_');//,INTEGER(2+TOA+K*4-POINTER(MAT)),'|',INTEGER(MAT-TOA));
+  for j:=1 to flen do
+  begin
+   try
+    ress:=onerow^[j];
+    //if ress>500 then write('?',ress,sana(j],'\',word(2+toa));
+   // if ress>maks then begin maksw:=j;;maks:=ress;end;
+     //continue;
+     for k:=0 to tlen-1 do
+     //for k:=1 to tlen do
+    begin
+      if ress>word((2+toa+k*4)^) then
+      begin
+           move((toa+k*4)^,(4+toa+k*4)^,(tlen-k-1)*4);
+           move(j,     (toa+k*4)^,2);
+           move(ress,(2+toa+k*4)^,2);
+           if k=0 then maks:=ress;
+           if k=0 then maksw:=j;
+           if k=0 then writeln(' +',rowno,sana(j),sana(maksw),'>',k,'=',ress,'/clu:',wc(rowno,1).w,sana(word(toa^)),' ');
+           if k=0 then if rowno=1 then write('***',@mat-toa,'!');
+           break;
+
+      end;
+    end;
+   except writeln(^j,j,'Could not sort',QWORD(TOA-MAT));end;
+   end;
+  writeln(^j,'max:',sana(maksw),maks)
+end;
+
+procedure tmat.oldlist;
+var i,j,nz:word;rec:r_scarcefield;p:^word;st:string;ma,mi:longword;
+begin
+//for i:=0 to rows-1 do
+nz:=0;
+
+
+//p:=pointer(@mat^[0].w);
+writeln('xxxxxxxxxxxxxxxxxx',sana(mat^[0].w),mat^[0].s,'                        ');
+for i:=0 to 30 do //rows-1 do
+//for i:=1 to rows do
+    begin
+      ma:=0;mi:=10000;
+      if  mat^[cols*i].w>0 then     nz:=nz+1;
+
+      //if sums[i]<10000 then continue;
+      sums^[i]:=0;
+      for j:=0 to cols-1 do
+      begin
+        if mat^[cols*i+j].w=0 then continue else
+        begin
+          sums^[i]:=sums^[i]+mat^[cols*i+j].s;
+        end;
+      end;
+      if sums^[i]>ma then ma:=sums^[i] else
+      if sums^[i]<mi then mi:=sums^[i];// else
+      //continue;
+      //if sums^[i]<2000 then continue;
+      write(^j,i,'   ',sums^[i],' ',sana(i),'   ',sana(mat^[i*cols].w),i,';;   ',mat^[i*cols].w,'::');
+      for j:=0 to 10 do //cols do
+        //if mat^[cols*i+(j)].w=0 then continue else
+           write(' ',j,'=', sana(mat^[cols*i+j].w),'/',mat^[cols*i+j].s);
+       { rec:=wc(i,j);
+        //write(' _',rec.w);
+        if rec.w=0 then write('!','!') else
+        try
+           //p:=pointer(mat);
+           //p:=p+(r*cols+c)*4;
+
+         //if rec.s>100 then
+         write(' ',j,sana(rec.w),'/',rec.s,' ');
+        except writeln('nogolist',rec.w);readln;end;
+       //p:=wsmat;
+       //p:=p+i*wsmat.cols+j;
+       }
+    end;
+writeln(^j^j^j,'min: ',mi,' max:',ma,' nonzero;',nz);
+end;
+function tmat.oldsana(wrd:word):string;
+begin
+   result:=tmylly(mymy).sanat[wrd];//+1];
+end;
+function tmat.oldwc(r,cc:word):r_scarcefield;
+var p:pointer;rec:r_scarcefield;
+begin
+  try
+   rec:=mat^[cols*r+cc-1];
+   result.w:=rec.w;
+   result.s:=rec.s;
+   exit;
+  {p:=pointer(mat);
+  p:=p+((r)*cols+c-1)*4;           //why  "-1" for c but not r?
+  //mat^[(i*cols)+j].w],rec.s,')');
+  //writeln('/get:',r,':',c,' from:',r*cols+c,'=',word(p^));
+  result.w:=word(p^);
+  result.s:=word((p+2)^);
+  }
+  except writeln('failgetcw',r,' ',cc);raise
+  ;end;
+end;
+function tmat.oldvalueof(r,t:word):word;
+var p:pointer;i:byte;rec:r_scarcefield;
+begin
+  result:=0;
+  try
+   for i:=1 to cols do
+   begin
+    rec:=wc(r,i);
+    //if mat^[r*cols+i-1].w=t then
+    if rec.w=0 then break;
+    if rec.w=t then
+    begin
+      result:=rec.s;//mat^[r*cols+i-1].s;
+       exit;
+    end;
+   end;
+  except writeln('failgetval',r,' ',t);raise;end;
+end;
+
+function tmat.oldtopvalueof(r,t,tocount:word):word;
+var p:pointer;i:byte;rec:r_scarcefield;
+begin
+  result:=0;
+  try
+   for i:=1 to tocount do
+   begin
+    rec:=wc(r,i);
+    //if mat^[r*cols+i-1].w=t then
+    if rec.w=0 then break;
+    if rec.w=t then
+    begin
+      result:=rec.s;//mat^[r*cols+i-1].s;
+      exit;
+    end;
+   end;
+  except writeln('failgetval',r,' ',t);raise;end;
+end;
+
+
+function tmat.oldfromfull(fulmat:p_fullmat):p_scarcemat;
+var i,j,k:word;resp:pointer;fullw:wpoint;
+  onerow:p_longrow;test1,test2:byte;mysum:longword;
+  //onerow:^ar_fullrow;
+
+ begin
+//note-fullmat is implemented as a 1D array to keep it in one memory block
+   //and fullmat WAS 0-based, whereas product is 1-based (item 0 reserverved for other use)
+   // CHANGING scarcemats to 0-base!!!!!!!!!!!!!
+   //ROW1 WILL BE LEFT EMPTY BECAUSE 0 MEANS NO WORD
+  //fullp:=pointer(fulmat);
+  //fullw:=pointer(fulmat);
+   onerow:=longrow;
+   fillchar(onerow^,rows*4,0);
+   writeln('nosort');
+ //onerow:=getmem(rows*4);
+  //getmem(fullrow,4*rows+1);
+  //            getmem(onerow,500);
+  try
+  for i:=0 to rows do
+  begin
+     sums^[i]:=0;
+    try;
+     for j:=0 to rows-1 do // if i<>j then
+     sums^[i]:=sums^[i]+fulmat^[rows*(i)+(j)];
+     except  write('NOSUM:',i,':',j,'/sums!!!  ');end;
+     end;
+  //for j:=1 to rows do writeln(j,sana(j],sums^[j]);
+
+  for i:=0 to rows-1 do onerow^[i]:=0;
+  writeln('sMAT:',rows);//,' c',longword(mat),'-',longword(@mat^[10]),'-',longword(@mat^[10])-longword(mat));exit;
+  //for i:=1 to ROWS do  write('_');
+  for i:=0 to ROWS-1 do
+   begin
+     try
+      //write(i);
+     fillchar(onerow^,4*(rows),0);
+     if sums^[i]>0 then
+     for j:=0 to rows-1 do  //if i<>j then
+     if sums^[j]>0 then
+     begin
+       onerow^[j]:=round((100000000*fulmat^[rows*i+j])/((sums^[j]*sums^[i]+100000000))); //ADDED CONST TO DENOMINATOR TO PUNISH RARE WORDS
+       //if j=3400 then if onerow^[j]>50 then write('//  ',sana(i],onerow^[j],'/',fulmat^[rows*(i-1)+(j-1)],'  ');
+     end else onerow^[j]:=0;
+     onerow^[i]:=0;
+     except  write(i,'nogo','xxxx',j,'/');end;
+     try
+     //if write(^j^j,sana(i),':',i);
+     //resp:=pointer(mat);
+     //resp:=resp+(i*cols*4);
+     //nosortedrow(onerow,i,resp,ROWS,cols);
+     for j:=0 to rows-1 do
+     if onerow^[j]>mat^[(i+1)*cols+j].s then
+     for k:=1 to cols-1   do  //first item [0] not filled
+      if onerow^[j]>mat^[(i+1)*cols+k].s then   //wc(i,k).s then
+      begin
+         move(mat^[(i+1)*cols+k],mat^[(i+1)*cols+k+1],4*(cols-k));
+         mat^[(i+1)*cols+k].w:=j+1;
+         mat^[(i+1)*cols+k].s:=onerow^[j];
+         //setval(i,k,j,onerow^[j]);
+         break;
+      end;
+     mysum:=0;
+     for j:=0 to cols-1 do mysum:=mysum+mat^[(i+1)*cols+j].s;//wc(i,j).s;
+     mat^[(i+1)*cols].w:=i+1;
+     mat^[(I+1)*cols].s:=mysum;
+     //((setval(i,1,i,mysum);
+
+     //if i=rows-0 then
+     //if (i=7) or (i=8) then writeln(^j);
+     //if i=rows then for j:=i to cols do write(j,sana(mat^[rows*cols+j].w],mat^[rows*cols+j].s,';;; ');
+
+except write('FAILSORT');end;
+  end;
+  //for i:=1 to rows do if wc(i,0).s>40000 then writeln(sana(i],':',wc(i,0).s,'!');
+
+  for i:=1 to rows do begin sums^[i]:=0;for j:=0 to cols-1 do sums^[i]:=sums^[i]+mat^[i*cols+j].s;end;
+   //writeln(sana(i],sums[i],sana(wc(i,1).w],'/',wc(i,0).s);end;
+  //list;
+  result:=mat;
+ // freemem(fullmat,2*n_w*n_w);
+ finally   //freemem(onerow,4*(rows+1));
+  // halt;
+ end;
+ for j:=0 to cols-1 do
+ begin
+  //write(' [',sanat[wsmat.wc(rows-1,j).w],' ',inttohex(wsmat.wc(rows-1,j).s,4),']');
+  //write(' [',inttohex(wc(rows,j).w,4),' ',inttohex(wc(rows,j).s,4),']');
+   //if j mod 4 =0 then writeln;
+ end;
+// writeln;writeln;
+ for j:=1999 to cols do
+ begin
+  //write(' [',sanat[wsmat.wc(rows-1,j).w],' ',inttohex(wsmat.wc(rows-1,j).s,4),']');
+  write(' (',(wc(rows,j).w),' ',(wc(rows,j).s),')');
+   if j mod 4 =0 then writeln;
+ end;
+//  writelN; writelN;
+//   writelN; writelN;
+//for itarg:=rows to rows do //1 to rows do
+//for jtarg:=1 to cols  do if itarg=rows then //  wsmat.wc(itarg,jtarg).w>rows then
+ //write(^j,itarg,':',jtarg,' > ',mat^[itarg*rows+jtarg].w);
+ {for i:=1 to rows do
+ begin
+  writeln(sana(i],i);
+ for j:=1 to cols do write('{',sana(wc(i,j-1).w],'} ');//,wsmat.wc(rows,j).s,' ');
+ writeln;
+ writeln;
+ end;}
+  //writeln(rows);
+  //for j:=1 to cols do write('[!',sana(wc(rows,j).w],'::::',wc(rows,j).w,']');
+  tmylly(mymy).saveafile('wxw.smat',MAT,rows*cols*4);
+  //fillchar(mat^,4*(rows+1)*(cols),0);
+  //tmylly(mymy).readafile('wxw.sca',MAT,n_w*n_c*4);
+
+  //for j:=1 to cols do write('[!',sana(wc(rows,j).w],':',wc(6461,j).w,']');
+  //for j:=1 to cols do begin write('[!',sana(wc(rows,j).w],':',wc(6461,j).w,']');end;
+      //halt;
+   for i:=1 to rows do
+     begin
+        write(^j^j,sana(i));
+         for j:=0 to cols do write('{',sana(mat^[i*cols+j].w),':',mat^[i*cols+j].s,'} ');
+     end;
+
+  writeln('scarcesavedto wxw.smat');
+end;
+
+{procedure tmat.getsums;
+var i,j:word; r:r_scarcefield;
+begin
+ for i:=1 to rows do
+ begin
+   sums^[i]:=0;
+  for j:=1 to cols do
+  begin
+   r:=wc(i,j);
+   if r.w=0 then continue;
+   sums^[i]:=sums^[i]+r.s;
+  end;
+ end;
+
+end;}
+
+function tmat.oldw(r,o:word):word;
+begin
+    result:=mat^[r*cols+o-1].w;
+end;
+function tmat.c(r,o:word):word;
+var p:pointer;
+begin
+ result:=mat^[r*cols+o-1].s;
+ //p:=pointer(mat);
+ //p:=p+(r*cols+c)*4;
+ //writeln('/get:',r,':',c,' from:',r*cols+c,'=',word(p^));
+ //result:=word((p+2)^);
+end;
+
+function tmat.OLDaddtorow(r,tar,siz:word):word;
+var i,place:word;
+begin
+ place:=cols;
+ for i:=1 to cols do if w(r,i)=0 then
+ begin  place:=i;break;end;
+
+ mat^[cols*r+place-1].w:=tar;
+ mat^[cols*r+place-1].s:=siz;
+ result:=place;
+end;
+
+function tmat.oldsetval(r,o,tar,siz:word):word;
+begin
+ mat^[cols*r+o-1].w:=tar;
+ mat^[cols*r+o-1].s:=siz;
+ result:=1;//mat[
+ //writeln('ddiset:',r,':',o,sana(mat^[cols*r+o-1].w],'=',mat^[cols*r+o-1].s);
+ //writeln('iddset:',r,':',o,sana(tar],'=',siz);
+
+end;
+function tmat.oldsetsize(r,o,siz:word):word;
+begin
+ //mat^[cols*r+o].w:=r;
+ mat^[cols*r+o-1].s:=siz;
+ result:=1;//mat[
+end;
+destructor tmat.free;
+begin
+freemem(sums,rows*4);
+freemem(longrow,4*rows);
+freemem(mat,4*(rows+1)*(cols));  //row & cols [0] reserved for special use
+
+end;
+
+constructor tmat.create(rown,coln:word);
+var i,j:word;  p:^word;pi:word;
+begin
+ mymy:=tmppointer;
+ rows:=rown;
+ cols:=coln;
+ getmem(sums,rows*4);
+ fillchar(sums^,rows*4,0);
+ getmem(longrow,4*rows);  //for some reason crashes if mem reserved later on
+ writeln('gotmem',4*(rows+1)*(cols),' R:',rows,' C:',cols);
+ //setlength(onerow,rows);
+ getmem(mat,4*(rows+1)*(cols));  //row & cols [0] reserved for special use
+ fillchar(mat^,4*(rows+1)*(cols),0);
+ //setlength(sums,rows+1);
+     //tmppointer.readafile('wxw.sca',mat,n_w*n_c*4);
+
+     //writeln(^j^j,'****xxxxxxxxxxx',tmppointer.sanat[1]);
+     //for j:=1 to cols do  write('M ',sana(wc(rows-1,j).w],wc(rows,j).w);
+     //for j:=1 to cols do  writeln(wc(rows-1,j).w,';:  ',sana(wc(rows-1,j).w]);
+     //for j:=1 to cols do  writeln(tmppointer.sanat[wc(rows-0,j).w],wc(rows-0,j).w,';:  ');
+     //for j:=1 to cols do  writeln(tmppointer.sanat[wc(2-0,j).w],wc(2-0,j).w,';:  ');
+//halt;
+end;
+
+function tmat.readfullmatrix:p_fullmat;
+var f:file;i,j:longword;    fullmat:p_fullmat;
+  p:^word;val:word;
+  rawsums:array[0..6461] of longword;
+  rowsum:longword;
+  //p:pointer;
+
+begin
+ try
+  fullmat:=getmem((rows)*(rows)*2);
+
+  // fillchar(fullmat^,sizeof(fullmat^),#0); //setlength(fullmat,n_w*n_w);
+  assign(f,'bigmat.bin');
+  Reset (F,(rows)*(rows)*2);
+  //fillchar(fullmat^,(rows-1)*(rows-1)*2,0);
+  Blockread (F,fullmat^,1);
+  close (f);
+  RESULT:=FULLMAT;
+  except  write('******!!**',(rows-1)*(rows-1)*2);end;
+  writeln('did .',rows*rows*2);
+  for i:=1 to rows do  begin rawsums[i]:=0;  for j:=1 to rows do  if i<>j then rawsums[i]:=rawsums[i]+fullmat^[i*rows+j]; end;
+   for i:=1 to rows do if rawsums[i]>0 then
+    for j:=1 to rows do  if i<>j then if rawsums[j]>0 then
+      fullmat^[i*rows+j]:=round((1000000000*fullmat^[i*rows+j])/((rawsums[j]*rawsums[i]+100000000))); //ADDED CONST TO DENOMINATOR TO PUNISH RARE WORDS
+end;
+
+procedure tmat.clusterrow(resmat:tcluscors;wmat:tmat;thisrow,rcount:word);  //full cluster cors from clus*words
+var otherrow,w1,w2,xval:word;recthis,recother,rew1,rew2:r_scarcefield;//sum:longword;
+  thiscal,otherval:word;whyst:string;  maxw,maxs:word;
+
+begin  //this is done for one cluster IN CLUSTERMAT, ie row in scarce cluster matrix
+   //STILL USES 1-BASED FUNCTIONS WC() ETC. RESULT IS 0-BASED. I is one-based
+
+   maxw:=0;maxs:=0;
+  for otherrow:=1 to rcount do if thisrow<>otherrow then if sums^[otherrow]>0 then        //for every other cluster
+  begin
+     whyst:='';
+    for w1:=1 to cols do  //if wmat.sum(w1)>0 then  //for each word in thisrow
+    begin
+      rew1:=wc(thisrow,w1);
+      if thisrow>tmylly(mymy).cluscount then     write('past clustecount&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
+      if rew1.w=0 then break;
+      if rew1.s=0 then break;
+      for w2:=1 to cols do   //scan each word in the other cluster
+         //if wmat.sum(w2)>0 then  //scan each word in the other cluster
+      begin
+        rew2:=wc(otherrow,w2);
+        //write(rew1.w,sana(rew1.w),rew2.w,sana(rew2.w),'  ');
+        if rew2.w=0 then break;  //all words in otherrow have been handled
+         //if rew1.w=5095 then write('****',sana(rew1.w));
+
+        xval:=wmat.valueof(rew1.w,rew2.w);  //a  word in thisrow correlates in the word-matrix with a word in otherrow
+        write('_,',xval);
+        if xval=0 then continue;
+        //if thisrow=17 then if otherrow=16 then
+
+        //xval:=xval+wmat.valueof(rew2.w,rew1.w);
+        //if xval>0 then     write(^j,xval,':::',sana(rew1.w],sana(rew2.w]);
+        //xval:=round(10000000*xval / (1+sums^[row]*sums^[j]*wmat.sums^[w1]*wmat.sums^[w2]));
+        //!xval:=round(20000*log2(rew1.s*rew2.s*xval) / (100+sum(thisrow)*sum(otherrow)));  //10+ plays down small rows/cols
+        xval:=min(min(rew1.s,rew2.s),xval);
+        try
+        //xval:=round(10*rew1.s*rew2.s*xval / (100+sum(thisrow)*sum(otherrow)));  //10+ plays down small rows/cols
+        //if xval>20 then whyst:=whyst+(' '+sana(rew1.w)+'/'+sana(rew2.w)+'='+inttostr(xval));
+        //if xval>300 then write(xval,' ');
+        //sum:=sum+xval;
+         resmat.addval(thisrow,otherrow,xval);
+        //resmat^[(thisrow-1)*1000+otherrow-1]:=resmat^[(thisrow-1)*1000+otherrow-1]+xval;
+        //resmat^[(otherrow-1)*1000+thisrow-1]:=resmat^[(otherrow-1)*1000+thisrow-1]+xval;
+        //sum:=sum+resmat^[j*1000+row-1];
+        //if row>tmylly(mymy).cluscount then if xval>=0 then
+        except writeln('fail:',sums^[thisrow],'*',sums^[otherrow],'*',wmat.sums^[w1],'*',wmat.sums^[w2]);end;
+        //if debug then if xval>0 then
+        //write('|',sana(wc(j,1).w],resmat^[row*1000+j-1]);
+        //result^[i*1000+j-1]:=result^[i*1000+j-1]+round(100000*ival*1*wmat.valueof(rew1.w,rew2.w)div (sums^[i]*sums^[j])); //div sums something
+        //result^[j*1000+i-1]:=result^[j*1000+i-1]+round(10000*ival*1*wmat.valueof(rec2.w,rec1.w) div (sums^[i]*sums^[j])); //div sums something
+      end;
+
+    end;
+    //if resmat^[(thisrow-1)*2000+otherrow-1]>1000 then //write(^j,'XXX:');
+    //write(^j^j,'   :::',listc(thisrow)+
+    //  ansiuppercase(listc(otherrow)),'<-',whyst ,'   ===',resmat^[1000*(thisrow-1)+otherrow-1]);
+    //write(^j,'   ',sana(wc(thisrow,1).w)+
+    //  ansiuppercase(sana(wc(otherrow,1).w)),'(',thisrow,'*',otherrow,')=' ,resmat^[1000*(thisrow-1)+otherrow-1],whyst);
+
+    //if wc(i,1).w=4875 then if result^[i*1000+j-1]>0 then begin write(sana(wc(i,1).w],result^[i*1000+j-1],'_'); end;
+    //write(' %', resmat^[row*1000+j-1]);
+
+  end;
+
+end;
+

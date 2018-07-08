@@ -1,0 +1,15 @@
+function N(wrd) {
+print wrd " N Par Sg"
+print wrd " N Gen Sg"
+print wrd " N Ill Sg"
+print wrd " N All Sg"
+print wrd " N Abe Sg"
+print wrd " N Nom Pl"
+print wrd " N Par Pl"
+print wrd " N Gen Pl"
+print wrd " N Ill Pl"
+print wrd " N All Pl"
+print wrd " N Ins Pl"
+print wrd " N Abe Pl"
+return
+}

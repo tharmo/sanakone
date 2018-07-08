@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="nominit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="12"/>
+        <CursorPos X="5" Y="59"/>
+        <UsageCount Value="219"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="nominoi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="3"/>
+        <FoldState Value=" T0tf1{J TDu13T10"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <EditorIndex Value="-1"/>
+          <WindowIndex Value="1"/>
+          <TopLine Value="1050"/>
+          <CursorPos Y="1064"/>
+          <FoldState Value=" T3\90S2r"/>
+        </ExtraEditor1>
+        <UsageCount Value="219"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="nomutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="37"/>
+        <CursorPos X="11" Y="71"/>
+        <UsageCount Value="214"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="rimmaa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="205"/>
+        <CursorPos X="36" Y="222"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <IsVisibleTab Value="True"/>
+          <WindowIndex Value="1"/>
+          <TopLine Value="148"/>
+          <CursorPos Y="163"/>
+        </ExtraEditor1>
+        <UsageCount Value="211"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../taivup.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="800"/>
+        <CursorPos X="48" Y="819"/>
+        <UsageCount Value="121"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../taivubits.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="484"/>
+        <CursorPos X="17" Y="506"/>
+        <UsageCount Value="13"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="138" Column="7" TopLine="102"/>
+      </Position1>
+      <Position2>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="45" Column="33" TopLine="23"/>
+      </Position2>
+      <Position3>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="329" Column="20" TopLine="296"/>
+      </Position3>
+      <Position4>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="35" Column="11" TopLine="26"/>
+      </Position4>
+      <Position5>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="64" Column="9" TopLine="38"/>
+      </Position5>
+      <Position6>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="327" Column="6" TopLine="296"/>
+      </Position6>
+      <Position7>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="39" Column="11" TopLine="28"/>
+      </Position7>
+      <Position8>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="277" Column="15" TopLine="282"/>
+      </Position8>
+      <Position9>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="57" Column="18" TopLine="27"/>
+      </Position9>
+      <Position10>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="40" Column="41" TopLine="27"/>
+      </Position10>
+      <Position11>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="54" Column="51" TopLine="31"/>
+      </Position11>
+      <Position12>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="55" Column="20" TopLine="32"/>
+      </Position12>
+      <Position13>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="67" Column="91" TopLine="45"/>
+      </Position13>
+      <Position14>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="39" Column="65" TopLine="24"/>
+      </Position14>
+      <Position15>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="35" Column="65" TopLine="16"/>
+      </Position15>
+      <Position16>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="71" Column="11" TopLine="49"/>
+      </Position16>
+      <Position17>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="73" TopLine="56"/>
+      </Position17>
+      <Position18>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="78" Column="36" TopLine="56"/>
+      </Position18>
+      <Position19>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="326" Column="4" TopLine="307"/>
+      </Position19>
+      <Position20>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="158" TopLine="137"/>
+      </Position20>
+      <Position21>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="327" Column="32" TopLine="306"/>
+      </Position21>
+      <Position22>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="57" Column="17" TopLine="43"/>
+      </Position22>
+      <Position23>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="306" Column="4" TopLine="306"/>
+      </Position23>
+      <Position24>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="96" Column="67" TopLine="78"/>
+      </Position24>
+      <Position25>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="332" Column="4" TopLine="307"/>
+      </Position25>
+      <Position26>
+        <Filename Value="nomutils.pas"/>
+        <Caret Line="79" TopLine="34"/>
+      </Position26>
+      <Position27>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="322" Column="28"/>
+      </Position27>
+      <Position28>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="157" Column="6" TopLine="130"/>
+      </Position28>
+      <Position29>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="155" TopLine="132"/>
+      </Position29>
+      <Position30>
+        <Filename Value="rimmaa.pas"/>
+        <Caret Line="349" Column="33" TopLine="306"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="7">
+      <Item1>
+        <Expression Value="X"/>
+      </Item1>
+      <Item2>
+        <Expression Value="haettu"/>
+      </Item2>
+      <Item3>
+        <Expression Value="AVS"/>
+      </Item3>
+      <Item4>
+        <Expression Value="cut"/>
+      </Item4>
+      <Item5>
+        <Expression Value="vo"/>
+      </Item5>
+      <Item6>
+        <Expression Value="lopkon"/>
+      </Item6>
+      <Item7>
+        <Expression Value="']->'"/>
+      </Item7>
+    </Watches>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="sanoa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="28" Y="11"/>
+        <UsageCount Value="210"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="sano.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="22"/>
+        <UsageCount Value="210"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="outofsight.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="13"/>
+        <UsageCount Value="210"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="current.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="180"/>
+        <CursorPos X="48" Y="213"/>
+        <UsageCount Value="210"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="sanamylly.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="545"/>
+        <CursorPos X="18" Y="405"/>
+        <UsageCount Value="209"/>
+        <Bookmarks Count="1">
+          <Item0 Y="203" ID="8"/>
+        </Bookmarks>
+      </Unit4>
+      <Unit5>
+        <Filename Value="sanamat.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="369"/>
+        <CursorPos X="15" Y="385"/>
+        <UsageCount Value="209"/>
+        <Bookmarks Count="1">
+          <Item0 X="16" Y="392" ID="3"/>
+        </Bookmarks>
+      </Unit5>
+      <Unit6>
+        <Filename Value="sanamatnew.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="148"/>
+        <CursorPos X="10" Y="158"/>
+        <UsageCount Value="203"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="sanamat.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="113"/>
+        <CursorPos X="85" Y="126"/>
+        <UsageCount Value="207"/>
+        <Bookmarks Count="2">
+          <Item0 X="12" Y="195" ID="1"/>
+          <Item1 X="16" Y="143" ID="2"/>
+        </Bookmarks>
+      </Unit7>
+      <Unit8>
+        <Filename Value="sanatypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="106"/>
+        <CursorPos X="30" Y="131"/>
+        <UsageCount Value="207"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="sanamylly.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15"/>
+        <UsageCount Value="206"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="todo.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="2" Y="7"/>
+        <UsageCount Value="209"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit10>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="(i-1)"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

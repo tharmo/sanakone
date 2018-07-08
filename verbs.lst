@@ -1,0 +1,76 @@
+Checking whether the transducer accepts a single blank as a word...
+Transducer successfully loaded
+^kävellä/kävellä V Inf1 Lat/kävellä V Prs Pass ConNeg$
+^kävelläkseni/kävellä V Inf1 Act Tra Sg PxSg1$
+^kävelläksesi/kävellä V Inf1 Act Tra Sg PxSg2$
+^kävelläkseen/kävellä V Inf1 Act Tra Sg Px3$
+^kävelläksemme/kävellä V Inf1 Act Tra Sg PxPl1$
+^kävelläksenne/kävellä V Inf1 Act Tra Sg PxPl2$
+^kävelläkseen/kävellä V Inf1 Act Tra Sg Px3$
+^kävellessä/kävellä V Inf2 Act Ine Sg$
+^käveltäessä/kävellä V Inf2 Pass Ine$
+^kävellen/kävellä V Inf2 Act Ins/kävellä V Pot Act Sg1$
+^kävelemässä/kävellä AgPrc Pos Ine Sg/kävellä V Inf3 Ine$
+^kävelemästä/kävellä AgPrc Pos Ela Sg/kävellä V Inf3 Ela$
+^kävelemään/kävellä AgPrc Pos Ill Sg/kävellä V Inf3 Ill$
+^kävelemällä/kävellä AgPrc Pos Ade Sg/kävellä V Inf3 Ade$
+^kävelemättä/kävellä AgPrc Pos Abe Sg/kävellä V Inf3 Abe$
+^kävelemän/kävellä AgPrc Pos Gen Sg/kävellä V Inf3 Man$
+^käveltämän/kävellä V Inf3 Pass Ins$
+^käveleminen/käveleminen N Nom Sg/kävellä V N Nom Sg$
+^kävelemistä/käveleminen N Par Sg/kävellä AgPrc Pos Ela Pl/kävellä V N Par Sg$
+^kävelemäisilläni/kävellä V Act Inf5 PxSg1$
+^kävelemäisilläsi/kävellä V Act Inf5 PxSg2$
+^kävelemäisillään/kävellä V Act Inf5 Px3$
+^kävelemäisillämme/kävellä V Act Inf5 PxPl1$
+^kävelemäisillänne/kävellä V Act Inf5 PxPl2$
+^kävelemäisillään/kävellä V Act Inf5 Px3$
+^kävelevä/kävelevä A Pos Nom Sg/kävellä PrsPrc Act Pos Nom Sg$
+^käveltävä/kävellä PrsPrc Pass Pos Nom Sg$
+^kävellyt/kävellä PrfPrc Act Pos Nom Sg/kävellä PrfPrc Pass Pos Nom Pl/kävellä V Pst Act ConNeg$
+^kävelty/kävellä PrfPrc Pass Pos Nom Sg/kävellä V Pst Pass ConNeg$
+^kävelemä/kävellä AgPrc Pos Nom Sg$
+^kävelen/kävellä V Prs Act Sg1$
+^kävelet/kävellä V Prs Act Sg2$
+^kävelette/kävellä V Prs Act Pl2$
+^kävelee/kävellä V Prs Act Sg3$
+^kävelemme/kävellä V Prs Act Pl1$
+^kävelette/kävellä V Prs Act Pl2$
+^kävelevät/kävelevä A Pos Nom Pl/kävellä PrsPrc Act Pos Nom Pl/kävellä V Prs Act Pl3$
+^kävellään/kävellä V Prs Pass Pe4$
+^kävelin/kävellä V Pst Act Sg1$
+^kävelit/kävellä V Pst Act Sg2$
+^kävelitte/kävellä V Pst Act Pl2$
+^käveli/kävellä V Pst Act Sg3$
+^kävelimme/kävellä V Pst Act Pl1$
+^kävelitte/kävellä V Pst Act Pl2$
+^kävelivät/kävellä V Pst Act Pl3$
+^käveltiin/kävellä V Pst Pass Pe4$
+^kävelisin/kävellä V Cond Act Sg1$
+^kävelisit/kävellä V Cond Act Sg2$
+^kävelisitte/kävellä V Cond Act Pl2$
+^kävelisi/kävellä V Cond Act ConNeg/kävellä V Cond Act Sg3$
+^kävelisimme/kävellä V Cond Act Pl1$
+^kävelisitte/kävellä V Cond Act Pl2$
+^kävelisivät/kävellä V Cond Act Pl3$
+^käveltäisiin/kävellä V Cond Pass Pe4$
+^kävellen/kävellä V Inf2 Act Ins/kävellä V Pot Act Sg1$
+^kävellet/kävellä V Pot Act Sg2$
+^kävellette/kävellä V Pot Act Pl2$
+^kävellee/kävellä V Pot Act Sg3$
+^kävellemme/kävellä V Pot Act Pl1$
+^kävellette/kävellä V Pot Act Pl2$
+^kävellevät/kävellä V Pot Act Pl3$
+^käveltäneen/kävellä V Pot Pass Pe4$
+^kävele/kävellä V Impv Act Sg2/kävellä V Prs Act ConNeg$
+^kävelkää/kävellä V Impv Act Pl2$
+^kävelköön/kävellä V Impv Act Sg3$
+^kävelkäämme/kävellä V Impv Act Pl1$
+^kävelkää/kävellä V Impv Act Pl2$
+^kävelkööt/kävellä V Impv Act Pl3$
+^käveltäköön/kävellä V Impv Pass Pe4$
+^kävelköön/kävellä V Impv Act Sg3$
+^kävelkööt/kävellä V Impv Act Pl3$
+^käveltäköön/kävellä V Impv Pass Pe4$
+
+Got None/EOF symbol; done.

@@ -1,0 +1,265 @@
+unit taivuus;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+implementation
+
+uses taivup,math,taivubits;
+function IFs(cond:boolean;st1,st2:ansistring):ansistring;
+begin
+ if cond then result:=st1 else result:=st2;
+end;
+
+procedure tstemmer.listall;
+{var  winfo,parts:tstringlist;ofi,ifi:textfile;
+         curlka:ttaivlka;
+         lknum:integer;
+         line,av,ah,lksx,stends,lopvoks,psim,newid,mymid,xpart,lkon,sharedb,stem,form,color,paddedform,thisav,pilkottu,sv,sh,mv,mh,myvai:ansistring;
+         i,j,k,sims:integer;
+         ast:taste;
+         ends:tstringlist;
+         mux:word;
+         avlen:byte;
+}
+
+         begin end;
+end.
+begin
+                 ends:=tstringlist.create;
+                 writeln(hyphenfi('strategia',ends),' ', ends.commatext);exit;
+                 winfo:=tstringlist.create;
+                 parts:=tstringlist.create;
+                  assign(ofi,'vtest.csv');
+                  rewrite(ofi);
+                 ///assign(ifi,'verbsall.lst');    //rewrite(ofi);
+                 assign(ifi,'sanatansi.lst');
+                 reset(ifi);
+                 lknum:=-1;
+                 lksx:='xxx';
+                 writeln('<hr>STEMMAA');
+                 parts.StrictDelimiter := true;
+                    parts.Delimiter:= ',';
+end;end.
+                    for i:=1 to 4 do readln(ifi,line);; //skip rubbish
+                 while not eof(ifi) do
+                 begin
+                    readln(ifi,line);
+                    parts.clear;
+                    parts.delimitedtext:=line;
+                    //writeln('<li>',parts.count);
+                    if parts.count<2 then continue;
+                    if pos(lksx,line)<>1 then
+                    begin
+                      mux:=0;
+                      sims:=0;
+                      writeln('</table><li>yhtlops:',lksx,'/',ends.count,'</li>');
+                      if curlka<>nil then
+                      begin
+                      try
+                      //write(ofi,lksx);//,',',curlka.example);
+                       if ends.count>1299 then for i:=0 to ends.count-1 do
+                       begin
+                         if not (i+1 in  [1,2,4,09,11,17,18,27,54,63,70,78]) then continue else
+                         begin
+                            //write(ofi,',',copy(ends[i],1,length(ends[i])-length(yhtlopsall[i+1])));
+                            mux:=mux+1;
+                            if copy(ends[i],1,length(ends[i])-length(yhtlopsall[i+1]))+yhtlopsall[i+1]=
+                            curlka.mids[mux]+yhtloput[mux] then color:='green' else color:='red';
+                            writeln('<li style="color:',color,'">',ends[i],' <b>'
+                            ,copy(ends[i],1,length(ends[i])-length(yhtlopsall[i+1])),'</b>',yhtlopsall[i+1],
+                            ' <b>',curlka.mids[mux], '</b>',yhtloput[mux],'</li>');
+
+                          end;
+                       end;
+                       //writeln(ofi,',',curlka.expl);
+                       except writeln('<li>nilluokka');end;
+                       end;
+                       lknum:=lknum+1;
+                       //if lknum>=luokat.count then exit;
+                       //writeln('<li>runkojämät:',stends);
+                       //writeln('<li>lopvoks:',lopvoks);
+                       stends:=',';
+                       lopvoks:=',';
+                       curlka:=ttaivlka(luokat[lknum]);
+                       //curlka.example:=parts[2];
+                       writeln('</ul><div style="background:#ddd"><h4>###',parts[0],' ',parts[1],' @',lknum,' ',ifs(curlka.vahva,'vahva','heikko'),ifs(curlka.hasav,' ','Ei-AV'),'</h4><ul><li>');
+                      //writeln('<h3>',parts[0],lks,'|',lknum,'/kot:',curlka.kotus,'  1:',parts.count,'</h3>');//,curlka.mids[1]);//,' <li><b>',curlka.expl,'</b></li>');
+                       //if lks='V065' then     for i:=1 to 12 do curlka.mids[i]:=copy(curlka.mids[i],3);
+                        writeln('<table border="1"><tr>');
+                          for i:=1 to parts.count do  if not (i+1 in [2,3,5,10,12,18,19,28,55,64,71]) then continue else
+                          writeln('<td>',i,'/',yhtlopsall[i],'</td>');
+                          writeln('</tr><tr>');
+                            for i:=1 to 12 do    //if not (mu+1 in [2,3,5,10,12,18,19,28,55,64,71]) then continue else
+                          writeln('<td>',i,'/',curlka.mids[i],'|',yhtloput[i],' </td> ');
+                          writeln('</tr></table></div>');
+
+                            ends.clear;
+                            for i:=2 to parts.count-1 do ends.add(taka(parts[i]));
+                       writeln('<table border="1">');
+                    end;
+                  lksx:=copy(parts[0],1,4);
+                  ast:=getastekons(parts[0][5],av,ah);
+                  sims:=sims+1;
+                  avlen:=length(ast.f+ast.t);
+                  //write('%',psim,'/',sims,' ');
+                  //if av<>'' then continue;
+
+                //***************
+                 //if  length(ast.f+ast.t)<>1 then continue;
+                 //if  length(ast.f+ast.t)<>4 then continue;
+                  //if (av='') or (ah<>'') then
+                  if (lksx+ast.a<>psim) then  sims:=0 else if sims>3 then begin if sims<3 then writeln('>');continue;end;
+                  psim:=lksx+ast.a;
+                  parts.delete(0);
+                  parts.delete(0);
+                  //writeln(parts.commatext);
+                  ends.clear; //cheating, ends should be forms
+                  for i:=1 to parts.count do  if not (i+1 in [2,3,5,10,12,18,19,28,55,64,71]) then continue else
+                    ends.add(parts[i]);
+
+                  newid:=(parts[0]);
+                  mymid:=curlka.mids[1];
+                  if pos('#',mymid)>0  then  lkon:=parts[2][length(parts[2])-1] else lkon:=''; //ad hoc. only for V067
+                  //writeln(parts[0]);
+                  //if lks='V067' then  writeln('<li>',parts[0]);
+                   try
+
+                  //write('---> ', stem,'<b>',mymid,'</b>',curlka.mids[1],'_a');
+                  if curlka.vahva then
+                  begin
+                     // - - --> stem loppukons toimii kuten pv td (mutta sama kuin vaihdokin alkuk) LYP -S* ja vaihtelu s/s
+                     // k/- lisätään vaihtariin, poistetaan heikoissa
+                    //  pv,td -> vaihdokkiin vahva alkuun, vaihdetaan heikoissa heikkoon
+                     // kk/k , pp/p ttt ->  runkoon vahva loppuun, poistetaan heikoissa
+                     //nk/ng, lt/ll,mp/mm -> vaihdokkiin vahva alkuun, vaihdetaan heikkoon heikoissa
+                     //TALLETETTAVAA: AV-PITUUS/tyyppi, AV-KONSONANTTI (vain yksi. vaihtelemattomissa rungon vika on av-konsonantti)
+                     //  LOPUUVOkAAli erikseen talteen - vaiko sen mukaan sortaten/indeksoiden
+                     //  vaihtelemaattomissa tarvitaan myös kons, silloin se on vaihtaritavun eka (eikä tallettuisi muuten kun käytetään tavu-talletusta)
+                      //if ah='' then begin av:=end:
+                     //tyypit/pittuden mukaan:
+                        //0:ei vaihtelua: lisätään vaihtariin aina sama loppukons joka talletettu erikseen (4 bit)
+                        //1 (vain k/) lisäään vaihtariin
+                        //2: p/v,t/d, k/j, k/v - vaihto vaihtarin alussa - vaatii kukin omat tyyppinsä, muuten kummatkin kons ei talletu mihinkään
+                        //3: kk/k , pp/p ttt - tallettuneena rungon lopussa
+                        //4   G ( nk : ng )  H ( mp : mm )  I ( lt : ll )  J ( nt : nn )  K ( rt : rr ) kun ekat kirj unohdetaan, toimii kuten 2)
+                      lopvoks:='';
+                      color:='green';
+                      if av<>'' then color:='blue';
+                      if ah<>'' then   color:='black';
+                      if length(ast.f)=2 then color:='purple';
+                      stem:=taka(copy(parts[0],1,length(parts[0])-length(mymid+av+'a')));
+                      if av='' then for j:=length(stem) downto length(stem)-2 do if pos(stem[j],vokaalit)<1 then begin av:=stem[j];ah:=av;delete(stem,j,1);break;end;
+                      xpart:=copy(parts[0],length(stem)+1);
+                      ///VAHVAAA
+                      xpart:=copy(xpart,1,length(xpart)-length(mymid)-1);
+                      hyphenfi(stem+lopvoks,tavus);
+                      winfo.commatext:=inttostr(curlka.kotus)+','+inttostr(length(ast.f+ast.t))+','+av+','+inttostr(tavucount);
+                      //if taka(parts[0])=taka(stem+av+mymid+'a') then color:='green' else color:='red';
+                      writeln('<tr><td style="color:',color,'"> ',parts[0],' ',stem,' <b>',lopvoks,' </b>',ast.f,ast.t,'</td><td>',winfo.commatext,'</td>');//,'  <span>',' [',ast.f,'\'+ifs(ast.t='',' ',ast.t),']  ',parts[0]);
+                      //for i:=tavus.count-1 downto 0 do winfo.add(tavus[i]);
+                      for i:=0 to tavus.count-1  do winfo.add(tavus[i]);
+                      writeln(ofi,winfo.commatext);
+                      //write('<li  style="color:',color,'"> ',sims,' ', stem,'|'+av+'|<b>',mymid,'</b>|a','   :',taka(stem+av+mymid+'a'),' ',taka(parts[0]),' /',mymid,' [',av,ah,']  </li>');
+                      mux:=0;
+                     for i:=1 to  min(72,parts.count-1) do if not (i+1 in [2,3,5,10,12,18,19,28,55,64,71]) then continue else
+                     begin
+                     ///VAHVASIJAT
+                      mux:=mux+1;
+                      myvai:=tavus[tavus.count-1]+ifs(mux in [2,4,7],ah,av);//ifs(mux in [2,4,7],mv,mh);
+                      mymid:=curlka.mids[mux];
+                      while pos('-',mymid)=1 do begin delete(mymid,1,1);delete(myvai,length(myvai),1);writeln('<td>!-</td>');end;
+                      form:='';
+                      for j:=4 to winfo.count-2  do form:=form+winfo[j];
+                      begin
+                      color:=ifs(taka(parts[i-1])=form+myvai+{ifs(mux in [2,4,7],ah,av)+}mymid+yhtloput[mux],'green','red');
+                      writeln('<td style="color:',color,'">','[',form,']',myvai,'.',',',mymid
+                      ,yhtloput[mux],ifs(color='red',' '+parts[i-1],''),'</td>');
+                      end;
+                     end;
+                     write('</tr>');continue;
+                 end
+                  else  //HEIKOT MUODOT >62
+                begin
+                    xpart:='';
+                   stem:=taka(copy(parts[0],1,length(parts[0])-length(mymid+'a')));
+                    if curlka.hasav=false then
+                    begin
+                      writeln(parts[0]);
+                      color:='magenta';
+                      lopvoks:='';
+                    end
+                    //HEIKKOA
+                    else
+                    begin
+                            // halveta      1,    7           -        v    t  a
+                      //if av='' then for j:=length(stem) downto length(stem)-2 do if pos(stem[j],vokaalit)<1 then begin av:=stem[j];ah:=AV;delete(stem,j,0);break;end;
+                     lopvoks:='';
+                     writeln('<tr><td colspan="10">',stem,' <u>','</u> ',parts[0]);
+                     WHILE POS(stem[length(stem)],vokaalit)>0 do
+                      begin //write('*',stem[length(stem)],'/');
+
+                      lopvoks:=stem[length(stem)]+lopvoks;
+                      delete(stem,length(stem),1);
+                      //if isdifto(stem[length(stem)],lo
+                      if ah='' then break;
+                      end;
+                     //stem:=copy(stem,1,length(stem)-length(ah)-LENgth(lopvoks));
+                     stem:=copy(stem,1,length(stem)-length(ah)-LENgth(''));
+                     //writeln('?',stem,' </td></tr>');
+                     color:='green';
+                     if av<>'' then color:='blue';
+                     if ah<>'' then   color:='black';
+                     if length(ast.f)=2 then color:='purple';
+                   end;
+                   hyphenfi(stem+av+lopvoks,tavus);
+                   writeln('<tr><td style="color:',color,'"> ',parts[0],' ',stem,' <b>',lopvoks,' </b>',ast.f,ast.t,'</td><td>');//,'  <span>',' [',ast.f,'\'+ifs(ast.t='',' ',ast.t),']  ',parts[0]);
+                   winfo.commatext:=inttostr(curlka.num)+','+inttostr(length(ast.f+ast.t))+','+ah+','+inttostr(tavucount);
+                   //for i:=tavus.count-1 downto 0 do winfo.add(tavus[i]);
+                   for i:=0 to tavus.count-1  do winfo.add(tavus[i]);
+                   writeln(winfo.commatext);
+                   writeln(ofi,winfo.commatext);
+                   writeln('</td><td>');
+                   //xpart:=copy(xpart,1,length(xpart)-length(mymid)-1);
+                   xpart:='';
+                   if taka(parts[0])=taka(stem+lopvoks+xpart+mymid+'a') then color:='black' else color:='blue';
+                   //write('<li  style="color:',color,'"> ',lopvoks,av,ah,' ', stem,'|',lopvoks,'|'+'<b>',mymid,'</b> ',parts[0],': &nbsp; &nbsp; &nbsp;');
+                   mux:=0;
+                   form:='';
+                   for j:=4 to winfo.count-3  do form:=form+winfo[j];
+                   sv:=winfo[winfo.count-2];
+                   mv:=winfo[winfo.count-1];
+                   if winfo.count<6 then sv:='';
+                   mh:=mv;sh:=sv;
+              continue;
+                   begin
+                    for i:=1 to  min(24,parts.count-1) do if not (i+1 in [2,3,5,10,12,18,19,28,55,64,71]) then continue else
+                      mux:=mux+1;
+                       if pos('/',parts[i-1])>0 then parts[i-1]:=trim(copy(parts[i-1],1,pos('/',parts[i-1])-1));
+                       thisav:=ifs(mux in [2,3,6,9],av,ah);
+                       pilkottu:=stem+'|'+thisav+'|'+lopvoks+'|'+curlka.mids[mux]+'|'+yhtloput[mux];
+                       //writeln('\',pilkottu,'_',parts[i-1],'#');
+                       if taka(stem+thisav+lopvoks+taka(curlka.mids[mux]+yhtloput[mux]))=taka(parts[i-1]) then color:='green' else  color:='red';
+                       if pos('/',parts[i-1])>0 then color:='blue';
+                       //taka(parts[i-1])=taka(stem+ifs(not (mux in [2,4,7]),ah,av);
+                       writeln('<td style="color:',color,'"> ',' ');//,parts[i-1],' ');//stem+'['+thisav+']'+lopvoks+'|'+curlka.mids[mux]+'<u>',yhtloput[mux]+'</u>:');
+                       //if color<>'green' then
+                       writeln('',tavut(parts[i-1],pilkottu));
+                       writeln('</td>');
+                        //kaataaTRUE1 kaataa kaatanFALSE2 kaadan kaataaTRUE3 kaataa 4kaatetaFALSE4 kaadeta 5kaatanutTRUE5
+                        //kaatanut kaatoiFALSE6 kaasi /kaatoi 8kaatettuFALSE7 kaadettu kaataenTRUE8 kaataen kaataisiTRUE kaataisi kaatakaaTRUE kaatakaa kaatanemmeTRUE kaatanemme
+
+                   end;    writeln('</tr>')
+               end
+               except writeln('<li style="color:',color,'"><b>!!!',stem,'/',form,j,'</b>');  end;
+           end;
+          closefile(ofi);closefile(ifi);
+         end;
+
+
+end.
+

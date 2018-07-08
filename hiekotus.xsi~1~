@@ -1,0 +1,7 @@
+class name=hiekotus
+  luokat
+    #xse:to element=/test
+    xmp xse:to file=hiekotus.html 
+      xse:sapply file="kotus-sanalista_v1.xml" counter=i path="/kotus-sanalista/st/t/av"
+      #se:sapply file="hiekotus.xml" path="/a/b/c"
+   #xse:debug

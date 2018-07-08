@@ -1,0 +1,710 @@
+class name=hiero
+  squares
+    xse:from file=hierosort.htmi xse:to=/tree 
+      xse:copy
+    div xse:to=/hier style="width:2000px;height:2000px;border:13px solid black;position:relative;font-size:12px;left:2000px;top:2000px"
+        xse:set mystyle="hortti a"
+        xse:apply select=/tree/node vars="lev=0,mystyle=root"  
+          xse:template match=pp
+            p class=pp:  {$lev}
+          xse:template match=p
+            #p:  {@alltext()}
+          xse:template match="*"
+            #xse:set nextstyle="{?if(?eq(?mod(@lev,2),1),'margin: 1px 1px 1px 20px;border:3px solid black;','margin: 20px  1px 1px 1em;border:2px solid red')}" cc={?inc(cc)}
+            xse:set nextstyle="{?if(?eq(?mod(@lev,2),1),'hortti','vertti')}" cc={?inc(cc)}
+            div  class="{$mystyle}" 
+              # {$lev} {$mystyle} {@id} {*[1]/@id}  {*[1]/@id} {*/@count()}     
+              #xse:continue xse:if={?gt($lev,7)}
+              xse:apply select="*[1]" vars="lev={?inc($lev)},mystyle=hortti,xmystyle={$nextstyle} a,nextstyle" 
+              xse:apply select="*[2]" vars="lev={?inc($lev)},mystyle=vertti,xmystyle={$nextstyle} b,nextstyle" 
+              div class="clear" xse:if=?eq($nextstyle,'hortti'): &nbsp;
+              #xse:apply select="*[1]" withvars="mystyle={$nextstyle},lev={?inc($lev)},nextstyle" 
+              #xse:apply select="*[2]" withvars="mystyle={$nextstyle},lev={?inc($lev)},nextstyle" 
+        div class="clear" xseif=?eq($nextstyle,'hortti'): &nbsp;
+    xse:to file=hieroo.html         
+      html
+       head
+         style type=text/css: 
+            .  div { xbackground:#aaa;position:relative;xborder-top:1px solid black}
+            .  .xhortti { border:8px inset gray; float:left;}
+            #. .hortti.a { margin:5px 1px 5px 2px;width:45% } 
+            #. .hortti.b { margin:5px 1px 1px 45%;width:45%  } 
+            .  .vertti { position:absolute;left:0;top:10px;margin-left:155px;;xtransform:rotate(30deg);transform-origin:0% 0%}
+            .  .hortti { margin-left:350px;float:left;border-top:2px solid red;;transform:rotate(25deg);transform-origin:0% 0%}
+            #. .vertti.a { xmargin:1px 1px 1px 0px;xwidth:45% } 
+            #. .vertti.b { xmargin:45% 1px 1px 50% } 
+            . .clear { clear:both;width:0;height:0}
+            .   p.pp { font-size:20px}
+            .   ppp {  font-size:0;margin:0;background:#fff;max-width:1em;max-height:1em;overflow:hidden;z-index:99}
+            .   ppp:hover{ overflow:visible}
+       body          
+         xse:copy sub=true xse:from=/hier
+    xse:debug        
+  outstpl
+    #xse:continue xse:if={?eq(.@,'p')}
+    #li: {@id} {@lev} {@tail} 
+    div style="position:relative;left=00;top=00;font-size:6px": XXX
+      xse:apply times=12 counter=lev
+        xse:set angle={?mod(?plus(?times($sta,45),?times($lev,20)),360)} rad={?times(20,$lev)}
+    
+        xse:set left={?rotatex($angle,$rad,500)} top={?rotatey($angle,$rad,500)}
+        div style="position:absolute;margin:{$top}px 0 0 {$left}px;border:1px solid black": {$sta}.
+    #xse:apply select=*[1] withvar=br=short xse:by=!class:outstpl
+            #xse:apply select=*[2] withvar=br=short xse:by=!class:outstpl
+  outs
+     
+    xse:from file=hierosort.htmi xse:to=/tree 
+      xse:copy 
+      
+    xse:apply select=/tree/* withvars=lev=0
+       xse:inc var=lev{$lev}
+       xse:apply select=* withvars=lev={?plus($lev,1)} xse:if={?ne(@.,'p')} 
+    xse:apply select=/tree/*/*/*/* counter=sta xtimes=1     xse:by=!class/outstpl
+
+      #li: BIG: {@id} {@lev} {@tail}  angle: {?div(360, $sta)}  {$sta}
+      #  ul
+  z     xse:if test={?gt(@lev,1000)
+    xse:apply times=20 counter=x
+      li: {$x} {$lev{$x}}
+    xse:set  a=0 rad=10 ox=2000 oy=2000 wid=30 left=0 right=0 s=right longest=0 fmain=0 a=0 r=30 ptop=2000 pleft=2000
+    xse:to element=/html/ 
+         xse:from element=/tree/node/
+            xse:apply select=*[1] withvar=br=short xse:by=!class:outstpl
+            xse:apply  select=*[2] withvar=br=short xse:by=!class:outstpl
+    xse:debug xse:from=/html        
+  outso
+    xse:from file=hierosort.htmi xse:to=/tree 
+      xse:copy 
+    xse:set  a=0 rad=10 ox=2000 oy=2000 wid=30 left=0 right=0 s=right longest=0 fmain=0 a=0 r=30 ptop=2000 pleft=2000
+    xse:to element=/html/ 
+         xse:apply select=/tree/node/ 
+           xse:continue xse:if=?eq(@.,'p'))
+           #xse:continue xse:if=?gt(@lev,3))
+           #xse:continue xse:if=?gt($fmain,0)
+           xse:set a={?mod(?plus($a,0,360),360)} rrr={?plus($r,0)}
+           xse:set left={?rotatex($a,$r,$ox)} top={?rotatey($a,$r,$oy)}
+           xse:set mx={?times(1,?minus($left,$pleft))} my={?times(1,?minus($top,$ptop))}  
+           xse:to element=/svg/+ {#xse:if=?ne($s,'right')}                
+               line  x1="{$left}" y1="{$top}"  stroke="{$c}" opacity="0.7" stroke-width="1"  x2="{$pleft}"  y2="{$ptop}"
+               text  x="{$left}" y="{?plus($top,?random(15))}" font-size="15" fill="{$c}" : {@lev}_{$a}
+               ###xse:apply select=p counter=p=-1
+                 xse:set x={?plus($left,?times($p,20))}
+                 text  x="{$x}" y="{$top}" font-size="3" font-color="{$c}" : {span}
+                   #xse:apply select=span maxtimes=1 counter=t=1
+                   #  tspan dy={?times($t,2)} x={$x}: {.}
+           div class={$s} style="margin-left:{?plus(?random(0),$mx)}px;margin-top:{?plus(?random(0),$my)}px":
+             p : X{v@lev} 
+             #xse:set l=
+             xse:apply select=*[2] vars="pptop={$ptop},ppleft={$pleft},ptop={$top},pleft={$left},left,top,s=right,fmain,p=b,c=green,a,r={?minus($r,80)}"
+             xse:apply select=*[1] vars="ptop={$top},pleft={$left},top,left,s=down,fmain={?plus($fmain,1)},p=a,a={?plus($a,25)},c=red,r={?plus(20,$r)}"
+    ###xse:to element=/html/ 
+         # div style="border:0px solid black;position:relative;left:0;top:0"
+         xse:apply select=/tree/node/ 
+           xse:continue xse:if=?eq(@.,'p'))
+           #xse:continue xse:if=?gt(@lev,5))
+           xse:continue xse:if=?gt($fmain,0)
+           xse:set a={?mod(?plus($a,25,360),360)} r={?plus($r,0)}
+           xse:set left={?rotatex($a,$r,$pleft)} top={?rotatey($a,$r,$ptop)}
+           xse:set mx={?times(1,?minus($left,$pleft))} my={?times(1,?minus($top,$ptop))}  
+           li xse:to=browser: {$p} {../@id}.{@id}/{@lev} :{$fmain} {@tail}  {$longest}
+           xse:set xse:if={?eq($fmain,0)} longest={?plus($longest,1)} 
+           xse:set xse:if={?gt(@lev,$max)} max={@lev} 
+           
+           div class={$s} style="margin-left:{?plus(?random(0),$mx)}px;margin-top:{?plus(?random(0),$my)}px":
+             p : X{v@lev} 
+               #: {$top}+ {$mx} / {$left}+ {$my}
+             xse:to element=/svg/+               
+               line  x1="{$left}" y1="{$top}"  stroke="{$c}" opacity="0.7" stroke-width="3"  x2="{$pleft}"  y2="{$ptop}"
+               text  x="{?plus($left,?random(35))}" y="{?plus($top,?random(15))}" font-size="36" font-color="{$c}x" z=l:   xxx{@lev}/{$a}
+                   #div class=h style="margin-left:{$mx}px;margin-top:{$my}px;color:{$c}":
+                   #  p: [{@lev}_{$a}]
+                   #div class=h style="left:{$mx}px;top:{$my}px": {@lev}
+                   #A{$a} R{$r} L{$left} T{$top} 
+             #xse:apply select=p
+                       #xse:copy
+             xse:apply select=*[1] vars="ptop={$top},pleft={$left},left,top,s=right,fmain,p=b,c=green,a,r"
+             xse:apply select=*[2] vars="ptop={$top},pleft={$left},top,left,s=down,fmain={?plus($fmain,1)},p=a,a={?minus($a,40)},c=red,r={?plus(-20,$r)}"
+    h1: longest: {$longest} max:{$max} px={$mx},py={$my},
+    xse:debug xse:from=/svg
+    xse:to file=hieroo.html         
+      html
+       head
+         style type=text/css:
+          #. xdiv {  position:relative;border:1px solid black;margin:3px;padding:0em;float:left}
+          .  .down  {  xmargin-left:5px;xborder:2px inset red;color:red;fxloat:left;font-size:12px}
+          .  .right  {  xmargin-top:5px;xborder:1px inset blue;color:blue;xfloat:right;clear:both}
+          #.  p {  font-size:20px;xwidth:8em;xpadding:5px;xmargin:0;background-color:gold;max-height:5em;overflow:hidden}
+          .   p {  font-size:16px;float:left;background:red;width:0;}
+          .   div { left:0;top:0;position:absolute;width:0;height:0} 
+          .  .h { xposition:absolute};
+       body style="font-size:18px"  
+           div style="position:absolute;left:1000;top:1000"  
+             ###xse:copy xse:from=/html sub=true  
+             #xse:apply times=50 counter=c
+           svg version="1.11"  baseProfile="full"  width="3000" height="3000" xmlns="http://www.w3.org/2000/svg" encoding="ISO-8859-1"
+             xse:copy xse:from=/svg sub=true
+    xse:to file=hierosvg.htmi         
+           svg version="1.11"  baseProfile="full"  width="3000" height="3000" xmlns="http://www.w3.org/2000/svg" encoding="ISO-8859-1"
+             xse:copy xse:from=/svg sub=true
+           line x1=0 y1=0 x2=2000 y2=2000
+    #xse:debug
+  cmd
+   h1: {/form/cmd]}
+   xmp
+      xse:exec cmd="/home/t/sanakone/sanoa  {/form/cmd]}"
+      
+  list 
+    xmp
+      xse:exec cmd="/home/t/sanakone/sanoa list"
+  create 
+    xmp
+      xse:exec cmd="/home/t/sanakone/sanoa create
+      "
+  cluster 
+    xmp
+      xse:exec cmd="/home/t/sanakone/sanoa cluster"
+  w2c 
+    div
+      xse:exec cmd="/home/t/sanakone/sanoa w2c"
+  ccor 
+    xmp
+      xse:exec cmd="/home/t/sanakone/sanoa ccor"
+  hiero 
+    xmp
+      xse:exec cmd="/home/t/sanakone/sanoa hiero"
+  listc 
+    xmp
+      xse:exec cmd="/home/t/sanakone/sanoa listc"
+  lout 
+    xmp
+      xse:exec cmd="/home/t/sanakone/sanoa lout"
+
+
+  scale
+    xse:by file=hierox.htmi xse:to=/hiero
+    h1: {/hiero//node/@count()}
+    xse:set lev=1
+    xse:to element=/scaled2 
+      node id=sroot
+        xse:apply select=node xse:from=/hiero 
+           xse:inc var=total
+           #xse:continue xse:if=?gt($lev,2)
+           xse:set nodetype={?case(node/@count(),0,'pp',1,'np',2,'nn','elsethis')}
+           xse:element name={$nodetype} id={@id}
+             xse:attributes lev={$lev}
+             xse:set mymax={?max($mymax,$lev)} 
+             xse:apply select=p
+               xse:copy
+             xse:locals: mymax>pmax={$lev},mytot>mtot={$total}
+               xse:apply select=node withvars="lev={?plus($lev,1)}"
+             xse:set mymax={?max($mymax,$pmax)}
+             xse:attributes tail={?minus($pmax,$lev)} below={?minus($total,$mtot)} 
+             xse:sortchildren: #-@tail
+        xse:sortchildren: #-@tail
+    h1: scaled: {/scaled2//node/@count()}
+        
+    xse:debug xse:from=/scaled2
+    xse:to file=hierosort.htmi xse:by=/scaled2 
+           
+           
+  ooscale
+    h1: spiral nine:{?case(9,1,91,2,92,'elsethis')} three:{?case(3,1,91,2,92,'elsethis')} one:{?case(1,1,91,2,92,'elsethis')} two:{?case(2,1,91,2,92,'elsethis')}
+    xse:by file=hierox.htmi xse:to=/hiero
+    xse:to element=/scaled2
+      node id=sroot
+        xse:apply select=node xse:from=/hiero vars="prev=root,lev=1,maxlevs>mymax=0" 
+         xse:locals: mysteps
+           xse:continue xse:if=?gt($lev,3)
+           xse:set nodetype={?case(node/@count(),0,'pp',1,'np',2,'nn','elsethis')}
+           li xse:to=browser: {$lev} a{$lev}{@id} {$nodetype} max:{$maxlevs} lon:{$longest}
+           xse:set mymax={?max($mymax,$lev)}
+           #xse:set mymy={$maxlevs}
+           xse:set longest=0
+           xse:element name="{$lev}{$nodetype}" id={@id}  my={$maxlevs}
+             #xse:set maxlev={?max($maxlev,lev)}
+             ###xse:apply select=p
+             # xse:copy
+             xse:set mysteps={$steps} steps={?plus($steps,1)}
+             xse:locals: mysteps,mymy=0,maxlevs>longest=0
+               xse:apply select=node withvars="lev={?plus($lev,1)},mymax>prevmax=0"
+               xse:attributes  my2={$mymy}
+               #li xse:to=browser: b{$lev}{@id} max:{$maxlevs} my:{$mymy} lon:{$longest}
+             xse:set maxlevs={?max($maxlevs,$mymy)}  
+             xse:attributes  my3={$mymy} below={?minus($steps,$mysteps,-1)} lev={$lev} longest={$longest}
+             #li xse:to=browser: c{$lev}{@id} max:{$maxlevs} lon:{$longest}
+             
+           xse:sortchildren: #@below
+    ###xse:apply select=* xse:from=/scaled2/node
+     xse:if test={?ne(@my3,@my2)}
+       li:  {@my} {@my2} {@my3} ::{@.}
+       #ul
+     xse:apply
+    h1: maxlev={$maxlev}       
+    xse:debug xse:from=/scaled2
+    xse:to file=hierosort.htmi 
+      xse:copy sub=true xse:from=/scaled2
+      
+           
+           
+  x      
+    xse:from file=hierosort.htmi xse:to=/tree 
+      xse:copy 
+    xse:to element=/ol  
+    #ol
+      xse:apply select=/tree/*
+        #xse:set dep={?max($lev,$dep)}
+        xse:set odep={$dep} dep=0
+        xse:element: {@.} {$lev} 
+         xse:locals: deepest=0
+           xse:apply vars="lev={?plus($lev,1)},dep>mydep"
+           #b: {$dep} {$mydep} {$odep}
+        xse:set dep={?max($lev,$mydep)}
+        xse:incattribute xse:to="!to/" name="below" by="{$dep}"
+    xse:apply select=/ol    
+        div "style=margin:1em;border:1px solid black": {@.} {$lev} {@below}
+           xse:apply withvar="lev={?plus($lev,1)},dep>mydep"
+           
+    xse:debug     
+    xse:apply times=15 counter=c 
+      li: ={?div(?times(6282,$c),$lev{$c})}
+    
+    
+    
+    
+  spiral
+    xse:from file=hierosort.htmi xse:to=/tree 
+      xse:copy 
+    xse:set  a=0 rad=10 ox=3000 oy=3000 lev=7  wid=30
+    xse:apply select=/tree/node/
+       xse:continue xse:if=?eq(@.,'p'))
+       xse:set thisx={?rotatex($a,$rad,$ox)} thisy={?rotatey($a,$rad,$oy)} xrad={?times(@lev,200)}
+       xse:to element=/svg/+
+       #xmp
+            circle cx="{?plus(0,$thisx)}" cy="{$thisy)}" id="c{@id}" fill="{$color}" r="{$siz}"
+            line  x1="{$thisx}" y1="{$thisy}"  stroke="{$c}" opacity="0.2" stroke-width="3"  x2="{$prevx}"  y2="{$prevy}"
+            text  x={$thisx} y={$thisy} font-size=14 fill=green: {@.}: {$tail},{$a} {@lev} {@id}
+       xse:apply select=*[2] vars="prevx={$thisx},prevy={$thisy},rad={?plus($rad,80)},a={?plus($a,60)},thisx,thisy,c=green,wid={?minus($wid,1)}"
+       xse:apply xse:if={?lt(@lev,4)} select=*[1] vars="prevx={$thisx},prevy={$thisy},rad={?plus($rad,0)},a={?minus($a,90)},c=red,wid={?minus($wid,1)}"
+    xse:to file=hiero.svg         
+        svg version="1.11"  baseProfile="full"  width="20000" height="20000" xmlns="http://www.w3.org/2000/svg" encoding="ISO-8859-1" viewbox="0 0 100000 100000"
+           ###xse:apply times=7 counter=c
+             circle cx={$ox} cy={$oy}  r="{?times($c,200)}" stroke=gold stroke-width=3 fill=none
+           xse:copy xse:from=/svg sub=true  
+       
+   xse:debug
+  scaleold
+    h1: scale {5}
+    xse:by file=hierox.htmi xse:to=/hiero
+    xse:set below=0 dep=1
+    secs xse:to=/
+      xse:apply times=20 counter=c
+        xse:element name=sec{$c} id=s{$c}
+    xse:debug xse:from=/secs    
+    xse:to element=/scaled2 
+       node id=sroot   
+        xse:apply select=node xse:from=/hiero withvar=prev=root 
+            xse:template match=node
+               xse:set ntyp={?case(n/@count(),0,'pp',1,'np        
+                      xse:if test="?eq(node/@count(),2)"
+                        n xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"  o={$o}
+                      xse:if test="?eq(node/@count(),1)"
+                          np xse:to="/secs/sec{$dep}+" id=s{@id} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"  o={$o}
+                            #xse:copy xse:from=p"
+                      xse:if test="?gt(p/@count(),1)"
+                        pp xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}" o={$o}
+                          ###xse:apply select=p
+                            xse:copy
+                      xse:locals: dep={?plus($dep,1)},par=s{@id}
+                        xse:apply select=node[1] withvar=o=1
+                        xse:apply select=node[2] withvar=o=-1
+                      #li xse:to=browser: B {@id}_{$dep}  steps:{$steps} mysteps:{$mysteps}
+        xse:attributes root="true" m1={!to/node[1]/@mybelow} m2={!to/node[2]/@mybelow)}  n1={!to/node[1]/@id}  n2={!to/node[2]/@id}
+                        xse:locals: dep={?plus($dep,1)},par=s{@id}
+                        xse:apply select=node[1] withvar=o=1
+                        xse:apply select=node[2] withvar=o=-1
+                      xse:attributes  mybelow={?minus($steps,$mysteps,1)} 
+
+  oldscale
+    h1: scale {5}
+    xse:by file=hierox.htmi xse:to=/hiero
+    xse:set below=0 dep=1
+    secs xse:to=/
+      xse:apply times=20 counter=c
+        xse:element name=sec{$c} id=s{$c}
+    xse:debug xse:from=/secs    
+    xse:to element=/scaled2 
+       node id=sroot   
+        xse:apply select=node xse:from=/hiero withvar=prev=root 
+            xse:template match=node
+                      xse:if test="?eq(node/@count(),2)"
+                        n xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"  o={$o}
+                      xse:if test="?eq(node/@count(),1)"
+                          np xse:to="/secs/sec{$dep}+" id=s{@id} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"  o={$o}
+                            #xse:copy xse:from=p"
+                      xse:if test="?gt(p/@count(),1)"
+                        pp xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}" o={$o}
+                          ###xse:apply select=p
+                            xse:copy
+                      xse:locals: dep={?plus($dep,1)},par=s{@id}
+                        xse:apply select=node[1] withvar=o=1
+                        xse:apply select=node[2] withvar=o=-1
+                      #li xse:to=browser: B {@id}_{$dep}  steps:{$steps} mysteps:{$mysteps}
+        xse:attributes root="true" m1={!to/node[1]/@mybelow} m2={!to/node[2]/@mybelow)}  n1={!to/node[1]/@id}  n2={!to/node[2]/@id}
+    hr    
+    xse:from element=/secs/sec7
+      xse:set tot={?plus(n/@count(),np/@count(),?times(2,pp/@count()))} ang=0 rad=1400 ox=3000 oy=3000 lev=7
+      xse:set step={?div(36000,$tot)} ang=0
+      xse:apply select=*
+          xse:set ang={?plus(?if(?eq(@.,'pp'),?times(2,$step),$step),$ang)}
+          xse:set a={?mod(?div($ang,100),360)}
+          xse:set var="a{@id}": {?mod($a,360)}
+          xse:set thisx={?rotatex($a,$rad,$ox)} thisy={?rotatey($a,$rad,$oy)} xrad={?times(@lev,200)}
+          #li:   {$ang} ( {?div(720,$tot)} ,{?div(360,$tot)}
+          xse:set color="{?case(@.,'pp','green','np','blue','n','orange')}" siz="{?case(@.,'pp',20,'np',10,'n',5)}"
+          xse:to element="/svg/+"
+             #line  x1="{$thisx}" y1="{$thisy}"  stroke="black" opacity=0.1 stroke-width="1"  x2="{$prevx}"  y2="{$prevy}"
+             circle id=c{@id} cx="{$thisx}" cy="{$thisy}"  fill="{$color}" r="{$siz}"
+             text  x={$thisx} y={$thisy} font-size=12 fill=red:  {@id}:to {@n1}  
+    hr               
+    
+    xse:set rad=1400
+    xse:apply select=sec7/following-sibling::* xse:from=/secs maxtimes=7
+      xse:set tot={?plus(n/@count(),np/@count(),?times(2,pp/@count()))} ang=0 rad={?plus($rad,200)} 
+      xse:apply select=n|np|pp counter=cc
+         # xse:set ang={?plus(?if(?eq(@.,'pp'),?times(2,$step),$step),$ang)}
+         xse:set ang={?plus($a{@par},@o)}
+         #xse:set ang={?div(?plus($a_1,$a_2),2)}
+         li: 888: {@head()}  {$ang}/{@par}
+         xse:from element="#c{@par}/"
+             xse:set cx={@cx} cy={@cy} 
+             #li: Z: {@head()}
+           
+         xse:set thisx={?rotatex($ang,$rad,$ox)} thisy={?rotatey($ang,$rad,$oy)} xrad={?times(@lev,100)}
+         xse:set var="a{@id}": {$ang}
+         #xse:set var="a{@id}": {$a_1}
+         xse:set color="{?case(@.,'pp','green','np','blue','n','orange')}" siz="{?case(@.,'pp',20,'np',10,'n',5)}"
+
+         xse:to element="/svg/+"
+                circle cx="{?plus(0,$thisx)}" cy="{$thisy)}" id="c{@id}" fill="{$color}" r="{$siz}"
+                line  x1="{$thisx}" y1="{$thisy}"  stroke="blue" opacity=0.4 stroke-width="2"  x2="{$cx}"  y2="{$cy}"
+                #line xse:if={?eq(@.,'n')} x1="{$thisx}" y1="{$thisy}"  stroke="black" opacity=0.4 stroke-width="2"  x2="{$cx2}"  y2="{$cy2}"
+                text  x={$thisx} y={$thisy} font-size=14 fill=green: XXX {@id},{@par}
+                  #[{@id} {@par}] {$ang}:{@n1} {@n2} {$lev}
+    xse:debugvars 
+    xse:set tot={?plus(n/@count(),np/@count(),?times(2,pp/@count()))} ang=0 rad=1400 ox=3000 oy=3000 lev=7
+    
+    xse:apply select=sec7/preceding-sibling::* xse:from=/secs xmaxtimes=0
+    #xse:apply select=sec7/following-sibling::* xse:from=/secs
+      li: SEC {@head()}
+      ul
+        xse:set rad={?minus($rad,200)} lev={@id} ang=0
+        xse:set tot={?plus(n/@count(),np/@count(),?times(2,pp/@count()))} 
+        xse:apply select=n|np|pp counter=cc
+         xse:set a_1={$as{@n1}} a_2={$as{@n2}}
+         xse:if test=?eq(@.,'pp')
+           xse:set ang={?plus($ang,3)} 
+         xse:else  
+           xse:from element="#cs{@n1}/"
+             xse:set cx={@cx} cy={@cy} 
+           xse:from element="#cs{@n2}/"
+             xse:set cx2={@cx} cy2={@cy} 
+           xse:if test=?eq($a_1,'')
+               xse:set a_1={$a_2}
+           xse:if test=?eq($a_2,'')
+               xse:set a_2={$a_1}
+             
+           xse:set ang={?div(?plus($a_1,$a_2),2)}
+           
+         xse:set thisx={?rotatex($ang,$rad,$ox)} thisy={?rotatey($ang,$rad,$oy)} xrad={?times(@lev,100)}
+         li:  XX {@.}: {$ang}/ {$a_1} /{$a_2}      
+         xse:set var="a{@id}": {$ang}
+         #xse:set var="a{@id}": {$a_1}
+         xse:set color="{?case(@.,'pp','green','np','blue','n','red')}" siz="{?case(@.,'pp',40,'np',20,'n',5)}"
+
+         xse:to element="/svg/+"
+                circle cx="{$thisx}" cy="{$thisy)}" id="c{@id}" fill="{$color}" r="{$siz}"
+                line xse:if={?ne(@.,'pp')} x1="{$thisx}" y1="{$thisy}"  stroke="black" opacity=0.4 stroke-width="2"  x2="{$cx}"  y2="{$cy}"
+                line xse:if={?eq(@.,'n')} x1="{$thisx}" y1="{$thisy}"  stroke="black" opacity=0.4 stroke-width="2"  x2="{$cx2}"  y2="{$cy2}"
+                text  x={$thisx} y={$thisy} font-size=14 fill=black: {@id},{@par}
+                  #[{@id} {@par}] {$ang}:{@n1} {@n2} {$lev}
+    xse:to file=hiero.svg         
+        svg version="1.11"  baseProfile="full"  width="20000" height="20000" xmlns="http://www.w3.org/2000/svg" encoding="ISO-8859-1" viewbox="0 0 100000 100000"
+           xse:apply times=7 counter=c
+             circle cx={$ox} cy={$oy}  r="{?times($c,200)}" stroke=gold stroke-width=3 fill=none
+           xse:copy xse:from=/svg sub=true  
+
+    xse:debug xse:from=/secs   
+    
+    
+  old  xse:to element=/scaled2 
+       node id=root   
+        xse:apply select=node xse:from=/hiero withvar=prev=root 
+            xse:template match=p
+                    xse:inc: steps
+                    xse:copy
+                    ###p: 
+                          xse:apply select=span
+                           span: {.}
+            xse:template match=node
+               li xse:to=browser:  id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}" sub={node/@count()} {?eq(node/@count(),2)}
+               node id="x{@id}"   par="{$prev}" lev="{$dep}" steps={$steps} p="{p/@count()"}: {.}    
+                      xse:set steps={?plus($steps,1)} xmysteps={?plus($mysteps,1)} mysteps={$steps} 
+                      xse:inc var=lev{$dep}: 1 
+                      xse:if test="?eq(node/@count(),2)"
+                        xse:locals: prev={@id},dep={?plus($dep,1)},par={@id},mysteps=0
+                         xse:apply select=node[1]
+                         #xse:attributes  xse:if={node[1]/@count()} xse:to="!to/+" m1={?minus($steps,$mysteps,1)} 
+                         xse:apply select=node[2]
+                         #xse:sortchildren: #@below
+                        n xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"
+                         xse:attributes  mybelow={?minus($steps,$mysteps,1)} 
+                         xse:attributes  m1={!to/node[1]/@mybelow} m2={!to/node[2]/@mybelow} n1={!to/node[1]/@id} n2={!to/node[2]/@id}               
+                         #xse:attributes xse:if={node[2]/@count()} xse:to="!to/+" m2={?minus($steps,$mysteps,1)} 
+                      xse:if test="?eq(node/@count(),1)"
+                        xse:locals: prev={@id},dep={?plus($dep,1)},par={@id},mysteps=0
+                          np xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"
+                          p xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"
+                          xse:apply select=node
+                      
+                      xse:inc var=n{$dep} by={!to/@mybelow} 
+                      xse:if test="?gt(p/@count(),1)"
+                        pp xse:to="/secs/sec{$dep}+" id=s{@id} ord={$lev{$dep}} n1={node[1]/@id} n2={node[2]/@id}  par="{$par}"
+                        xse:inc var=n{?plus(1,$dep)} by=1
+                        xse:apply select=p
+                          xse:copy
+                        #tail xse:to=
+                      xse:inc var=p{$dep} by={p/@count} 
+                      #li xse:to=browser: B {@id}_{$dep}  steps:{$steps} mysteps:{$mysteps}
+        xse:attributes root="true" m1={!to/node[1]/@mybelow} m2={!to/node[2]/@mybelow)}  n1={!to/node[1]/@id}  n2={!to/node[2]/@id}
+    xse:debug xse:from=/secs   
+  ul                  
+     xse:apply times=20 counter=c
+       xse:set pp={?times($p{$c},10)} nn={$n{$c}}
+       xse:set var="tot{$c}": {?plus($nn,$pp)}
+       #xse:set var="tot{$c}": =99
+       li: {$c}: {$lev{$c})} N{$n{$c})} P{$p{$c})} T:{$tot{$c}}
+    #xse:debug  xse:from=/scaled2     
+    #xmp
+    xse:to xfile=hierosort.htmi element=/scaled3
+     tree 
+       xse:apply select=node xse:from=/scaled2
+        xse:head
+        #node:  {@mybelow} 
+          #node id={@id} lev={@lev} below={@mybelow} w={$lev{@lev}} tot={$tot{@lev}}
+          #xse:attributes prom={?div(?times(100000,*/@count()),$lev{@lev})}
+          #xse:attributes    a={?div(?times(10000,?plus(@mybelow,?times(10,@p))),$tot{@lev})} tot={$tot{@lev}}
+          xse:attributes   a="{?div(?times(10000,@mybelow),$tot{@lev})}" tot={$tot{@lev}}
+          xse:apply select=p
+            xse:copy
+          xse:apply select=node sort="#@mybelow"
+    hr
+    hr
+    li
+     xse:apply select=tree xse:from=/scaled3 
+      xse:inc var=aa{@lev} by={@a}
+      #em: aa{@lev}={$aa{@lev}},
+      xse:apply select=*
+    ul
+      xse:apply select=node xse:from=/scaled3/tree
+        xse:inc var=ang{@lev} by={?div(?times(3600,@a),$aa{@lev})}
+        xse:apply select=node
+    xse:apply times=20 counter=a
+     li: aa{$a}: {$aa{$a}}  / {$ang{$a}}
+    tree xse:to=/scaled4
+      xse:apply select=node xse:from=/scaled3/tree
+        xse:head
+          xse:set ang={?plus($last{@lev},?div(?times(1000,@a),$aa{@lev}))}
+          xse:set var={$last{@lev}} by={$ang}
+          xse:attributes ang={$ang}
+          n xse:to="/secs/sec{@lev}/+" id="s_{@id}" a="{$ang}"
+            xse:if test=?gt(p/@count(),1)}
+                  p xse:to="/secs/sec{@lev}/+" id="s_{@id}" a="{$ang}"
+                  tail xse:to="/secs/sec{?plus(1,@lev)}/+" id="s_{@id}" a="{$ang}"
+          xse:apply select=p
+            xse:copy
+          ###xse:apply select=tail
+                xse:to="/secs/sec{@lev}/+" id="s_{@id}" a="{$ang}"
+           
+          xse:apply select=node
+    xse:debug  
+    #xse:from=/secs
+    xse:to file=hierosort.htmi
+      xse:copy xse:from=/scaled4/tree
+     
+  draw
+    xse:from file=hierosort.htmi xse:to=/
+     xse:copy
+    xse:set ox=3000 oy=3000 
+    xse:set thisx=3000 thisy=3000 
+    xmp 
+      xse:apply select=node xse:from=/tree
+             xse:set thisx={?rotatex(@ang,$rad,$ox)} thisy={?rotatey(@ang,$rad,$oy)} rad={?times(@lev,100)}
+             line xse:to="/svg+" x1="{$thisx}" y1="{$thisy}"  stroke="black" opacity=0.1 stroke-width="2"  x2="{$prevx}"  y2="{$prevy}"
+             circle xse:to="/svg+" cx="{$thisx}" cy="{$thisy}"  fill="red" r="8" 
+             text  xse:to="/svg+" x={$thisx} y={$thisy} font-size=20 fill=blue:  {@lev} {@ang}
+             #circle xse:to="/svg+" r=20 opacity="0.6" fill="green"  cx="{$ox)}"  cy="{$oy)}"
+             #text xse:to="/svg+" r=150 opacity="1" fill="black"  x="{$ox)}"  y="{$oy)}" font-size=80: {$lev} locright={$mid},locleft={$left}
+             xse:apply select=node withvar="prevx={$thisx},prevy={$thisx},rad  
+             #xse:apply select=node[1] withvar="locright={$mid},locleft={$left},prevx={$thisx},prevy={$thisy},thisx,thisy,wid=20,origx={$ox},origy={$oy},b1,b2"
+    xse:to file=hiero.svg         
+        svg version="1.11"  baseProfile="full"  width="20000" height="20000" xmlns="http://www.w3.org/2000/svg" "encoding=ISO-8859-1"
+           #xse:apply times=74 counter=c
+           #  circle cx={$origx} cy={$origy}  r="{$rad{$c}}" stroke=gold stroke-width:1px fill=none
+           xse:copy xse:from=/svg sub=true  
+             
+  x   li: node {@id}: 
+        xse:apply select=p
+         xse:copy
+        ul:
+           xse:apply
+     xmp: {@xmlis()}      
+    xse:debug    
+  x    
+    ul                  
+                  li:   
+                     xse:debugvars 
+    ### xse:apply xse:from=/secs
+                line xse:to="/svg+" x1="{$prevx}" y1="{$prevy}" x2="{$thisx}" y2="{$thisy}" stroke="#999" stroke-width="{?max(1,?div(300,?times(@lev,@lev)))}" 
+    
+    
+    xse:debug xse:from=/scaled2
+    h3: {$lev1} {$lev2} {$lev3} {$lev4} ...
+    hr
+    ul
+     xse:apply select=/scaled2
+       li: {@id}: ({@lev}/{$lev{@lev}}) 
+        ul
+          xse:apply
+  oldhtml
+    xse:by file=scaled.htmi xse:to=/scaled
+    #    xse:copy
+    #xse:set sec="/sec"  p4=3  ind=4
+    xse:apply select=node xse:from=/scaled  counter="l=0"
+          xse:inc var="node{@lev}" by="{node/@count()}"
+          xse:inc var="p{@lev}" by="{p/@count()}"
+          xse:apply select="reverse::node" 
+    h4: 1=n{$node1}.p{$p1}   2=n{$node2}p{$p2} 3=n{$node3}p{$p3} 4=n{$node4}p{$p4} 5=n{$node5}p{$p5} .6= n{$node6}p{$p6}
+    xse:apply times=50 counter=c
+      li: {$c} {$node{$c}}  /{$p{$c}}
+    xse:set aleft=0 aright=3600  
+    xse:apply select=node xse:from=/scaled  counter="l=0"
+          #xse:continue xse:if=?gt(@lev,2)
+          xse:set tot={?plus($node{@lev},$p{@lev})} 
+          xse:set  var="sofar{@lev}": {?plus($sofar{@lev},1)}
+          xse:set b1={?plus(1,node[1]/@below)}  b2={?plus(1,node[2]/@below)}
+           
+          xse:set mysector={?plus(1,?minus($aright,$aleft))}
+          xse:set amid={?plus($aleft,?div(?times($mysector,$b1),?plus($b1,$b2)))}
+          xse:element name=x xse:to="/secs/sec{@lev}+" pair={?mod($l,2)} b1={$b1} b2={$b2} id=s{@id} par="{$par}" tot={$tot} p={$p{@lev}}  n={$node{@lev}} ord={$sofar{@lev}} left={$aleft} right={$aright} ch={node/@count()} pp={p/@count()} mid={$amid} sec={$mysector}
+            xse:apply select=p
+               xse:copy
+            xse:apply select="node[2]" maxtimes=1 withvar="par={@id},prev={$sofar{@lev}},path={$path}/2},aleft={$amid},aright={$aright}"
+            xse:apply select="node[1]" maxtimes=1 withvar="par={@id},prev={$sofar{@lev}},path={$path}/1,aleft={$aleft},aright={$amid}"  
+            #xse:attributes myshare={$myshare}
+            xse:set rad0=600
+    xse:debug xse:from=/secs        
+    xmp
+     xse:to file="hierotest.htmi"
+       xse:apply xse:from=/scaled select=node 
+           n id={@id} 
+              xse:from element="#s{@id}/"
+                xse:attributes L={@left} M={@mid} R={@right} p={@par}  
+              xse:apply select=node
+    xse:apply select=/secs/* counter=asec=0
+      xse:set var=rad{$asec}: {?plus(35,$rad{?minus($asec,1)})}
+      #,?times(node/@p,1))}
+      li: rad{$asec}={$rad{$asec}}
+    xse:set centre=6000        
+    xse:set total=p1=00 p2=00 p=360 nxts=90 add=-45 thisx={$centre} thisy={$centre} prevx={$centre} prevy={$centre} previd=ROOT amid=180 locleft=0 locright=360 myway=10 origx="{$centre}" origy="{$centre}" rad=100               
+    xse:to file="hiero.html" header="<?xml version={?quote()}1.0{?quote()} encoding={?quote()}iso-8859-1{?quote()}?>"
+      html
+       head
+         style type=text/css:
+          .   div { position:relative;COLOR:#444;height:1.2em;width:10em;overflow:visible;opacity:0.5}
+          .   div:hover  { transform:rotate(0deg) !IMPORTANT;width:25em;margin:-2em;height:8em;font-size:2em}
+          .   div:hover p { float:left;display:block;overflow:visible;z-index:990 !important;background:white;width:45%;border:2px solid black} 
+          .   p { display:block;margin:0px;padding:0;height:1em;overflow:hidden;width:8em;position:relative;} 
+          .   span { background-color:white} 
+          .   .one { border-bottom:0px solid black;margin-left:0px;color:#22F}
+          .   .p1 { color:purple} .p2 {color:magenta} 
+          .   .nop { border-bottom:3px solid gold;width:20px;}
+          .   .pp1 { color:blue}
+          .   .pp2 { color:black}
+          .   .pp0 { color:brown}
+          .   .none { max-width:8em}
+       body style="font-size:30px;zoom:0.3;-moz-transform: scale(0.3); "  
+         #div style="position:absolute;left:{$origx};top:{$origy};background-color:red;width:20px;height:20px; border:5px solid gray": XXX
+        xse:apply xse:from=/scaled select=* 
+          xse:apply select=node  counter="r=0"
+            xse:template match=node
+                xse:set lev={@lev}
+                #xse:break xse:if={?gt($lev,10)}
+                xse:from element="#s{@id}/" 
+                  xse:set pair={?mod(@position(),2)} b1={@b1}  b2={@b2} h="{?div(@left,10)}" left="{?div(@left,10)}" mid="{?div(@mid,10)}" right="{?div(@right,10)}" pcount={@p}
+                  #li xse:to=browser xse:if={?and(?gt(@b1,20),?gt(@b2,20))}: {@xmlis()}
+                  
+                xse:set hold={$h}
+                # 360*($h-$ll)/($lr-$lr)
+                xse:set  h={?div(?times(180,?minus($h,$locleft)),?minus($locright,$locleft))}  
+                #xse:set xse:if="{?gt($locleft,0)}" h={?plus($h,?minus($h,$locleft))}  
+                xse:to browser=true
+                   li: 360*{?minus($hold,$locleft)}/{?minus($locright,$locleft)}= {?div(?times(360,?minus($hold,$locleft)),?minus($locright,$locleft))}
+                     : A: {$hold}  L:{$locleft} R:{$locright}  == {$h}
+                ###xse:if test="{?and(?lt(@lev,8),?gt($h,?times(1,$nxts)))}"
+                  xse:case: {$nxts}
+                   c: 90
+                     #xse:break
+                     xse:set  origx=000 origy=6000 nxts=180 add=45 debug=true
+                   c: 180    
+                    xse:set  origx=000 origy=000 nxts=270 add=135
+                   c: 270 
+                     xse:set  origx=6000  origy=000 nxts=360 add=225 
+                #b xse:to=browser:  ({?div(?times(10,$h),10)} {?mod(?div(?times(3,?plus($h,$add)),10),360)})  
+                #xse:set rad={?plus($rad,?times(10,$pcount),10)} w=0 pp=0
+                #xse:set h={?plus(?times(1,$h),0)}
+                #xse:set h={?plus($add,?times(3,?minus($h,$nxts,-90)))}
+                xse:set h={?mod($h,360)} first=1 second=2 
+                xse:set hh={?case(?div($h,90),'0',$h,'3',$h,'1',?minus($h,180),'2',?minus($h,180))}
+                #xse:set h={?times(2,$h)}
+                #xse:set mwid={?plus($wid,?times($pair,80))}
+                xse:set thisx="{?rotatex($h,$wid,$origx)}" thisy="{?rotatey($h,$wid,$origy)}"
+                line xse:to="/svg+" x1="{$prevx}" y1="{$prevy}" x2="{$thisx}" y2="{$thisy}" stroke="#999" stroke-width="{?max(1,?div(300,?times(@lev,@lev)))}" 
+                #div style="position:absolute;left:{?times(@lev,60)}px;top:{?times($h,20)}px;xborder:1px solid green;width:60px;min-height:50px": 
+                div class=pp{p/@count()} style="transform-origin:{$origx},{$origy};transform:rotate({$hh}deg);position:absolute;left:{$thisx}px; top:{$thisy}px": {$h}_{?plus($h,?minus($h,$locleft))}  
+                  #{$h}<{$hold}  {$right} _ {$left} : {$locleft}-{$locright}///  
+                  # "{p/span} <br/>{p[2]/span}
+                  ###  #: {$rad{$lev}}    
+                  #: {$left},{$mid}.{$right}
+                ###xse:if test={?eq(p/@count(),2)}
+                    p class="p2": 
+                      xse:copy xse:from=p[2] sub=true
+                    p class="p1": 
+                      xse:copy xse:from=p[1] sub=true
+                  p class="one" xse:if="{?eq(p/@count(),1)}": 
+                      xse:copy xse:from=p[1] sub=true
+                  #p class="none" xse:if="{?eq(p/@count(),0)}":  {.} 
+                  #  p class="p2": {p[2]/span} {p[2]/span[2]} {pp[2]/span[3]} <small> {p[2]/@alltext()}</small>
+                  #  p class="p1"  xse:if={?eq(p/@count(),2)): {p[1]/span} {p[1]/span[2]} <small> {p[1]/@alltext()}</small>   
+                  #p class="one" xse:if="{?eq(p/@count(),1)}": {p[1]/span} {p[1]/span[2]} <small> {p[1]/@alltext()}</small>
+                   #xse:set  origx="{?rotatex($h,?times(10,$b1)},origx)}" origy="{?rotatey($h,?times(10,$b1),$origy)}" nxts=180 add=45 debug=true
+                   #xse:apply select=node[1] withvar="prevx={$thisx},prevy={$thisy},thisx,thisy,wid=100,origx={?rotatex($h,800,$origx)},origy={?rotatey($h,800,$origy)},b1,b2,locright={$right},locleft={$left}"
+                   
+                xse:if test="{?and(?lt(@lev,50),?gt($b1,40))}
+                     xse:set ox={?rotatex($h,5000,$origx)} oy={?rotatey($h,5000,$origy)}
+                     li xse:to=browser:    [{?div(?plus($b1,$b2),?minus($right,$left))}]    lev{@lev}  angle{$h} {$left}-{$right}={?minus($left,$right)}             xse:apply select=node[1] withvar="prevx={$thisx},prevy={$thisy},thisx,thisy,wid=100,origx={?rotatex($h,?times(3,$b1),$origx)},origy={?rotatey($h,?times(10,$b1),$origy)},b1={$b1},b2={$b2},locright={$right},locleft={$left}"
+                     line xse:to="/svg+" x1="{$thisx}" y1="{$thisy}"  stroke="red" stroke-width="10"   x2="{$ox}"  y2="{$oy}"
+                     circle xse:to="/svg+" cx="{$thisx}" cy="{$thisy}"  fill="red" r="50" 
+                     circle xse:to="/svg+" r=150 opacity="0.4" fill="green"  cx="{$ox)}"  cy="{$oy)}"
+                     text xse:to="/svg+" r=150 opacity="1" fill="black"  x="{$ox)}"  y="{$oy)}" font-size=80: {$lev} locright={$mid},locleft={$left} 
+                     xse:apply select=node[1] withvar="locright={$mid},locleft={$left},prevx={$thisx},prevy={$thisy},thisx,thisy,wid=20,origx={$ox},origy={$oy},b1,b2"
+                xse:else
+                   xse:apply select=node[{$first}] withvar="prevx={$thisx},prevy={$thisy},thisx,thisy,wid={?plus($wid,?times(35,p/@count()),300)},origx,origy,b1,b2,locleft,locright"
+                xse:apply select=node[{$second}]   withvar="prevx={$thisx},prevy={$thisy},thisx,thisy,wid={?plus($wid,?times(35,p/@count()),300)},origx,origy,b1,b2,locleft,locright"
+
+        svg version="1.11"  baseProfile="full"  width="20000" height="20000" xmlns="http://www.w3.org/2000/svg" "encoding=ISO-8859-1"
+           #xse:apply times=74 counter=c
+           #  circle cx={$origx} cy={$origy}  r="{$rad{$c}}" stroke=gold stroke-width:1px fill=none
+             #text  x={$origx} y={?plus($origy,$rad{$c})} font-size=20 fill=red:  {$node{$c}} / {$p{$c}}
+           xse:copy xse:from=/svg sub=true  
+        div style="clear:both"
+  

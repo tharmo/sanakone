@@ -1,0 +1,95 @@
+<div style="position:relative;width:400em;border:1em solid gray">
+  <div style="position:relative;float:left;width:39%;border:1px solid black;margin:0.5em">1 39
+    <div style="position:relative;float:left;width:19%;border:1px solid black;margin:0.5em">2 19
+      <div style="position:relative;float:left;width:9%;border:1px solid black;margin:0.5em">3 9
+        <div style="position:relative;float:left;width:2%;border:1px solid black;margin:0.5em">4 2
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:7%;border:1px solid black;margin:0.5em">4 7
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="position:relative;float:left;width:10%;border:1px solid black;margin:0.5em">3 10
+        <div style="position:relative;float:left;width:5%;border:1px solid black;margin:0.5em">4 5
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:5%;border:1px solid black;margin:0.5em">4 5
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="clear:both;">!</div>
+    </div>
+    <div style="position:relative;float:left;width:20%;border:1px solid black;margin:0.5em">2 20
+      <div style="position:relative;float:left;width:9%;border:1px solid black;margin:0.5em">3 9
+        <div style="position:relative;float:left;width:3%;border:1px solid black;margin:0.5em">4 3
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:6%;border:1px solid black;margin:0.5em">4 6
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="position:relative;float:left;width:11%;border:1px solid black;margin:0.5em">3 11
+        <div style="position:relative;float:left;width:5%;border:1px solid black;margin:0.5em">4 5
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:6%;border:1px solid black;margin:0.5em">4 6
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="clear:both;">!</div>
+    </div>
+    <div style="clear:both;">!</div>
+  </div>
+  <div style="position:relative;float:left;width:61%;border:1px solid black;margin:0.5em">1 61
+    <div style="position:relative;float:left;width:23%;border:1px solid black;margin:0.5em">2 23
+      <div style="position:relative;float:left;width:9%;border:1px solid black;margin:0.5em">3 9
+        <div style="position:relative;float:left;width:4%;border:1px solid black;margin:0.5em">4 4
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:5%;border:1px solid black;margin:0.5em">4 5
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="position:relative;float:left;width:14%;border:1px solid black;margin:0.5em">3 14
+        <div style="position:relative;float:left;width:4%;border:1px solid black;margin:0.5em">4 4
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:10%;border:1px solid black;margin:0.5em">4 10
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="clear:both;">!</div>
+    </div>
+    <div style="position:relative;float:left;width:38%;border:1px solid black;margin:0.5em">2 38
+      <div style="position:relative;float:left;width:10%;border:1px solid black;margin:0.5em">3 10
+        <div style="position:relative;float:left;width:2%;border:1px solid black;margin:0.5em">4 2
+          <b>=</b>
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:8%;border:1px solid black;margin:0.5em">4 8
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="position:relative;float:left;width:28%;border:1px solid black;margin:0.5em">3 28
+        <div style="position:relative;float:left;width:11%;border:1px solid black;margin:0.5em">4 11
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="position:relative;float:left;width:17%;border:1px solid black;margin:0.5em">4 17
+          <div style="clear:both;">!</div>
+        </div>
+        <div style="clear:both;">!</div>
+      </div>
+      <div style="clear:both;">!</div>
+    </div>
+    <div style="clear:both;">!</div>
+  </div>
+  <div style="clear:both"/>
+</div>
+<hr style="clear:both"/>

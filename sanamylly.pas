@@ -1,0 +1,64 @@
+unit sanamylly;
+
+{$mode objfpc}{$H+}
+interface
+uses   Classes, SysUtils, math,
+ sanatypes,sanamat;
+
+ type tmylly=class(tobject)
+    sanat:array of ansistring;  //NOTE: 0 IS 'NULL'
+    mat:p_scarcemat;
+    rows,cols:WORD;
+    wsmat:tmat;//a_scarcemat;
+    csmat:tmat;
+    isinclus:p_matcol;//array of word;
+    cluscount,mergecount:word;
+    debug:boolean;
+    //fullmat:p_fullmat;  //remove
+    //sums:array of longword;
+    //function linexline(r:word;matfrom,xlinep:p_longrow):boolean;
+    function sana(wrd:word):string;
+    function linexline(r:word;matfrom,matto:tmat;var wcc:word):boolean;
+    //procedure makematrix;
+    procedure dolayout;
+    procedure layout(mhist:p_mergehistory;mcount:word);//merges:tmat;
+    constructor create;
+    function full2scarce:a_scarcemat;
+    procedure readwords;
+    procedure cluster(clusN:word);
+    procedure wxw;
+    procedure w2c(n_iters:word);
+     //procedure cc;
+    procedure hiero(cluscors:tcluscors);
+    procedure clustcors(var cc:tcluscors);
+    function readafile(fname:string;cnt:pointer;siz:longword):longword;
+    procedure saveafile(fname: string; cnt: pointer; siz: longword);
+    //procedure scarcesort(froa: array of longint; toa: array of r_scarcefield;    flen,tlen: word);
+    //procedure scarcesort(froa:array of longword;toa:pointer;flen,tlen:word);
+ end;
+
+implementation
+{  $I sanamyllynew.inc}
+{$I sanamylly.inc}
+{$I current.inc}
+  constructor tmylly.create;
+
+//var arow:a_scarcerow; aval:r_scarcefield;
+begin
+ tmppointer:=self;
+ readwords;
+ wsmat:=tmat.create(n_w,n_c);
+ wsmat.mymy:=self;
+ getmem(isinclus,rows*2);
+ //for i:=1 to wsmat.rows-1 do isinclus^[i]:=0;
+ fillchar(isinclus^,2*wsmat.rows,0);
+
+ {mat:=wsmat.mat;
+ rows:=wsmat.rows;
+ cols:=wsmat.cols;}
+ write('mylly with mat created');
+
+end;
+
+end.
+

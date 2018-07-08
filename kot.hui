@@ -1,0 +1,9 @@
+class name=kotus
+  kotus
+    #xse:to file="kotus.res"
+    xse:shellexec cmd="gawk '{ print }' kotus.xsi >kot.hui" 
+    #xse:gawk file="kotus.htmi " to=" kotus.res": '''
+     { print $1 }
+     { print $2}
+     '''
+    xse:debug

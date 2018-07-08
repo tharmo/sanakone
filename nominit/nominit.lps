@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="nominit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="62"/>
+        <CursorPos X="15" Y="74"/>
+        <UsageCount Value="219"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="nominoi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="429"/>
+        <CursorPos X="15" Y="457"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <EditorIndex Value="-1"/>
+          <TopLine Value="13"/>
+          <CursorPos X="23" Y="322"/>
+        </ExtraEditor1>
+        <UsageCount Value="219"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="nomutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="214"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="rimmaa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="92"/>
+        <CursorPos X="35" Y="130"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <EditorIndex Value="-1"/>
+          <TopLine Value="230"/>
+          <CursorPos X="2" Y="250"/>
+        </ExtraEditor1>
+        <UsageCount Value="211"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="verbit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="7" Y="122"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <IsVisibleTab Value="True"/>
+          <EditorIndex Value="-1"/>
+          <WindowIndex Value="1"/>
+          <TopLine Value="250"/>
+          <CursorPos X="136" Y="284"/>
+        </ExtraEditor1>
+        <UsageCount Value="201"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../taivup.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="620"/>
+        <CursorPos X="45" Y="658"/>
+        <UsageCount Value="85"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../taivubits.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="11" Y="22"/>
+        <UsageCount Value="12"/>
+      </Unit6>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="9">
+      <Item1>
+        <Expression Value="X"/>
+      </Item1>
+      <Item2>
+        <Expression Value="haettu"/>
+      </Item2>
+      <Item3>
+        <Expression Value="AVS"/>
+      </Item3>
+      <Item4>
+        <Expression Value="cut"/>
+      </Item4>
+      <Item5>
+        <Expression Value="vo"/>
+      </Item5>
+      <Item6>
+        <Expression Value="lopkon"/>
+      </Item6>
+      <Item7>
+        <Expression Value="']->'"/>
+      </Item7>
+      <Item8>
+        <Expression Value="VLOPPUJA"/>
+      </Item8>
+      <Item9>
+        <Expression Value="sijat"/>
+      </Item9>
+    </Watches>
+  </Debugging>
+</CONFIG>
